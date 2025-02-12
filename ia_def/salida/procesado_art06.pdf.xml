@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Producción científica en diabetes en Perú: Un estudio bibliométrico Scientific production in diabetes in Peru: A bibliometric study</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Alvaro</forename><surname>Taype-Rondan</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Oscar</forename><surname>Huapaya-Huertas</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Guido</forename><surname>Bendezu-Quispe</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Josmel</forename><surname>Pacheco-Mendoza</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Mayte</forename><surname>Bryce-Alberti</surname></persName>
+						</author>
+						<title level="a" type="main">Producción científica en diabetes en Perú: Un estudio bibliométrico Scientific production in diabetes in Peru: A bibliometric study</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">6229BD91187D040A7A87EB28BA29BB9D</idno>
+					<idno type="DOI">10.4067/S0717-75182017000200006</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.2" ident="GROBID" when="2025-02-12T16:48+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Diabetes</term>
+					<term>bibliometry</term>
+					<term>collaboration networks</term>
+					<term>international collaboration</term>
+					<term>research funding</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Objective: to describe the scientific production related to diabetes in Peru between 1996 and 2015. Methods:  Bibliometric study. Scientific papers on diabetes published between 1996 and 2015 were identified by authors with Peruvian affiliation in the Web of Science Core Collection (WoS) and Scopus databases. The variables of interest were extracted manually. We present descriptive results and collaborative networks. Results: We found 81 publications, 75.3% were original articles, of which none evaluated public health interventions and 60.7% received foreign funding; 55.6% had an author affiliated with the Universidad Peruana Cayetano Heredia (UPCH), and 65.4% had a foreign author. Five clusters of international collaboration networks could be distinguished, all with the participation of the UPCH. Conclusion: Peruvian scientific production related to diabetes is low, with an absence of studies evaluating public health interventions, and with collaboration networks focused on UPCH.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCCIÓN</head><p>La diabetes mellitus es un problema de salud pública creciente, de manera que el número estimado de adultos viviendo con diabetes alrededor del mundo ha aumentado de 108 millones en 1980 a 422 millones en el 2014, representando un incremento del 4,7% al 8,5% de prevalencia de diabetes en la población adulta. Este aumento es mayor en países de ingresos bajos y medios (PIBM) <ref type="bibr">1</ref> , en los cuales además existen sendas dificultades para el diagnóstico y manejo de esta condición, resultando en mayor discapacidad y muerte <ref type="bibr" target="#b5">2,</ref><ref type="bibr" target="#b2">3</ref> .</p><p>Por ello, los PIBM requieren con urgencia generar información local que permita implementar intervenciones orientadas a disminuir el impacto de la diabetes en términos de morbilidad y mortalidad. Sin embargo, es sabido que la producción científica biomédica en los PIBM es baja, sus instituciones investigadores son pocas, su presupuesto para investigación es escaso, y la investigación realizada en Este trabajo fue recibido el 28 de noviembre de 2016. Aceptado con modificaciones el 24 de marzo de 2017 y aceptado para su publicación el 5 de mayo de 2017.</p><p>muchas ocasiones no obedece a las necesidades locales <ref type="bibr" target="#b6">4</ref> . En este contexto, resulta importante caracterizar la producción científica local sobre diabetes e identificar su problemática, lo cual permitirá a las entidades gubernamentales, académicas y científicas orientar sus políticas de investigación. De esta manera, estudios bibliométricos anteriores han evaluado la producción científica en diabetes en India 5 , Nigeria 6 , Irán <ref type="bibr" target="#b9">7</ref> , Tailandia, Argentina 8 , Brasil <ref type="bibr" target="#b11">9</ref> , y en países del Medio Oriente <ref type="bibr" target="#b12">10,</ref><ref type="bibr" target="#b13">11</ref> .</p><p>En Perú, para el 2015, se estimó que la prevalencia de diabetes entre adultos de 25 años o más fue del 7,0%; y que de estas personas el 40% no había sido diagnosticado, lo cual refleja un importante problema de sub-diagnóstico <ref type="bibr" target="#b14">12</ref> . Además, un estudio realizado en hospitales del sistema de vigilancia de diabetes del Perú encontró que, entre los pacientes que tuvieron alguna consulta de control, el 73,4% tuvo un valor de hemoglobina glicosilada mayor o igual que http://dx.doi.org/10.4067/S0717-75182017000200006 7,0% <ref type="bibr" target="#b15">13</ref> , indicativo de un control inadecuado de la diabetes, posiblemente relacionado con problemas en el acceso y uso adecuado de los servicios de salud <ref type="bibr" target="#b16">14</ref> .</p><p>Esta compleja problemática de la diabetes en Perú requiere políticas que favorezcan la investigación en diabetes. Sin embargo, a la fecha no se han publicado estudios bibliométricos en este tema, por lo cual el presente estudio tiene como objetivo describir la producción científica en diabetes en Perú entre 1996 y 2015. Scopus incluye más de 21.500 revistas de ciencia, tecnología, ciencias sociales, artes, humanidades y medicina <ref type="bibr" target="#b17">15</ref> . En tanto que WoS incluye 12.700 revistas científicas de diversos temas. Los estudios bibliométricos suelen usar la principal colección de revistas (core collection) <ref type="bibr" target="#b18">16,</ref><ref type="bibr" target="#b19">17</ref> . Se decidió emplear estas dos bases de datos debido a la gran cantidad de revistas biomédicas que incluyen, y a su riguroso proceso de selección de revistas, lo cual permite colectar los estudios más relevantes sobre el tema.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MATERIALES Y MÉTODOS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Estrategia de búsqueda</head><p>Durante julio del 2016 se realizaron búsquedas de manera sistemática en las bases de datos mencionadas. El término clave usado para las búsquedas fue "diabetes", con el cual se conoce a esta enfermedad en español, inglés y otros idiomas. Además, se buscaron solamente artículos que tengan algún autor con filiación peruana. De esta manera, la estrategia de búsqueda para Scopus fue: [AFFILCOUNTRY (peru) AND TITLE-ABS-KEY (diabetes)] y para WoS: [CU=PERU AND TS=DIABETES].</p><p>Se obtuvieron 198 resultados en Scopus y 134 resultados en WoS. Posteriormente, tres autores seleccionaron independientemente los artículos científicos que contaran por lo menos con un autor con filiación peruana y que tuvieran entre sus temas principales la diabetes (ya sea como población de estudio, como variable, o como población beneficiada). Las selecciones fueron comparadas por un cuarto autor. En caso de observarse diferencias en la selección de estudios, estas se resolvieron por consenso entre los autores. Finalmente, se obtuvieron 81 artículos que cumplieron con dichos criterios.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Extracción de variables</head><p>Tres autores leyeron independientemente los títulos, los resúmenes, y de ser necesario los manuscritos in-extenso de los artículos incluidos, y recolectaron independientemente las variables de interés en una ficha de recolección de datos, usando el software Microsoft Excel 2013. Las bases de datos fueron comparadas por un cuarto autor, y las diferencias fueron resueltas en consenso.</p><p>Se recolectaron las siguientes variables para cada artículo científico: base de datos en el que está indizada la revista (Scopus, WoS, o ambos), nombre de la revista, si la revista se encontró en el primer cuartil según su impacto en SCImago (sí o no), año de publicación, Idioma del in-extenso, colaboración extranjera (tener algún autor con filiación extranjera), filiación de los autores, filiación del autor corresponsal, número de instituciones peruanas participantes según la filiación de los autores, ubicación de las instituciones peruanas participantes (todas son de Lima, todas son de fuera de Lima, o tanto de Lima como de fuera de Lima), y tipo de artículo (original, de revisión, u otros).</p><p>Para los artículos originales (definido por tener la estructura: introducción, métodos, resultados y discusión; o una estructura similar) se determinó el diseño del estudio: transversal, longitudinal, revisión sistemática, preclínicos, (con animales o en laboratorio), o de intervención. Entre los estudios de intervención, se diferenció aquellos de intervenciones en salud pública. Además, en este grupo se evaluó el financiamiento del estudio, consignando cinco categorías: no declarar tener o no tener financiamiento, declarar haber sido autofinanciados por los autores, declarar haber sido financiados solo por fondos extranjeros, declarar haber sido financiados solo por fondos peruanos, y declarar haber sido financiados tanto por fondos peruanos como por fondos extranjeros.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Análisis estadístico</head><p>Para el análisis de colaboración, se creó una base de datos con todos los registros en el paquete de gestión de referencias Endnote v7.7, se exportó el conteo de artículos a Microsoft Excel, a partir del cual se creó una matriz de coocurrencia con la macro Toolinf, que se importó a UCINET v6.624 y se guardó como un archivo ".net", para usarlo en el graficador de redes Netdraw en el cual se realizaron los análisis de grado de centralidad y grado de intermediación para una mejor distribución de los nodos <ref type="bibr" target="#b20">18</ref> . Los resultados fueron presentados descriptivamente mediante frecuencias absolutas y relativas, usando el programa estadístico STATA v13.0.</p><p>El resultado fue exportado al software de visualización VosViewer v1.6.5 <ref type="bibr" target="#b21">19</ref> , en el cual se obtuvo en el gráfico con los conglomerados de colaboración, donde el tamaño de los círculos representa la cantidad de artículos y el grosor de las líneas indica el número de artículos en colaboración.  intervención, es decir, ensayos clínicos realizados con fármacos hipoglicemiantes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTADOS</head><p>Entre los 61 trabajos originales, 12 (19,7%) no declaran tener o no financiamiento, 5 (8,2%) declaran haber sido autofinanciados por los autores, 30 (49,2%) declaran haber sido financiados solo por fondos extranjeros, 7 (11,5%) declaran haber sido financiados solo por fondos peruanos y 7 (11,5%) declaran haber sido financiados tanto poro fondos peruanos como por fondos extranjeros.</p><p>Se observa un incremento irregular en el número de publicaciones sobre diabetes, de manera que el 2015 se llegaron a publicar 18 artículos (Figura 1). De los 81 artículos evaluados, 39 (48,1%) fueron publicados en una revista del primer cuartil (Q1) según SCImago, proporción que no pareció variar en los últimos años (Figura 2). Los artículos se publicaron en 57 revistas diferentes. La revista con más artículos publicados fue la "Revista Peruana de Medicina Experimental y Salud Pública" con quince artículos (18,5%), seguida de "Plos One" y "Diabetes Research and Clinical Practice" con cuatro artículos (4,9%) cada una.</p><p>Se contabilizaron 42 instituciones peruanas: 23 públicas y 19 privadas. Las instituciones que participaron con mayor número de artículos fueron la UPCH (45 artículos; 55,6%), el Hospital Nacional Cayetano Heredia (12 artículos; 14,8%), el Ministerio de Salud (7 artículos; 8,6%), el Instituto Nacional de Salud (6 artículos; 7,4%), y la Universidad Nacional Mayor de San Marcos (5 artículos; 6,2%). Del total de trabajos, 44 (54,3%) fueron realizados por una sola institución peruana Con respecto a los autores, 15 (18,5%) artículos tuvieron algún autor peruano con filiación fuera de la ciudad de Lima, 41 (50,6%) tuvieron como autor corresponsal a un investigador filiación peruana, siendo la Universidad Peruana Cayetano Heredia (UPCH) la institución más común en autores corresponsales (Tabla 1). Existió participación de por lo menos un autor con filiación extranjera en 53 (65,4%) artículos, siendo los países con más artículos en colaboración: Estados Unidos (35 artículos, 43,2%), Brasil, Chile, Colombia, Argentina, México (12 artículos cada uno, 14,8%), Reino Unido (11 artículos, 13,6%) y España (10 artículos, 12,3%).</p><p>En cuanto a las redes de colaboración, las colaboraciones con mayor número de artículos entre instituciones peruanas se dan entre la UPCH y el Hospital Nacional Cayetano Heredia, y entre la UPCH y la organización no gubernamental de desarrollo Prisma. Otras redes de colaboración nacionales tienen como centros al Instituto Nacional de Salud y al Ministerio de Salud (Figura 3a).</p><p>Al analizar todas las colaboraciones, se pueden definir cinco conglomerados: 1) UPCH, Prisma, Johns Hopkins University, y University of London; 2) UPCH con hospitales de España; 3) UPCH con universidades y hospitales europeos; 4) Ministerio de Salud del Perú y otras entidades Latinoamericanas; 5) Clínica el Golf, Universidad de Sao Paulo y otras instituciones latinoamericanas y europeas (Figura 3b). DISCUSIÓN El presente estudio describe la producción científica peruana en diabetes en el periodo 1996-2005. Se encontró un número bajo pero creciente de publicaciones sobre el tema. Aproximadamente tres cuartos de los artículos fueron originales, entre los cuales el financiamiento fue predominantemente extranjero. La UPCH participó en más de la mitad de los artículos, mientras que la participación de instituciones peruanas ubicadas fuera de la ciudad de Lima es escasa. Aproximadamente la mitad de los artículos tuvieron como autor corresponsal a un autor extranjero. En cuanto a las redes de colaboración, se pueden distinguir cinco conglomerados. La UPCH se sitúa como centro para la colaboración nacional e internacional.</p><p>Producción científica La diabetes es un problema de salud en Perú, con serias deficiencias en cuanto a su prevención, diagnóstico y manejo. Sin embargo, este impacto a la salud pública no se refleja en el número de artículos publicados. De manera que apenas encontramos 27 artículos publicados durante el periodo 2000-2010, en tanto que un estudio previo realizado en las mismas bases de datos encontró 358 artículos publicados sobre cáncer por autores peruanos en dicho periodo <ref type="bibr" target="#b22">20</ref> . Asimismo, número de artículos publicados en el país es muy inferior al reportado en periodos de estudio similares en países de la región como Brasil y Argentina 8,9 , además de otros del medio oriente, Nigeria, China e India <ref type="bibr" target="#b8">[6]</ref><ref type="bibr" target="#b9">[7]</ref><ref type="bibr" target="#b10">[8]</ref><ref type="bibr" target="#b11">[9]</ref><ref type="bibr" target="#b12">[10]</ref> . Lo cual podría deberse a que la producción científica médica en general del Perú es inferior a la de los países comparados <ref type="bibr" target="#b33">31</ref> . Esta baja producción científica en diabetes puede estar relacionado a una subestimación de la problemática en el Perú, reflejado en el hecho de que la diabetes no fuera incluida entre las prioridades nacionales de salud de investigación para los años 2010-2014 del Instituto Nacional de Salud del Perú <ref type="bibr" target="#b23">21</ref> . Aunque debido al creciente interés, este tema es considerado una prioridad para el periodo 2015-2021 <ref type="bibr" target="#b24">22</ref> .</p><p>Una limitación importante para realizar investigación en diabetes radica en la falta de presupuesto para investigación en diabetes, puesto que el Consejo Nacional de Ciencia, Tecnología e Innovación Tecnológica (CONCYTEC), que es el principal financista público de la investigación peruana, cuenta con escasos fondos y no prioriza directamente estudios en esta área. Esto explicaría que el financiamiento de entidades extranjeras sea predominante para este tipo de investigación. En este contexto, las entidades encargadas de velar por la salud en el Perú deberán asegurar el financiamiento de investigación en temas prioritarios como diabetes.</p><p>En relación al incremento de artículos científicos publicados sobre diabetes en el Perú, es una situación que viene sucediendo en otros países <ref type="bibr" target="#b12">10,</ref><ref type="bibr" target="#b25">23,</ref><ref type="bibr" target="#b26">24</ref> . Esto puede deberse a una mayor cultura de investigación y publicación en  </p><p>general, junto con un creciente interés en diabetes como problema de salud pública <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b27">25</ref> . Estudios de intervención Un meta-análisis que evaluó intervenciones para mejorar la atención de pacientes con diabetes encontró que en siete de doce estudios la hipoglicemia fue más frecuente en el grupo de intervención que en el grupo control, demostrando el peligro de implementar estrategias que no han sido evaluadas <ref type="bibr" target="#b28">26</ref> . Sin embargo, nuestro estudio no encontró estudios que hayan evaluado intervenciones de salud pública para mejorar el diagnóstico o manejo de la diabetes, lo cual sugiere que las intervenciones sobre diabetes se están implementando sin la realización previa de estudios rigurosos.</p><p>Esto puede deberse a carencias presupuestales o a la escases de investigadores locales entrenados en la realización de este tipo de estudios <ref type="bibr" target="#b29">27</ref> . Sin embargo, para nuestro periodo de estudio el "Registro Peruano de Ensayos Clínicos" del Instituto Nacional de Salud registra 161 estudios bajo el término "diabetes" <ref type="bibr" target="#b30">28</ref> , lo cual puede estar reflejando la realización de estudios que finalmente no son publicados en revistas indizadas. Las barreras para la publicación de estos estudios deben ser evaluadas para asegurar la generación y difusión eficiente de este tipo de evidencia.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Análisis de autores y filiaciones</head><p>Pocos artículos tuvieron participación de autores peruanos fuera de la ciudad de Lima. Este marcado centralismo de la investigación biomédica en Perú ha sido descrito anteriormente <ref type="bibr" target="#b22">20,</ref><ref type="bibr" target="#b31">[29]</ref><ref type="bibr" target="#b32">[30]</ref><ref type="bibr" target="#b33">[31]</ref><ref type="bibr" target="#b34">[32]</ref><ref type="bibr" target="#b35">[33]</ref> , e impide la generación de evidencias en las diferentes regiones del Perú, que requieren soluciones acordes a su contexto. La UPCH es la institución con mayor producción científica en diabetes. Análisis bibliométricos previos realizados a nivel nacional sobre VIH/SIDA <ref type="bibr" target="#b32">30</ref> , tuberculosis <ref type="bibr" target="#b35">33</ref> , cáncer <ref type="bibr" target="#b22">20</ref> y trastornos mentales <ref type="bibr" target="#b34">32</ref> , mostraron resultados similares.</p><p>Aproximadamente la mitad de los artículos tuvieron como corresponsal a un autor con filiación peruana. En concordancia, el 30,4% de los artículos peruanos en WoS tuvieron como corresponsal a un autor con filiación peruana <ref type="bibr" target="#b33">31</ref> , en tanto que esta cifra varía del 20,8% al 81,2% en otros países sudamericanos <ref type="bibr" target="#b36">34</ref> . Esta participación activa de investigadores extranjeros puede estar relacionado a mayores facilidades de financiamiento para instituciones extranjeras que realizan estudios en Perú <ref type="bibr" target="#b37">35</ref> .</p><p>Colaboración interinstitucional La colaboración inter-institucional genera grupos de trabajo productivos, cuyas publicaciones tienen mayor impacto que aquellas producidos por entidades sin colaboración <ref type="bibr" target="#b38">36,</ref><ref type="bibr" target="#b39">37</ref> . En nuestro estudio, la UPCH resalta como el centro de la colaboración nacional e internacional, lo cual concuerda con lo descrito en otros estudios bibliométricos peruanos <ref type="bibr" target="#b22">20,</ref><ref type="bibr" target="#b33">31,</ref><ref type="bibr" target="#b40">38</ref> . Otras redes aún incipientes tienen como eje a otras instituciones, como el Instituto Nacional de Salud, el Ministerio de Salud, y la Clínica El Golf. Estas redes deberían ser potenciadas para aumentar los núcleos de producción científica en el tema. Concordantemente, países que han presentado un aumento en la producción de artículos con colaboración internacional a su vez presentaron un aumento general de la producción científica en diabetes <ref type="bibr" target="#b9">7,</ref><ref type="bibr" target="#b11">9</ref> .</p><p>También resulta importante fomentar la creación de redes que incluyan instituciones peruanas que estén ubicadas fuera de la ciudad de Lima, con la finalidad de formar competencias en investigación en dichas instituciones, lo cual ayudaría a descentralizar la producción científica y producir evidencias en los distintos contextos peruanos. Una interesante iniciativa al respecto es la que realiza CONCYTEC bajo el nombre de "círculos de investigación", que financia propuestas de investigación que sean realizadas en colaboración interinstitucional.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Características de las revistas</head><p>Se observó que el porcentaje de publicaciones en revistas Q1 se ha mantenido casi constante en los últimos cinco años, lo cual sugiere que el aumento de la producción científica observado en los últimos años no está relegado a revistas de baja calidad, sino que parece deberse a un crecimiento armonioso en términos de cantidad y calidad.</p><p>Resulta llamativo que un porcentaje tan alto como el 18,5% de las publicaciones evaluadas se hayan publicado en una sola revista (Revista Peruana de Medicina Experimental y Salud Pública). Este porcentaje es más alto al encontrado en otros estudios bibliométricos en Perú <ref type="bibr" target="#b22">20,</ref><ref type="bibr" target="#b32">30,</ref><ref type="bibr" target="#b35">33</ref> . Esto podría significar que los grupos de investigación en diabetes en Perú están acostumbrados a publicar en dicha revista, o a que dicha revista tiene un gran interés en publicar artículos sobre diabetes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Limitaciones</head><p>Se debe tener presente que el presente estudio no evalúa revistas que no estén indizadas en WoS/Scopus, debido a que se buscó evaluar la producción científica en revistas de calidad. Sin embargo, otros estudios pueden haber sido publicados en revistas no indizadas en dichas bases. CONCLUSIÓN La producción científica peruana en diabetes es baja, y cuenta con una gran participación de investigadores y financiamiento extranjeros. Resalta la falta de estudios que evalúen intervenciones en salud pública. La institución con mayor producción científica y en la que se centran las redes de colaboración es la UPCH. Estos resultados llaman a la necesidad de incentivar la investigación en diabetes, con énfasis en la generación de evidencias sobre intervenciones en salud pública, y en el apoyo y empoderamiento de instituciones peruanas y redes de colaboración ubicadas fuera de la ciudad de Lima.</p><p>Financiamiento. El presente artículo ha sido autofinanciado por los autores Conflictos de interés. Los autores declaran no tener conflictos de interés con respecto a la publicación del presente artículo RESUMEN Objetivo: describir la producción científica en diabetes en Perú entre 1996 y 2015. Métodos: Estudio bibliométrico. Se identificaron publicaciones científicas sobre diabetes que tuvieran algún autor con filiación peruana, en las bases de datos Web of Science Core Collection (WoS) y</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>DISEñO Y BASES DE DATOS USADAS Estudio observacional bibliométrico, realizado en los artículos científicos publicados en las bases de datos electrónicas Web of Science Core Collection (WoS) y Scopus, entre 1996 y 2015.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figura 1 .</head><label>1</label><figDesc>Figura 1. Artículos sobre diabetes publicados con filiación peruana en revistas científicas indizadas en WoS o Scopus, 1996-2015.</figDesc><graphic coords="3,42.76,367.55,437.91,272.51" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figura 2 .</head><label>2</label><figDesc>Figura 2. Artículos sobre diabetes publicados con filiación peruana en revistas científicas indizadas en WoS o Scopus, que estén y no estén en el primer cuartil de impacto según SCImago.</figDesc><graphic coords="4,39.73,61.23,444.94,258.38" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figura 3 .</head><label>3</label><figDesc>Figura 3. Análisis de colaboración de los artículos sobre diabetes publicados con filiación peruana en revistas científicas indizadas en WoS o Scopus, 1996-2015.</figDesc><graphic coords="6,62.91,87.71,398.59,285.71" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>TAbLA 1</head><label>1</label><figDesc>Características de los artículos sobre diabetes publicados con filiación peruana en revistas científicas indizadas en WoS o Scopus, 1996-2015. Universidad Peruana Cayetano Heredia. HNCH: Hospital Nacional Cayetano Heredia. UPC: Universidad Peruana de Ciencias Aplicadas</figDesc><table><row><cell>Característica</cell><cell>No originales</cell><cell>Originales</cell><cell>Total</cell></row><row><cell></cell><cell>N=20</cell><cell>N=61</cell><cell>N=81</cell></row><row><cell></cell><cell>N (%)</cell><cell>N (%)</cell><cell>N (%)"</cell></row><row><cell>Idioma del in-extenso</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Inglés</cell><cell>13 (65,0)</cell><cell>43 (70,5)</cell><cell>56 (69,1)</cell></row><row><cell>Español</cell><cell>2 (10,0)</cell><cell>13 (21,3)</cell><cell>15 (18,5)</cell></row><row><cell>Inglés y español</cell><cell>4 (20,0)</cell><cell>4 (6,6)</cell><cell>8 (9,9)</cell></row><row><cell>Portugués</cell><cell>1 (5,0)</cell><cell>1 (1,6)</cell><cell>2 (2,5)</cell></row><row><cell>Número de instituciones peruanas</cell><cell></cell><cell></cell><cell></cell></row><row><cell>1</cell><cell>14 (70,0)</cell><cell>30 (49,2)</cell><cell>44 (54,3)</cell></row><row><cell>2</cell><cell>5 (25,0)</cell><cell>18 (29,5)</cell><cell>23 (28,4)</cell></row><row><cell>3 o más</cell><cell>1 (5,0)</cell><cell>13 (21,3)</cell><cell>14 (17,3)</cell></row><row><cell>Ubicación de las instituciones</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Solo instituciones de Lima</cell><cell>17 (85,0)</cell><cell>49 (80,3)</cell><cell>66 (81,5)</cell></row><row><cell>Solo instituciones de otras ciudades</cell><cell>3 (15,0)</cell><cell>6 (9,8)</cell><cell>9 (11,1)</cell></row><row><cell>Instituciones tanto de Lima como de otras</cell><cell></cell><cell></cell><cell></cell></row><row><cell>ciudades</cell><cell>0 (0,0)</cell><cell></cell><cell></cell></row></table><note>UPCH:</note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0">Scopus, entre 1996 y 2015. Se extrajeron manualmente las variables de interés. Se presentaron los resultados descriptivos y las redes de colaboración. Resultados: Se encontraron 81 publicaciones, el 75,3% fueron artículos originales, de las cuales ninguno evaluó intervenciones en salud pública y 60,7% recibieron financiamiento extranjero. El 55,6% tuvieron algún autor afiliado a la Universidad Peruana Cayetano Heredia (UPCH), y el 65,4% algún autor extranjero. Se puedo distinguir cinco conglomerados de redes de colaboración internacional, todos con participación de la UPCH. Conclusión: La producción científica peruana en diabetes ha sido baja, con ausencia de estudios que evalúen intervenciones en salud pública, y con redes de colaboración centradas en la UPCH.Palabras clave: Diabetes; bibliometría; redes de colaboración; colaboración internacional; financiamiento en investigación.</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Artículos</forename><surname>Originales</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">CRONICAS Centro de Excelencia en Enfermedades Crónicas</title>
+		<imprint>
+			<publisher>Lima -Perú</publisher>
+		</imprint>
+		<respStmt>
+			<orgName>Universidad Peruana Cayetano Heredia</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Vicerectorado De Investigación</surname></persName>
+		</author>
+		<imprint>
+			<publisher>Lima -Perú</publisher>
+		</imprint>
+		<respStmt>
+			<orgName>Universidad San Ignacio de Loyola -USIL</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Dirigir correspondencia a: Álvaro Taype-Rondan. CRONICAS Centro de Excelencia en Enfermedades Crónicas</title>
+	</analytic>
+	<monogr>
+		<title level="j">Avenida Armendáriz</title>
+		<imprint>
+			<biblScope unit="volume">497</biblScope>
+		</imprint>
+	</monogr>
+	<note>Perú. Teléfono: (+51) 2416978. Email: alvaro.taype.r@gmail.com</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">World-Health-Organization</title>
+	</analytic>
+	<monogr>
+		<title level="m">Global report on diabetes</title>
+				<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<ptr target="http://www.diabetes.org/diabetes-basics/statistics/?referrer=https://www.google.com.pe/" />
+		<title level="m">Statics about Diabetes</title>
+				<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Systematic reviews of epidemiology in diabetes: finding the evidence</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Royle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Waugh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Med Res Methodol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><surname>Arunachalam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gunasekaran</surname></persName>
+		</author>
+		<title level="m">Mapping diabetes research in India and China today. ISSI-2001: International Society for Scientometrics and Informetrics International conference</title>
+				<imprint>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Exploring the literature of diabetes in Nigeria: a bibliometrics study</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">I</forename><surname>Harande</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Afr J Diabetes Med</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="8" to="11" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Diabetes Research in Iran: a Scientometric Analysis of Publications Output</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rasolabadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Khaledi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ardalan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Kalhor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Penjvini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gharib</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Informatica Medica</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="160" to="164" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Basic Literature of Diabetes: A Bibliometrics Analysis of Three Countries in Different World Regions</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">I</forename><surname>Harande</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">U</forename><surname>Alhaji</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Library Information ScI</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="49" to="56" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Diabetes research in India, China and Brazil: A comparative quantitative study, 2000-09</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gupta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Health &amp; Med Informatics</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Bibliometric analysis of diabetes mellitus research output from Middle Eastern Arab countries during the period</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Sweileh</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sa'ed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Al-Jabi</forename><surname>Hz</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Sawalha</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scientometrics</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="819" to="832" />
+			<date type="published" when="1996">1996-2012. 2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Diabetes research in Middle East countries; a scientometrics study from 1990 to 2012</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Peykari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Djalalinia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kasaeian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Naderimagham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hasannia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Larijani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Res Med Sci</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">253</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Prevalence of diabetes and impaired fasting glucose in Peru: report from PERUDIAB, a national urban population-based longitudinal study</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Seclen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Rosas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Arias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Huayta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Medina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ Open Diabetes Res Care</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">e000110</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Results of epidemiological surveillance of diabetes mellitus in notifying hospitals in Perú</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ramos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>López</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Revilla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>More</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Huamaní</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pozo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rev Peruana Med Exp y Salud Publica</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="9" to="15" />
+			<date type="published" when="2012">2012. 2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Inadequate glycaemic control in LMIC: health system failures in Peru</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Taype-Rondan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lazo-Porras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moscoso-Porras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moreano-Sáenz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Miranda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Gen Pract</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="issue">645</biblScope>
+			<biblScope unit="page">197</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Scopus -Content</title>
+		<ptr target="https://www.elsevier.com/solutions/scopus/content" />
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<publisher>Elsevier</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Highly cited articles in biomass research: A bibliometric analysis</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y-S</forename><surname>Ho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Renew Sustain Energy Rev</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="12" to="20" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Bibliometric analysis of rheumatology research in the Arab countries</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bayoumy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Macdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Dargham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Arayssi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Research Notes</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">393</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Ucinet 6 for Windows: Software for social network analysis</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Borgatti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Everett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Freeman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<pubPlace>Natick, MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Software survey: VOSviewer, a computer program for bibliometric mapping</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Van Eck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Waltman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scientometrics</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="523" to="538" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Scientific production and cancer-related collaboration networks in Peru 2000-2011: a bibliometric study in Scopus and Science Citation Index</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mayta-Tristán</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Huamaní</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Montenegro-Idrogo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Samanez-Figari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>González-Alcaide</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rev Peru Med Exp y Salud Pública</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="31" to="36" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Priorities for health research in Peru 2010-2014: The experience of a participatory and decentralized process: Systematization of experience. Lima, Ministerio de Salud, Instituto Nacional de Salud</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cabezas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yagui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Caballero</surname></persName>
+		</author>
+		<ptr target="http://www.ins.gob.pe/insvirtual/images/otrpubs/pdf/Prioridades%20[13.6.11].pdf" />
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Executive Summary. Lima: Ministerio de Salud, Instituto Nacional de Salud</title>
+		<author>
+			<persName><forename type="first">Instituto</forename><surname>Nacional De Salud</surname></persName>
+		</author>
+		<ptr target="http://www.ins.gob.pe/repositorioaps/0/2/jer/mater_prior/Resumen%20Ejecutivo%20Proceso%20de%20Prioridades%20de%20Investigacion%2011_05_15%20v4R.pdf" />
+		<imprint>
+			<date type="published" when="2015">2015 -2021. 2015</date>
+		</imprint>
+	</monogr>
+	<note>National Priorities for Health Research</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Diabetes mellitus publication patterns, 1984-2005</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Lewin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Med Libr Assoc</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="155" to="158" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Type 2 diabetes research yield, 1951-2012: bibliometrics analysis and density-equalizing mapping</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Geaney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Scutaru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Glynn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">J</forename><surname>Perry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PloS one</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">e0133009</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<ptr target="http://www.diabetesatlas.org/" />
+		<title level="m">Diabetes-Federation. IDF Diabetes Atlas -7th Edition</title>
+				<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Effects of quality improvement strategies for type 2 diabetes on glycemic control: a meta-regression analysis</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Shojania</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Ranji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Mcdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Grimshaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sundaram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Rushakoff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">296</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="427" to="440" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Health scientific production in Ciego de Ávila province between</title>
+		<author>
+			<persName><forename type="first">Pérez</forename><surname>Jiménez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">López</forename><surname>Flores</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Abstengo</forename><surname>Jorge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acimed</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="115" to="120" />
+			<date type="published" when="1999">2003. 2007. 1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Peruvian register of clinical trials</title>
+		<author>
+			<persName><forename type="first">Instituto</forename><surname>Nacional De Salud</surname></persName>
+		</author>
+		<ptr target="http://www.ins.gob.pe/ensayosclinicos/" />
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Medical scientific serial publications in Peru</title>
+		<author>
+			<persName><forename type="first">Pamo</forename><surname>Reyna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">G</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rev Med Hered</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="65" to="73" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Bibliometric analysis of scientific production about HIV/AIDS in Peru 1985 -2010</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Caballero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gutiérrez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rosell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yagui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Alarcón</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Espinoza</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rev Peru Med Exp y Salud Publica</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="470" to="476" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Peruvian scientific production in medicine and collaboration networks, analysis of the science citation index 2000-2009</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Huamaní</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mayta-Tristán</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rev Peru Med Exp y Salud Publica</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="315" to="325" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Peruvian scientific production in SciELO-Peru on mental disorders, 2006-2011</title>
+		<author>
+			<persName><forename type="first">Á</forename><surname>Taype-Rondán</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lajo-Aurazo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Huamaní</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rev Med Hered</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="166" to="171" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Research on tuberculosis in Peru: bibliometric analysis 1981-2010</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yagui-Moscoso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Oswaldo-Jave</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Curisinche-</forename><surname>Rojas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gutiérrez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Romaní-Romaní</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">An Fac Med</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="299" to="305" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Scientific production in clinical medicine and international collaboration networks in South American countries ISI Current Contents 2000-2009</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Huamaní</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>González</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Curioso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pacheco-Romero</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rev Med Chile</title>
+		<imprint>
+			<biblScope unit="volume">140</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="466" to="475" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Neo-colonial science by the most industrialised upon the least developed countries in peer-reviewed publishing</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Dahdouh-Guebas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ahimbisibwe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Van</forename><surname>Moll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Koedam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scientometrics</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="329" to="443" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Faculty publication productivity, collaboration, and grants velocity: using curricula vitae to compare center-affiliated and unaffiliated scientists</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gaughan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ponomariov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Res Eval</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="103" to="110" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Recognition and international collaboration: the Brazilian case</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Leta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chaimovich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scientometrics</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="325" to="335" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Scientific collaboration in Peruvian biomedical journals</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Huamaní</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pacheco-Romero</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">An Fac med</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="261" to="268" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
