@@ -11,7 +11,7 @@ Descomprimir la carpeta pdfs.zip
 **3.**
 Abrir un terminal y escribir el siguiente comando:
 docker run -t --rm -p 8070:8070 lfoppiano/grobid:0.7.2 &
-(Para abir un servidor en docker con grobid en plano)
+(Para abir un servidor en docker con grobid en segundo plano)
 
 **4.**
 EN el mismo terminal abierto, nos metemos en la carpeta grobid_client_python
