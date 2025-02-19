@@ -1,0 +1,1262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Triggered ferroelectricity in HfO 2 from polar hybrid zone-boundary phonon instability</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2025-02-12">12 Feb 2025</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Seongjoo</forename><surname>Jung</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Chemical Engineering and Materials Science</orgName>
+								<orgName type="institution">University of Minnesota</orgName>
+								<address>
+									<postCode>55455</postCode>
+									<settlement>Minneapolis</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Turan</forename><surname>Birol</surname></persName>
+							<email>tbirol@umn.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Chemical Engineering and Materials Science</orgName>
+								<orgName type="institution">University of Minnesota</orgName>
+								<address>
+									<postCode>55455</postCode>
+									<settlement>Minneapolis</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Triggered ferroelectricity in HfO 2 from polar hybrid zone-boundary phonon instability</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2025-02-12">12 Feb 2025</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">7CE24578B99D5383FFB5E13D48CDCD0B</idno>
+					<idno type="arXiv">arXiv:2502.08633v1[cond-mat.mtrl-sci]</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.2" ident="GROBID" when="2025-02-13T09:14+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Ferroelectric HfO 2 has garnered significant attention for its promising application in high density nonvolatile data storage and nanoscale transistors. However, the uncertain origin of polarization in HfO 2 limits our ability to fully understand and control its ferroelectricity. The ongoing debate centers on whether HfO 2 is a proper or improper ferroelectric, as it exhibits characteristics of both types. In this study, we utilize symmetry-guided first-principles quantum mechanical (DFT) calculations to accurately map the energy landscape and identify the coherent switching pathway of HfO 2 by voltage. Our findings reveal two key insights. First, ferroelectricity in HfO 2 is driven by a triggered mechanism through coupling between the stable polar mode and hybrid non-polar modes. Second, unusually high polarization arises from the hybrid modes, which consists solely of non-polar modes. The results fundamentally transforms the perspective on polarization in HfO 2 and resolve conflicting characteristics observed, offering valuable guidance for superior technological applications.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Since the discovery of ferroelectricity HfO 2 -based thin films <ref type="bibr" target="#b0">[1]</ref>, it has been heralded as a promising candidate for future ferroelectric technologies for its compatibility with existing silicon technology, stable ferroelectricity down to subnanometer thicknesses <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3]</ref>, and minimal domain-wall energy cost <ref type="bibr" target="#b3">[4]</ref>. In addition to serving as a potential high-density memory storage medium <ref type="bibr" target="#b4">[5]</ref>, it offers lower power consumption operation in transistors <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b6">7]</ref>. HfO 2 also exhibits distinctive electromechanical properties, setting it apart from traditional ferroelectric materials <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b8">9]</ref>.</p><p>While the ferroelectric phase of HfO 2 has been identified with the orthorhombic space group Pca2 1 (#21), the origin of ferroelectricity in this phase remains elusive. This lack of understanding limits the ability to effectively control certain unfavorable properties, such as the high coercive field, slow domain wall propagation and formation of of non-ferroelectric phases <ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref>. In general, the origin of ferroelectricity can be classified as either proper, where polarization results from an unstable structural mode (phonon) with polar symmetry <ref type="bibr" target="#b13">[14]</ref>, or improper, where it is driven by one or more unstable non-polar modes through their coupling with the polar mode <ref type="bibr" target="#b14">[15,</ref><ref type="bibr" target="#b15">16]</ref>. HfO 2 exhibits characteristics that both align with and challenge aspects of each mechanism.</p><p>The absence of a polar structural instability, specifically the Γ − 4 mode, suggests that the ferroelectricity in fluorite HfO 2 (Fm 3m, #225) is improper in nature <ref type="bibr" target="#b3">[4]</ref>. Several other factors also support this theory. No anomalies are observed in the Born effective charges <ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref>, and depolarization field isn't effective in suppressing the polarization <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b19">20]</ref>. Also, out-of-plane polarization is induced when an in-plane tensile strain is applied <ref type="bibr" target="#b20">[21]</ref>, suggesting strong polar and non-polar mode interactions. However, the couplings necessary for improper ferroelectricity are forbidden in fluorite structure.</p><p>This observation led to proposal of proper ferroelectricity in HfO 2 . Notably, HfO 2 -based thin films are not reported to encounter the same challenges in electric switching associ-ated with improper ferroelectrics <ref type="bibr" target="#b21">[22]</ref>, and a drastic dielectric enhancement is observed near the ferroelectric transition temperature <ref type="bibr" target="#b22">[23]</ref>. Alternative pathways to ferroelectricity have been suggested, involving lower symmetry parent structures such as the Pmab phase (#57) <ref type="bibr" target="#b23">[24,</ref><ref type="bibr" target="#b24">25]</ref> and the Pcnb phase (#60) <ref type="bibr" target="#b25">[26]</ref>. Recently, the proper ferroelectricity of HfO 2 and ZrO 2 has been attributed to the softening of the transverse optical mode <ref type="bibr" target="#b26">[27]</ref>. However, the explanations of proper ferroelectricity in HfO 2 falls into one or more following categories, each with certain limitations. They require either a parent structure that is much higher in energy, or substantial strain, or polar phases that differ from the experimentally observed Pca2 1 . Importantly, the proposed mechanisms for proper ferroelectricity do not explain the antiferroelectric-ferroelectric continuity <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b27">28]</ref> in flourite systems and instead result in paraelectricity when ferroelectricity is suppressed.</p><p>There are other explanations for ferroelectricity in HfO 2 that do not fit into the categories of proper or improper ferroelectrics. One notable mechanism is by the negative biquadratic coupling between polar (Γ − 4 ) and non-polar mode (X + 5, ) <ref type="bibr" target="#b28">[29]</ref>, spontaneously through large tensile strain induced along one of the in-plane axes which is reported to induce the non-polar mode instability <ref type="bibr" target="#b29">[30]</ref>. A trilinear coupling of modes derived from the parent phase P4 2 /nmc was also identified as the origin of ferroelectricity <ref type="bibr" target="#b30">[31]</ref>. The polar phase of ZrO 2 , which shares the same symmetry, has been investigated and attributed to non-linear interactions between the + 5 modes too, represented by a spline function <ref type="bibr" target="#b31">[32]</ref>. While these studies offer valuable insight, there is no consensus on a model that explains the ferroelectricity in HfO 2 . In this study, we employ symmetry-guided expansions of energy and polarization by Landau-Ginzburg-Devonshire (LGD) theory <ref type="bibr" target="#b32">[33]</ref> with first-principles density functional theory (DFT), which have proven successful in modeling and elucidating the novel origins of ferroelectricity in many systems, such as multiferroic hexagonal manganites <ref type="bibr" target="#b17">[18,</ref><ref type="bibr" target="#b33">34]</ref> and Ruddlesden-Popper perovskites <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b34">35]</ref>. This methodology and our results reveal two key, previously unreported findings. First, ferroelectricity in HfO 2 is driven by a "hybridtriggered" mechanism involving multiple trilinear and quadlinear couplings of stable modes. Second, the hybrid zoneboundary modes, consisting of a combination of multiple symmetry-modes, exhibit exceptionally high polarization, contributing over -50% of the bulk value and offering novel properties from previously unexplored interplay between dipoles. We begin by analyzing the crystal structure of the polar phase of HfO 2 (orthorhombic Pca2 1 ) by decomposing the difference between it and the high-symmetry reference structure (fluorite Fm 3m) into the symmetry-modes. There are eight relevant modes, which are labeled by the irreducible representations (irreps) of the parent space group as shown in Fig. <ref type="figure" target="#fig_0">1</ref>  <ref type="bibr" target="#b31">[32,</ref><ref type="bibr" target="#b35">36,</ref><ref type="bibr" target="#b36">37]</ref>. 0 denotes the order parameter of the polar zone-center mode (Γ − 4 ), while the remaining parameters, , correspond to non-polar zone-boundary modes. 4 represents the only unstable mode ( − 2, ) which has non-zero amplitude in the centrosymmetric Aeaa (#68) phase. The Aeaa phase is a more likely candidate for the non-polar structure of HfO 2 under tensile strain than the frequently assigned P4 2 /nmc (#137) phase according to the energies from DFT (fig. <ref type="figure" target="#fig_0">S1</ref>), consistent with the experimentally observed changes in aspect ratio and interlattice spacing <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b37">38]</ref>.</p><p>The wavevectors of the zone-boundary modes in the reciprocal space are essential for understanding couplings between them (fig. <ref type="figure">S2</ref>). These wavevectors are not necessarily parallel to the direction of ionic displacements in real space; for instance, the ionic displacements of 1 are along the direction, while the wavector points to the direction. Unlike previous studies that label the modes by ionic displacement <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b29">30,</ref><ref type="bibr" target="#b31">32]</ref>, we label them by their wavevectors.</p><p>Combinations of order parameter amplitudes that remain invariant under all symmetry operations of the space group (and hence transform as the Γ + 1 irrep) constitute the most general invariant polynomial. Fig. <ref type="figure" target="#fig_0">1B</ref> lists the unique mode couplings that are present in this polynomial. Only terms derived from these couplings contribute to the LGD energy in its Taylor expansion around the high-symmetry phase. Consequently, the energy landscape of ferroelectric HfO 2 can be adequately represented using these terms up to a sufficient order, and insight about the mechanism behind ferroelectricity can be extracted from it.The second-order terms are limited to simple quadratic or bilinear terms of the same irreps. In the third order, there are only trilinear terms that can be divided into two forms: ΓX X couplings (involving one Γ-point mode and two X-point modes of the same wavevector) and X X X couplings (involving three X-point modes of different wavevectors). Similarly, quadlinear terms include ΓX X X and X X X ′ X ′ categories. While there are other fourth order terms, they do not play an important role in reducing the symmetry, and hence we do not list them in Fig. <ref type="figure" target="#fig_0">1B</ref>.</p><p>With these insights, we now proceed to explore the origin of ferroelectricity in HfO 2 , where trilinear and quadlinear couplings provide a pathway for what we dub "hybridtriggered ferroelectricity". For simplicity, we introduce a following expression of electric enthalpy <ref type="bibr" target="#b38">[39,</ref><ref type="bibr" target="#b39">40]</ref> using hy-Fig. <ref type="figure">2</ref>: Hybrid-triggered ferroelectricity. Energy-polarization (left), polarization-voltage (middle), and order parameterspolarization (right) relations of hybrid-triggered ferroelectrics: (A) modeled using Equation <ref type="formula" target="#formula_0">1</ref>, and (B) incorporating an additional coupling term 1 3 4 . The presence of this additional coupling significantly reduces the critical polarization required to induce triggered ferroelectricity. (C) DFT-calculated energies of HfO 2 , illustrating hybrid-triggered ferroelectricity. The results compare scenarios where all other order parameters are fixed to zero (left) and fully relaxed (right). The critical polarization value 0,c decreases from 0.49 Å to 0.17 Å. pothetical polar (along lattice vector ) and non-polar order parameters 0 and :</p><formula xml:id="formula_0">= 0 2 0 2 + 1 2 1 2 + 2 2 2 2 + 0 1 2 + 0 4 0 4 + 12 2 1 2 2 2 − ( 0 )<label>(1)</label></formula><p>The variable represents the voltage across unit cell along , and corresponds to the mode effective charge of the polar mode normalized by lattice constant . We consider the case where all coefficients are as positive, thus there is no soft mode or negative biquadratic coupling that can give rise to ferroelectricity. The sign of does not matter, since it is determined by the definition of the zone boundary order parameters.</p><p>An example of solution to Equation 1 is shown in Fig. <ref type="figure">2A</ref>. Below a critical value of the polar order parameter, | 0,c | = √ 1 2 /| | (Supplementary Text), the system behaves as a dielectric with no contribution to energy from the trilinear coupling. This region is shown with blue lines. However, once | 0 | exceeds | 0,c | by application of voltage, the hybrid mode 1 2 becomes unstable inducing a phase transition to the polar phase where both 1 and 2 condense simultaneously (shown in red lines)-similar to the "avalanche" transition in Aurivillius compounds <ref type="bibr" target="#b40">[41]</ref>, and the predicted transitions by quadratic-linear couplings <ref type="bibr" target="#b41">[42]</ref>. The simplest explanation to this phenomenon is that 0 acts as a tunable coefficient for second-order hybrid mode term 1 2 . We refer to the pretrigger phase as the dielectric phase and the post-trigger phase as the "triggered" phase.</p><p>A key distinction exists between improper and triggered ferroelectricity, though both arise from couplings between polar and non-polar modes. Improper ferroelectricity involves unstable non-polar modes-either single or hybrid <ref type="bibr" target="#b17">[18,</ref><ref type="bibr" target="#b34">35]</ref>coupled to the polar mode. As a result, olarization switching in improper ferroelectrics requires changing the direction of a non-polar omode present in the structure which introduces an energy barrier that does not directly couple with applied voltage (Fig. <ref type="figure" target="#fig_1">3</ref>). Triggered ferroelectricity, by contrast, does not rely on unstable modes. It arises from couplings of hard nonpolar modes with the polar mode (fig. <ref type="figure" target="#fig_5">S3</ref>). When polarization surpasses a critical threshold, for example due to an applied electric field, hybrid modes condense and the system moves to a different global minimum of energy. Unlike either proper and improper ferroelectricity, the mechanism underlying triggered ferroelectricity requires no additional instabilities.</p><p>This fundamental difference renders triggered ferroelectrics more useful for applications than improper ferroelectrics as well. For example, the energy barrier associated with switching of a non-polar order parameter is absent in triggered ferroelectricity. The triggered mechanism also aligns with the observed dielectric increase upon heating, akin to a first-order transition between ferroelectric and dielectric phases <ref type="bibr" target="#b41">[42]</ref>. Notably, this is the only mechanism proposed so far that is compatible with the continuous evolution of antiferroelectricity to ferroelectricity in ZrO 2 -based thin films <ref type="bibr" target="#b42">[43]</ref>.</p><p>-plot of Fig. <ref type="figure">2A</ref> shows existence of two distinct critical voltages, derived from the dielectric phase, and from the triggered phase. In the case where transition to the dielectric phase during polarization switching is merely transient ( &lt; ), it results in a ferroelectric hysteresis. Conversely, if the dielectric phase persists and manifests as a non-transient  <ref type="formula" target="#formula_0">1</ref>) and (B) Hybrid improper ferroelectrics. The former switch though a barrier nonparallel to 0 axis, while the latter encounter an intrinsic energy barrier parallel to the 0 axis associated with the switching of either one of the non-polar modes, which does not directly couple with voltage. state during polarization switching ( &gt; ), it leads to the formation of an antiferroelectric-like double hysteresis.</p><p>Our DFT calculations also confirm the triggered ferroelectricity in HfO 2 . The modes of HfO 2 0 , 1 , and 5 exhibit symmetries consistent with those suggested by Equation 1. We set all other displacements to zero and compute the crystal's energy as a function of the hybrid mode 1 5 , maintaining a fixed ratio between 1 and 5 , while 0 is held at progressively increasing values. The resulting energy plots are displayed in the left panel of Fig. <ref type="figure">2C</ref>, where the critical value for triggered ferroelectricity is | 0,c | is 0.49 Å. When 0 is below this threshold, the hybrid mode increases the energy of HfO 2 . For 0 exceeding 0.49 Å, the energy of HfO 2 begins to decrease as a function of increasing hybrid mode order, revealing the hybrid mode instability.</p><p>Nevertheless, attributing the emergence of ferroelectricity solely to a single trilinear coupling term 0 1 5 proves insufficient, as the calculated value of | 0,c | is higher than the spontaneous 0 in the ferroelectric Pca2 1 phase, | 0,s | = 0.40 Å. It turns out that all the trilinear and quadlinear couplings contribute to the triggering mechanism in HfO 2 , except for 0 2 4 , 1 3 5 6 , and 1 3 5 7 . If two trilinear or quadlinear couplings share a hybrid mode component that is inactive pre-trigger, they can condense simultaneously with reduced 0,c (Supplementary Text, equation S13). This is illustrated in Fig. <ref type="figure">2B</ref>, where the addition of trilinear term Even after addressing the roles of multiple trilinear and quadlinear couplings, an important aspect of this transition remains unexplained. As demonstrated in previous studies <ref type="bibr" target="#b23">[24,</ref><ref type="bibr" target="#b29">30]</ref>, when the DFT energy of HfO 2 is accurately plotted as a function of the polar order parameter, a cusp emerges in the curve. This cusp is does not appear in our demonstrations of hybrid-triggered ferroelectricity so far, as it is not a feature necessarily derived from the mechanism itself. A major contribution to this energy cusp is from an underappreciated factor which also connects to the origin of strong trilinear couplings in HfO 2 : the polarization arising from hybrid non-polar modes themselves. The hybrid modes 1 5 , 2 4 , 3 6 , and 3 7 , which couple with the polar mode in HfO 2 , break all the inversion symmetries present in the crystal and transforms exactly as the polarization itself (Γ − 4 ) (table <ref type="table">S2</ref>). The broken inversion symmetry from non-polar modes is a well-established characteristic of hybrid-improper ferroelectrics <ref type="bibr" target="#b43">[44]</ref>. Typically, the combination of two non-polar modes leads to a nonzero amplitude of the polar structural order parameter, which is the only significant source of polarization. The case of HfO 2 does not fit in to this usual scenario. The polarization of HfO 2 from DFT in its ferroelectric Pca2 1 phase under 1% epitaxial tensile strain is 0.56 C/m<ref type="foot" target="#foot_1">2</ref> . The contributions from the hybrid modes 1 5 , 2 4 , pects of the phase transition. Not only are there overlapping regions of polarization in the transition pathway, but also the voltage and the order parameters in these overlapping regions are discontinuous, resulting in a disruptive phase transition where all the order parameters abruptly shift as polarization increases.</p><p>The energy plotted as a function of 0 and provides further insight into this transition. (Fig. <ref type="figure" target="#fig_2">4A</ref>, bottom right). When is zero, the data in this plot is restricted to a onedimensional line, as cannot assume a value different from 0 , and vice versa. However, when is non-zero, each variable, and 0 are independent. Two distinct local minima emerge in this plot: the dielectric phase where the hybrid mode is inactive, and the triggered phase where they condense. As increases, the triggered phase's local minimum separates more from the = 0 line, eventually disconnecting entirely from the dielectric phase's local minimum. Thus, a slight increase in polarization above causes a sudden jump in all order parameters, including 0 . The pathway from the triggered phase to the dielectric phase differ from the pathway from the dielectric phase to the triggered phase as the local minima are completely separated, leading to overlapping polarization regions and additional hysteresis in the switching pathway.</p><p>We apply these insights to HfO 2 under 1% epitaxial tensile strain to map the complete coherent ferroelectric phase transition pathway. From the coefficient obtained from the regression of DFT energies to LGD theory (fig. <ref type="figure" target="#fig_2">S4</ref>), we generate the plots in Fig. <ref type="figure" target="#fig_2">4B</ref>. The critical polarization is 0.30 C/m 2 . In the dielectric phase without applied voltage, only 4 is non-zero; upon applying voltage, 0 and 2 condense. At 0.47 V/unit cell (u.c.), ferroelectricity is triggered, causing a simultaneous jump in five other order parameters. The voltage needed to switch polarization is higher than the triggering voltage, reaching about 1.4 V/u.c.. The separation of two local minima is clearly visible in the two-dimensional energy landscape. Note that the proper ferroelectric switching pathway via the Pcam (#57) phase is also observed from this model, but requires higher voltage of 2.3 V/u.c., and is geometrically restricted in non-periodic boundary conditions. Thus, it is reasonable to conclude that HfO 2 will switch through the Aeaa phase via the hybrid-triggered mechanism.</p><p>Finally, one critical question remains: what makes the hybrid modes so polar? The answer lies more in the fluorite structure itself rather than in a unique property of the Hf-O bonds. In fact, the Hf-O bond is relatively simple electronically due to the high electropositivity of Hf, compared to bonds such as Ti-O which are known to enable ferroelectricity in perovskites through hybridization <ref type="bibr" target="#b44">[45]</ref>. Although the Hf-O bond is mostly ionic, it gains more covalent character as the Hf-O bond length decreases. This results in bond-to-bond charge transfer associated with ionic displacements in each mode. Fig. <ref type="figure" target="#fig_3">5A</ref> shows a (010) plane of oxygens ( = 0.75) and surrounding Hf atoms in the conventional cell. When ions displace according to − 4 or 3 , charge transfers towards + between the Hf-O bonds in the upper half, and towards − in the lower half. Fig. <ref type="figure" target="#fig_3">5B</ref> shows this charge transfer from DFT, in the form of cuts of charge density change on Hf-O planes. The opposing direction of charge transfer between bonds results in a overall non-polar structure.</p><p>However, if ions then displace according to 2 or − 7 starting from the distorted structure by − 4 or 3 , charge is transferred upward around each oxygen ion in the crystal, as the charge transfer from the shortened bonds surpasses that from the extended bonds (Fig. <ref type="figure" target="#fig_3">5C</ref>). This results in a significant downward polarization purely from electronic dipole effects, without any ionic contribution. This aligns with the observation that the Born effective charges are enhanced by only relatively relatively small amounts in the high-symmetry phase, but they are dramatically different in different phases <ref type="bibr" target="#b18">[19]</ref>. The nontrivial sources of polarization in this system lies not in the first derivatives with respect to displacements, but in the second derivatives. Also this purely electronic dipole, coupled with an oppositely oriented ionic dipole, can enhance the stability of ferroelectricity in ultra-thin HfO 2 , as the depolarization field from one polarization source stabilizes the other, further strengthening the trilinear interaction.</p><p>Our findings fundamentally transform the traditional interpretation of polarization in oxides as a linear function of charged ions' displacements, especially in HfO 2 . For example, HfO 2 was thought to consist of non-polar spacer layers and polar layers, based on the displacement of oxygen ions along the direction. Our findings show that HfO 2 can exhibit substantial polarization even in the absence of ionic displacements along . The discovery of multicomponent hybrid-triggered ferroelectricity combined with the large polarization arising from hybrid modes resolve longstanding questions about the ferroelectric behavior of thin-film HfO 2 and lays the foundation for superior ferroelectric applications.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Materials for Triggered ferroelectricity in HfO 2 from polar hybrid zone-boundary phonon instability</head><p>Seongjoo Jung, Turan Birol * * Corresponding author. Email: tbirol@umn.edu</p><p>This PDF file includes:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Text</head><p>Figs. S1 to S9 Tables S1 to S2</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and Methods</head><p>Periodic density functional theory (DFT) calculations were performed with the Vienna ab initio simulation package (VASP) 6.4.1 <ref type="bibr" target="#b46">[47]</ref>. Spin-orbit coupling as well as spin-polarization was tested to contribute no qualitative difference to the system. A generalized gradient approximation (GGA) exchange-correlation functional PEBsol was used <ref type="bibr" target="#b47">[48]</ref>. The projector augmented wave (PAW) method was used to describe atom cores and the plane wave basis set was expanded to a kinetic energy maximum of 520 eV for Kohn-Sham orbitals, using valence configurations 5 6 6 2 5 2 for Hf and 2 2 2 4 for O. Tetrahedron smearing with Blöchl corrections imposed on electrons at the Fermi level. VESTA software <ref type="bibr" target="#b48">[49]</ref> was used for building and visualizing crystal structures. 7 × 7 × 7 Γ-centered k-point mesh was used to sample the Brillouin zone of the 12-atom supercell of perovskite HfO 2 . Optimization of structures was converged below 10 −7 eV of electronic energy changes and 1.0 meV/ Å of maximum ionic forces. Fixed-ion calculations were converged below 10 −6 eV of energy changes. Lattice parameter for cubic HfO 2 were 5.020 Å. Biaxial strain was simulated by fixing lattice vectors , and allowing to relax. (The strain has same irrep as energy for a parent structure I4/mmm, appearing implicit in the Landau equation <ref type="bibr" target="#b39">[40]</ref>). Lattice parameters under 1% tensile strain were = 5.070 Å, 0 = 5.002 Å for I4mmm phase, = 5.038 Å for Pca2 1 phase, = 5.112 Å for P4 2 /nmc phase and = 5.020 Å for Aeaa phase. Polarization was calculated using the Berry phase definition from modern theory of polarization <ref type="bibr" target="#b49">[50]</ref>. 15 × 15 × 15 Γ-centered k-point mesh, and 160 × 160 × 160 fine real space mesh was used for charge density representation of the 12-atom cubic supercell.</p><p>Space group representations, mode definitions and couplings were referred from the Bilbao Crystallographic Server <ref type="bibr" target="#b50">[51]</ref> and FINDSYM, ISODISTORT, and INVARIANTS from the ISOTROPY software suite <ref type="bibr" target="#b45">[46,</ref><ref type="bibr" target="#b51">[52]</ref><ref type="bibr" target="#b52">[53]</ref><ref type="bibr" target="#b53">[54]</ref>. All modes present in both the polar and non-polar minima was be considered. (The condensed modes in the triggered phase also include those in the dielectric phase.) Additionally, we assume that no additional mode condenses exclusively between the two minima, which is a valid assumption for macroscopic modeling of ferroelectricity without domain separation where no net polarization should appear in the in-plane direction without electrode screening. The following order parameter definition involving normalization factor √ was used, where is the number of primitive cells in the u.c. and is the displacement of an ion based on the lattice parameters of high-symmetry I4/mmm structure <ref type="bibr" target="#b54">[55]</ref>:</p><formula xml:id="formula_1">| | = Σ 2 (S1)</formula><p>denotes iteration over each ion in the u.c., and over each Cartesian directions. The equation and coefficients used for the figures are as follows: Fig. <ref type="figure" target="#fig_4">2A, 3A</ref>: Equation 1, ( 0 , 1 , 2 , , 0 , 12 , , ) = (0.3, 0.2, 0.1, 0.3, 1, 0.03, 1, 1). Fig. <ref type="figure">2B</ref>: equation S13, ( 0 , 1 , 2 , 3 , 4 , 012 , 134 , 0 , 12 , 13 , 4 , , ) = (0.3, 0.2, 0.1, 0.1, −0.4, 0.3, 0.25, 1, 0.03, 0.12, 1.6, 1, 1). Fig. <ref type="figure" target="#fig_4">3B</ref>: which have minimal effect in the energy (fig. <ref type="figure" target="#fig_10">S8</ref>) has been excluded from the full regression up to 4th order for better convergence in the -0 plot.</p><formula xml:id="formula_2">= 0 2 0 2 + 1 2 1 2 + 2 2 2 2 + 0 1 2 + 1 4 1 4 + 2 4 2 4 + − ( 0 ) (S2) ( 0 , 1 , 2 , ,</formula><p>DFT data used for regression involves combinations of following order parameters. Around I4/mmm: 0 = (−0.0707, 0, 0.0707) Å, 1 = (−0.0707, 0, 0.0707) Å, 2 = (−0.0717, 0, 0.0717) Å, 3 = (−0.0717, 0, 0.0717) Å, 4 = (−0.0717, 0, 0.0717) Å, 5 = (−0.0152, 0, 0.0152) Å, 6 = (−0.0254, 0, 0.0254) Å, 7 = (−0.0215, 0, 0.0215) Å. Around Pca2 1 : 0 = (0.3299, 0.4007, 0.4714) Å, 1 = (0.3088, 0.3795, 0.4503) Å, 2 = (0.3283, 0.4001, 0.4718) Å,   <ref type="formula" target="#formula_0">1</ref>, by second-order 0 coefficient 0 and trilinear coupling coefficient . Green area represent the non-polar ground state where 0 = 1 = 2 = 0, blue area the proper ferroelectric ground state where 0 ≠ 0, 1 = 2 = 0, and the gray area the hybrid-triggered polar ground state where 0 , 1 , 2 ≠ 0. The hybrid-triggered ground state exists for cases when the polar mode is both soft and hard, if the trilinear coupling is strong enough. Similar phase diagram can be found for a hypothetical case of quadratic-linear order parameter coupling <ref type="bibr" target="#b41">[42]</ref>, and charge density wave order in kagome metals involving a trilinear coupling <ref type="bibr" target="#b55">[56]</ref>. The tricritical points are along 0 = 0 for all phase diagrams. In the cases where the components of hybrid mode remain hard when 0 = 0, there is a tricritical point for each sign of non-zero value of . In the case of kagome metals where all three components of trilinear coupling have the same second-order coefficient, the two tricritical points merge into one point at = 0.  One-dimensional data shown in Fig. <ref type="figure">2C</ref> is along 1 = 4.4 5 line which preserve the ratio at the ferroelectric minimum. The fixed ratio is not necessarily imposed from the hybrid-triggered ferroelectricity. Note that even when the hybrid mode 1 5 instability appears, individual modes 1 and 5 can remain hard. Fig. <ref type="figure">S6</ref>: Biquadratic coupling between 0 and 1 . A slight negative biquadratic coupling exists between 0 and 1 <ref type="bibr" target="#b29">[30]</ref>. However, in contrast to the trilinear and quadlinear couplings shown in Fig. <ref type="figure">2</ref>, this coupling between the two hard modes does not induce a new local minimum or phase transition. The negative biquadratic coupling also occurs for      Table <ref type="table">S2</ref>: Inversion breaking of the symmetry-modes. 1 to 4 denote the inversion centers present in the high-symmetry conventional fluorite unit cell. For every inversion center ( , , ), there are 7 more translation induced inversion centers at ( +0.5, , ), ( , +0.5, ), ( , , +0.5), ( , +0.5, +0.5), ( +0.5, , +0.5), ( +0.5, +0.5, ), and ( +0.5, +0.5, +0.5). Symbol indicates that the inversion center is preserved upon the condensation of the mode, while × signifies that the inversion center is destroyed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Inversion centers</head><p>Direct coordinates </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 :</head><label>1</label><figDesc>Fig. 1: Modes and unique couplings in fluorite HfO 2 . (A) Eight modes observed in the ferroelectric Pca2 1 phase of HfO 2 . Blue arrows and signs represent ionic displacements in the front half of the unit cell ( = 0.75 in direct coordinates for oxygen), and the pink arrows represent those in the rear half ( = 0.25). (B) Unique 2nd, 3rd, and 4th-order couplings among modes. Modes that can condense in the dielectric phase are highlighted in green, whereas modes that condense in the triggered phase are shown in red.</figDesc><graphic coords="2,210.09,202.07,109.67,98.87" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 3 :</head><label>3</label><figDesc>Fig. 3: Coherent switching barrier of hybrid-triggered and hybrid-improper ferroelectrics. Example of an energy contour diagram from LGD model of (A) Hybrid triggered ferroelectrics (Equation1) and (B) Hybrid improper ferroelectrics. The former switch though a barrier nonparallel to 0 axis, while the latter encounter an intrinsic energy barrier parallel to the</figDesc><graphic coords="4,129.15,57.57,178.82,132.53" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 4 :</head><label>4</label><figDesc>Fig. 4: The effect of polar hybrid modes on triggered ferroelectricity. (A) Plots for a hybrid-triggered ferroelectric material with polar hybrid mode, including energy-polarization (top left), polarization-voltage (bottom left), order parameterspolarization (top right), and two-dimensional energy-0 , (bottom right) modeled with additional hybrid mode contribution to polarization to Equation 1. The triggered ferroelectric phase is separated from the dielectric phase in the two-dimensional energy plot, introducing an additional layer of hysteresis and a disruptive phase transition. (B) Coherent switching pathway of HfO 2 via the hybrid-triggered mechanism. Five order parameters that remain zero in the dielectric phase condense together at c = 0.30 C/m 2 disruptively.</figDesc><graphic coords="5,408.87,157.42,120.54,92.87" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 5 :</head><label>5</label><figDesc>Fig. 5: The origin of polar hybrid modes in fluorite structure. (A) A (010) plane of oxygens ( = 0.75) and surrounding Hf atoms in fluorite HfO 2 unit cell with gradient-colored arrows indicating charge transfer from the elongated Hf-O bonds (blue) to the shortened bonds (red). (B) Charge transfer resulting from the − 4 or 3 mode around highlighted oxygen ion. The plane containing the two bonds directed towards + shows charge loss (left), whereas the plane containing the two bonds directed towards − shows charge gain. (C) Charge transfer resulting from the 2 or − 7 mode starting from condensed − 4 or 3 mode. There is minimal charge transfer between the two extended bonds in the + direction (left), while there is significant charge transfer between the two shortened bonds in the − direction resulting in net polar structure.</figDesc><graphic coords="6,283.26,220.58,169.07,100.13" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>3 =</head><label>3</label><figDesc>(0.3103, 0.3820, 0.4537) Å, 4 = (−0.5411, −0.4694, −0.3977) Å, 5 = (0.0708, 0.0860, 0.1013) Å, 6 = (0.1344, 0.1597, 0.1851) Å, 7 = (−0.1398, −0.1182, −0.0967) Å.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. S3 :</head><label>S3</label><figDesc>Fig. S3: Phase diagram of a hybrid-triggered ferroelectric by Equation1, by second-order 0 coefficient 0 and trilinear coupling coefficient . Green area represent the non-polar ground state where 0 = 1 = 2 = 0, blue area the proper ferroelectric ground state where 0 ≠ 0, 1 = 2 = 0, and the gray area the hybrid-triggered polar ground state where</figDesc><graphic coords="16,156.96,97.52,296.94,220.07" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig</head><label></label><figDesc>Fig.S4: Symmetry-adapted regression of DFT data using LGD theory (A) Energy and (B) polarization data of HfO 2 under 1% tensile biaxial strain. Blue points correspond to 3 8 data points around the high-symmetry I4/mmm phase, while red points correspond to 3 8 data points around the ferroelectric Pca2 1 phase.</figDesc><graphic coords="16,305.35,528.46,153.42,118.02" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. S5 :</head><label>S5</label><figDesc>Fig. S5: Two-dimensional DFT-calculated energies of HfO 2 , illustrating hybrid-triggered ferroelectricity and 0 1 5 coupling. The results compare scenarios where all other order parameters are fixed to zero (left) and fully relaxed (right).One-dimensional data shown in Fig.2Cis along 1 = 4.4 5 line which preserve the ratio at the ferroelectric minimum. The fixed ratio is not necessarily imposed from the hybrid-triggered ferroelectricity. Note that even when the hybrid mode 1 5 instability appears, individual modes 1 and 5 can remain hard.</figDesc><graphic coords="17,144.60,95.86,322.90,528.38" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>2</head><label></label><figDesc>without major contribution to energy.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. S7 :</head><label>S7</label><figDesc>Fig. S7: Polarization from hybrid non-polar modes. Polarization of 1% biaxial strained HfO 2 from DFT calculations (left) and symmetry-guided LGD theory up to second order (right).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. S8 :</head><label>S8</label><figDesc>Fig.S8: One-dimensional contribution of each modes to energy. Blue, red and green dotted lines each represent 1st, 2nd and 3rd order regression of energy with respect to 2 through the origin. Linear regression fits most order parameters squared, except 0 and 4 .</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Fig. S9 :</head><label>S9</label><figDesc>Fig.S9: Alternative domain switching of HfO 2 . Despite the presence of 8 modes, each triggered phase only have 2 domains that share the same sign of 4 . The domains not shown in Fig.4Bis displayed here. There is equal chance of the modes condensing to each domain when the ferroelectricity is triggered.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>1 , 2 , , ) = (0.05, −0.2, −0.1, 0.02, 0.1, 0.1, 1, 1). Fig.4A: equation S25, ( 0 , 1 , 2 , , 0 , 12 , , , ) = (0.3, 0.2, 0.1, 0.3, 1, 0.03, 1, 0.07, 1). fig.S3: Equation 1, ( 1 , 2 , 0 , 12 , , , ) = (0.2, 0.1, 1, 0.03, 1, 1, 0).The full equation and coefficients used to represent entire order parameter space of HfO 2 in Fig.4B,C is:</figDesc><table><row><cell cols="8">= 0 0 + 015 0 1 5 + 024 0 2 4 + 036 0 3 6 + 037 0 3 7 2 + 1 1 2 + 2 2 2 + 3 3 2 + 4 4 2 + 5 5 2 + 6 6 + 123 1 2 3 + 146 1 4 6 + 147 1 4 7 + 256 2 5 6 + 257 2 5 7 + 345 3 4 5 2 2 + 67 6 7 + 7 7 + 0 0 4 + 01 0 2 1 2 + 02 0 2 2 2 + 12 1 2 2 2 + 03 0 2 3 2 + 13 1 2 3 2 + 23 2 2 3 2 + 04 0 + 24 2 2 4 2 + 34 3 2 4 2 + 4 4 4 + 05 0 2 5 2 + 15 1 2 5 2 + 25 2 2 5 2 + 35 3 2 5 2 + 45 4 2 + 06 0 2 6 2 + 16 1 2 6 2 + 26 2 2 6 2 + 36 3 2 6 2 + 46 4 2 6 2 6 2 2 + 56 5 + 067 0 2 6 7 + 167 1 2 6 7 + 267 2 2 6 7 + 367 3 2 6 7 + 467 4 2 6 7 + 567 5 2 6 7 + 667 6 4 2 + 14 1 2 5 2 3 7 2 + 67 6 2 7 2 + 07 0 2 7 2 + 17 1 2 7 2 + 27 2 2 7 2 + 37 3 2 7 2 + 47 4 2 7 2 + 57 5 2 7 3 2 + 677 6 7 + 0126 0 1 2 6 + 0127 0 1 2 7 + 0134 0 1 3 4 + 0235 0 2 3 5 + 0456 0 4 5 6 + 0457 0 4 5 7 + 1245 1 2 4 5 + 1356 1 3 5 6 + 1357 1 3 5 7 + 2346 2 3 4 6 + 2347 2 3 4 7 − ( 0 + 15 1 5 + 24 2 4 + 36 3 6 + 37 3 7 )</cell><cell>4 (S3) 2</cell></row><row><cell cols="7">Unlike others such as Equation 1, this equation does not include conventional factors of 1/ for the coefficients of</cell><cell>terms.</cell></row><row><cell>Fourth order terms 1</cell><cell>4 , 2</cell><cell>4 , 3</cell><cell>4 , 5</cell><cell>4 , 6</cell><cell>4 , 7</cell><cell>4</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table S1 :</head><label>S1</label><figDesc>Irreducible representation (irrep) of order parameters from different parent structures. Hf ion at (0, 0, 0) and O ion at (0.25, 0.25, 0.25) in direct coordinates from high-symmetry structure is used as reference for in-phase Hf and O. Lattice transformation from Fm 3m to I4/mmm requires rotation of Cartesian bases around axis by /4, thus ′ and ′ directions in I4/mmm reciprocal space are different from Fm 3m reciprocal space. Hf in Hf out O in O out</figDesc><table><row><cell>Order Parameter</cell><cell>Irrep I4/mmm Γ + Fm 3m 1 ⊕ Γ +</cell><cell>Ionic displacements</cell><cell>Space Group</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_0"> 3 4  (including soft mode 4 ) to Equation 1 reduces . Similarly in HfO</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_1">, all the relevant couplings collectively induce a single transition in which all inactive modes in the dielectric phase undergo condensation at a unified and reduced critical value | 0,c |. In the right panel of Fig.2C, DFT energies are shown for the same values of 0 , 1 , and 5 as the left panel, but now allowing all other order parameters to relax to a non-zero value. This adjustment reveals a substantial decrease in 0,c from 0.49 Å to 0.17 Å.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3" xml:id="foot_2"><ref type="bibr" target="#b5">6</ref> , and 3 7 are −0.02, −0.22, −0.05, and −0.05 C/m 2 respectively-the hybrid polarizations collectively account for −60% of the net polarization. Thus, the direct coupling of hybrid modes with voltage, along with local electrostatic interactions, cannot be neglected in HfO 2 , contrary to other improper or hybrid-improper ferroelectrics.Accordingly, a new term representing the electronic polarization induced by the hybrid mode must be added to Eq. 1, such that 0 → 0 + 1 2 . Here, acts as higher order mode effective charge, and corresponds to the second derivative of polarization with respect to non-polar atomic displacements (equation S25). Such a variable is not commonly introduced before. Solution of the resulting equation with the same coefficients as Equation 1 is shown</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4" xml:id="foot_3">in Fig.4A. The polarization of the hybrid mode is against the direction of the polar mode increases the value of 0,c . This addition generates the cusp in the energy vs polarization plot and reveals more as-</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgments</head><p>Funding: This work is supported by the Office of Naval Research Grant N00014-24-1-2082. The authors acknowledge the Minnesota Supercomputing Institute (MSI) at the University of Minnesota for providing part of the computational resources that contributed to this work.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Author contributions: S.J. conceived the idea, designed, performed the calculations and analyzed data. T.B. supervised the research. S.J. prepared the manuscript. S.J. and T.B. edited the manuscript.</p><p>Competing interests: There are no competing interests to declare.</p><p>Data and materials availability: All data are available in the main text or the supplementary materials.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary materials</head><p>Materials and Methods Supplementary Text Figs. S1 to S9 Tables <ref type="table">S1 to S2</ref> References <ref type="bibr" target="#b46">(47)</ref><ref type="bibr" target="#b47">(48)</ref><ref type="bibr" target="#b48">(49)</ref><ref type="bibr" target="#b49">(50)</ref><ref type="bibr" target="#b50">(51)</ref><ref type="bibr" target="#b51">(52)</ref><ref type="bibr" target="#b52">(53)</ref><ref type="bibr" target="#b53">(54)</ref><ref type="bibr" target="#b54">(55)</ref><ref type="bibr" target="#b55">(56)</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Text</head><p>Derivation of triggered instability</p><p>All the coefficients are set positive in this equation. The process of following derivations involve 3 steps. First, we identify the partial derivative of with respect to each order parameters.</p><p>The solution of this system of equations represent the state of this material under applied voltage as a set of order parameters.</p><p>We then optimize according to these equations except for 1 , as it will serve as criteria of whether condensation of 1 will increase or decrease the energy of this crystal. 0 also does not need optimization as it can be any arbitrary value due to application of voltage from equation S5.</p><p>We insert this expression of back to equation S6</p><p>The sign of equation S9 at infinitesimal value of 1 determines whether condensation of 1 increase or decrease . If it is negative for an infinitesimal positive value of 1 , it will decrease and the hybrid mode − 1 2 will condensate spontaneously.</p><p>If it is positive, it will increase and remain inactive. Thus if we search for a condition that renders ( / 1 )/ 1 negative at 1 = 0, we can find the critical condition of 0 that will trigger the hybrid mode instability.</p><p>This determines the critical value of 0 , 0, :</p><p>Derivation of triggered instability additional couplings</p><p>4 corresponds to the order parameter of a soft mode, thus this equation has a special condition 4 &lt; 0. First, determine the partial derivatives.</p><p>(S20)</p><p>Note that 4 can be optimized for pre-trigger dielectric phase, as we are searching for 0, . Third, insert back to ( / 1 )/ 1 and determine the condition it is negative at 1 = 0.</p><p>The numerator is reduced from</p><p>, so multiple coupling reduces the value of shared trigger. From equation S19 and S20, simultaneous condensation of 1 , 2 and 3 is shown.</p><p>What we show is that with the additional trilinear coupling, instead of an additional trigger being created leading to second phase transition, the critical value 0,c is decreased substantially and shared among both couplings-the simultaneous condensation of 1 , 2 , and 3 occurs. In other words, the hybrid mode 1 2 3 instability occurs at a lower 0 compared to just 1 2 or 1 3 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Derivation of triggered instability with polar hybrid mode</head><p>First, determine the partial derivatives.</p><p>Here, also has to be represented as a function of 0 and the coefficients. From equation S26:</p><p>Note that was optimized for pre-trigger dielectric phase. Third, insert back to ( / 1 )/ 1 and determine the condition it is negative at 1 = 0. The solution is equivalent to the derivation of Equation <ref type="formula">1</ref>, where 0 is substituted to 0 − .</p><p>While the general solution cannot be expressed, when 0 ∼ 0:</p><p>Depending on the sign of , the polar hybrid mode can either increase or decrease | 0,c |. In the case of HfO 2 , the direction of polarization from second order hybrid modes always oppose the direction of polarization from the polar mode. This would correspond to the same sign of and , which increases | 0,c |. In the absence of a monoclinic lattice transformation (as well as domain-separated structures such as Pbca from <ref type="bibr" target="#b3">[4]</ref>), the Aeaa phase emerges as the most stable non-polar ground state under moderate tensile strain, derived from structural instability in the fluorite HfO 2 . Experimental observations of the lattice constants from <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b37">38]</ref> further support this. Transition from Pca2 1 to P4 2 /nmc increases the aspect ratio 2 /( + ), whereas transition from Pca2 1 to Aeaa reduces it. ( = 5.038 Å for Pca2 1 phase)</p><p>Fig. <ref type="figure">S2</ref>: First Brillouin zone of a face-centered cubic lattice system <ref type="bibr" target="#b50">[51]</ref>. The coordinates of the wavevectors X , X , and X corresponding to the positions of the X , X , and X points in reciprocal space, are (2 / , 0, 0), (0, 2 / , 0), and (0, 0, 2 / ) respectively in ( , , ). The sum X + X + X forms a Γ-point modulo in reciprocal space, enabling a trilinear coupling with irrep equal to that of the energy (Γ + 1 ). Note that the sum of wavevectors being equal to a Γ-point modulo is a necessary condition for irrep equivalence with the energy, and not a sufficient one. For instance, the wavevector sum arising from the bilinear coupling 1 5 ( X + X ) also forms a Γ-point modulo but exhibits irrep equivalent to polarization (Γ − 4 ). Consequently, the bilinear coupling does not directly appear in the energy expression.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<author>
+			<persName><forename type="first">T</forename><surname>Böscke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bräuhaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Schröder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Böttger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Ferroelectricity in hafnium oxide thin films</title>
+				<imprint>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page">102903</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Enhanced ferroelectricity in ultrathin films grown directly on silicon</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Cheema</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">580</biblScope>
+			<biblScope unit="issue">7804</biblScope>
+			<biblScope unit="page" from="478" to="482" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Emergent ferroelectricity in subnanometer binary oxide films on silicon</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Cheema</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">376</biblScope>
+			<biblScope unit="issue">6593</biblScope>
+			<biblScope unit="page" from="648" to="652" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Scale-free ferroelectricity induced by flat phonon bands in HfO 2</title>
+		<author>
+			<persName><forename type="first">H.-J</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">369</biblScope>
+			<biblScope unit="issue">6509</biblScope>
+			<biblScope unit="page" from="1343" to="1347" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Buck</surname></persName>
+		</author>
+		<title level="m">Ferroelectrics for digital information storage and switching</title>
+				<imprint>
+			<date type="published" when="1952">1952</date>
+		</imprint>
+		<respStmt>
+			<orgName>Massachusetts Institute of Technology, Department of Electrical Engineering</orgName>
+		</respStmt>
+	</monogr>
+	<note>Ph.D. thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Use of negative capacitance to provide voltage amplification for low power nanoscale devices</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Salahuddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Datta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano letters</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="405" to="410" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">A critical review of recent progress on negative capacitance field-effect transistors</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Alam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Si</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Ye</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Physics Letters</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Origin of pyroelectricity in ferroelectric HfO 2</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hanrahan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pantelides</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Applied</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">34032</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Piezoelectricity in hafnia</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dutta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Communications</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">7301</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Electric field and temperature scaling of polarization reversal in silicon doped hafnium oxide ferroelectric thin films</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zhou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="240" to="246" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Nanoscopic studies of domain structure dynamics in ferroelectric La: HfO 2 capacitors</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Buragohain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Physics Letters</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="issue">22</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The fundamentals and applications of ferroelectric HfO 2</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Schroeder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mikolajick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Hwang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Reviews Materials</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="653" to="669" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Interface effects in the phase determination of Hf 0.5 Zr 0.5 O 2 epitaxial thin films</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schimpf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">APL Materials</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Modes (or symmetry-modes) refer to the displacement patterns of ions, forming an orthonormal basis for the overall displacement of the ions in the crystal which brings the dynamical matrix to block-diagonal form with the smallest possible blocks</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Landau Theory Of Phase Transitions, The: Application To Structural, Incommensurate</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Toledano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-C</forename><surname>Toledano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Magnetic And Liquid Crystal Systems</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<date type="published" when="1987">1987</date>
+			<publisher>World Scientific Publishing Company</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Hybrid improper ferroelectricity: a theoretical, computational, and synthetic perspective</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Benedek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Hayward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Materials Research</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="331" to="355" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Dynamical atomic charges: The case of ABO 3 compounds</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ghosez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Michenaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Gonze</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">6224</biblScope>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The origin of ferroelectricity in magnetoelectric YMnO 3</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">B</forename><surname>Van Aken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Palstra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Filippetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Spaldin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature materials</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="164" to="170" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Vibrational fingerprints of ferroelectric HfO 2</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">npj Quantum Materials</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">32</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Absence of critical thickness in an ultrathin improper ferroelectric film</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Fennie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Demkov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical review letters</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">107601</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The effects of crystallographic orientation and strain of thin Hf 0.5 Zr 0.5 O 2 film on its ferroelectricity</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Moon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Hwang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Physics Letters</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Experimental demonstration of hybrid improper ferroelectricity and the presence of abundant charged walls in (Ca,Sr) 3 Ti 2 O 7 crystals</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">S</forename><surname>Oh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F.-T</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-W</forename><surname>Cheong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature materials</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="407" to="413" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Temperature-Dependent Phase Transitions in Hf Zr 1− O 2 Mixed Oxides: Indications of a Proper Ferroelectric Material</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Schroeder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Electronic Materials</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">2200265</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Qi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Reyes-Lillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Rabe</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2204.06999</idno>
+		<title level="m">Double-path&quot; ferroelectrics and the sign of the piezoelectric response</title>
+				<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Theoretical approach to ferroelectricity in hafnia and related materials</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Aramberri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Íñiguez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Communications Materials</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">95</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Hafnia HfO 2 is a proper ferroelectric</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Raeliarijaona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cohen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">94109</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Softening of the optical phonon by reduced interatomic bonding strength without depolarization</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">634</biblScope>
+			<biblScope unit="issue">8036</biblScope>
+			<biblScope unit="page" from="1080" to="1085" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Ferroelectricity in simple binary ZrO2 and HfO2</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Muller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano letters</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="4318" to="4323" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">A new type of the ferroelectric phase transition</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Holakovskỳ</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physica status solidi (b)</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="615" to="619" />
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Strain-induced antipolar phase in hafnia stabilizes robust thin-film ferroelectricity</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Rappe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science Advances</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">47</biblScope>
+			<biblScope unit="page">5953</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Trilinear-coupling-driven ferroelectricity in HfO 2</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Delodovici</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Barone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Picozzi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Materials</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">64405</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Antiferroelectricity in thin-film ZrO 2 from first principles</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Reyes-Lillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Garrity</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Rabe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page">140103</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">and others</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Levanyuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Burc Misirlioglu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Baris Okatan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ferroelectrics</title>
+		<imprint>
+			<biblScope unit="volume">569</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="310" to="323" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Ferroelectric transition in YMnO 3 from first principles</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Fennie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Rabe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B-Condensed Matter and Materials Physics</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">100103</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Improper ferroelectricity in perovskite oxide artificial superlattices</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bousquet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">452</biblScope>
+			<biblScope unit="issue">7188</biblScope>
+			<biblScope unit="page" from="732" to="736" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Although the biaxial strain imposes a tetragonal I4/mmm parent phase, we reference irreducible representations from the cubic phase for direct connection with existing literature</title>
+	</analytic>
+	<monogr>
+		<title level="m">Irreducible representations from I4/mmm parent phase and corresponding displacement patterns can be found in Table S1</title>
+				<imprint>
+			<biblScope unit="volume">32</biblScope>
+		</imprint>
+	</monogr>
+	<note>This study considers HfO 2 under 1% biaxial tensile strain of and out-of-plane polarization</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Symmetry-modes should be distinguished from normal modes which are derived from the eigenvectors of the dynamical matrix. While 0 and 1 through 5 serve as both symmetry-modes and normal modes, 6 and 7 solely represent symmetry-modes, not normal modes. The discussion of stable and unstable modes is generally confined to normal modes; however, these terms are somewhat flexibly applied to 6 and 7</title>
+		<imprint/>
+	</monogr>
+	<note>as all − 5 normal modes are stable</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Ultrathin ferroic HfO 2 -ZrO 2 superlattice gate stack for advanced transistors</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Cheema</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">604</biblScope>
+			<biblScope unit="issue">7904</biblScope>
+			<biblScope unit="page" from="65" to="71" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Electric displacement as the fundamental variable in electronic-structure calculations</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stengel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Spaldin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Vanderbilt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Physics</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="304" to="308" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Octahedral Rotation Induced, Antiferroelectric-like Double Hysteresis in Strained Perovskites</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Birol</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.nanolett.4c05972</idno>
+		<ptr target="https://doi.org/10.1021/acs.nanolett.4c05972" />
+	</analytic>
+	<monogr>
+		<title level="j">Nano Letters</title>
+		<imprint>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">The role of trilinear couplings in the phase transitions of Aurivillius compounds</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Etxebarria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Perez-Mato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Boullay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ferroelectrics</title>
+		<imprint>
+			<biblScope unit="volume">401</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="17" to="23" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Phenomenological theory of changes in multicomponent order parameters</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Gufan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Torgashev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sov. Phys. Sol. St</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="951" to="956" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main">Hybrid triggered antiferroelectric-ferroelectric continuity in thin film ZrO 2</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Birol</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>In preparation</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Symmetry analysis for the Ruddlesden-Popper systems Ca 3 Mn 2 O 7 and Ca 3 Ti 2 O 7</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Harris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B-Condensed Matter and Materials Physics</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">64116</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Origin of ferroelectricity in perovskite oxides</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Cohen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">358</biblScope>
+			<biblScope unit="issue">6382</biblScope>
+			<biblScope unit="page" from="136" to="138" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">T</forename><surname>Stokes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Hatch</surname></persName>
+		</author>
+		<ptr target="https://iso.byu.edu" />
+		<title level="m">ISOTROPY Software Suite</title>
+				<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Efficient iterative schemes for ab initio total-energy calculations using a plane-wave basis set</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kresse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Furthmüller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical review B</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page">11169</biblScope>
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Restoring the density-gradient expansion for exchange in solids and surfaces</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Perdew</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical review letters</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page">136406</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">VESTA 3 for three-dimensional visualization of crystal, volumetric and morphology data</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Momma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Izumi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of applied crystallography</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1272" to="1276" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Theory of polarization of crystalline solids</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>King-Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Vanderbilt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">1651</biblScope>
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Crystallography online: Bilbao crystallographic server</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Aroyo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bulg. Chem. Commun</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="183" to="197" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">INVARIANTS: program for obtaining a list of invariant polynomials of the order-parameter components associated with irreducible representations of a space group</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Hatch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">T</forename><surname>Stokes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of applied crystallography</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="951" to="952" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">FINDSYM: program for identifying the space-group symmetry of a crystal</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">T</forename><surname>Stokes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Hatch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="237" to="238" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">ISODISPLACE: a web-based tool for exploring structural distortions</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">T</forename><surname>Stokes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Tanner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Hatch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="607" to="614" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Structural phase transitions I. Landau theory</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cowley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Advances in physics</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="110" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Theory of the charge density wave in AV 3 Sb 5 kagome metals</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Christensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Birol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Andersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Fernandes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="issue">21</biblScope>
+			<biblScope unit="page">214513</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

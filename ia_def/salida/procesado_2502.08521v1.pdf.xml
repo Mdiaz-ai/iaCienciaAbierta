@@ -1,0 +1,2787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Fine-Tuning Exciton Polaron Characteristics via Lattice Engineering in 2D Hybrid Perovskites</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2025-02-13">February 13, 2025</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Katherine</forename><forename type="middle">A</forename><surname>Koch</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physics &amp; Center for Functional Materials</orgName>
+								<orgName type="institution">Wake Forest University</orgName>
+								<address>
+									<postCode>27109</postCode>
+									<settlement>Winston-Salem</settlement>
+									<region>North Carolina</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Martin</forename><surname>Gomez-Dominguez</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">School of Materials Science and Engineering</orgName>
+								<orgName type="institution">Georgia Institute of Technology</orgName>
+								<address>
+									<addrLine>771 Ferst Dr NW</addrLine>
+									<postCode>30332</postCode>
+									<settlement>Atlanta</settlement>
+									<region>GA</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Esteban</forename><surname>Rojas-Gatjens</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">School of Chemistry and Biochemistry</orgName>
+								<orgName type="institution">Georgia Institute of Technology</orgName>
+								<address>
+									<addrLine>771 Ferst Dr NW</addrLine>
+									<postCode>30332</postCode>
+									<settlement>Atlanta</settlement>
+									<region>GA</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alexander</forename><surname>Evju</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physics &amp; Center for Functional Materials</orgName>
+								<orgName type="institution">Wake Forest University</orgName>
+								<address>
+									<postCode>27109</postCode>
+									<settlement>Winston-Salem</settlement>
+									<region>North Carolina</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">K</forename><forename type="middle">Burak</forename><surname>Ucer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physics &amp; Center for Functional Materials</orgName>
+								<orgName type="institution">Wake Forest University</orgName>
+								<address>
+									<postCode>27109</postCode>
+									<settlement>Winston-Salem</settlement>
+									<region>North Carolina</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Juan-Pablo</forename><surname>Correa-Baena</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">School of Materials Science and Engineering</orgName>
+								<orgName type="institution">Georgia Institute of Technology</orgName>
+								<address>
+									<addrLine>771 Ferst Dr NW</addrLine>
+									<postCode>30332</postCode>
+									<settlement>Atlanta</settlement>
+									<region>GA</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ajay</forename><surname>Ram</surname></persName>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Srimath</forename><surname>Kandada</surname></persName>
+							<email>srimatar@wfu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physics &amp; Center for Functional Materials</orgName>
+								<orgName type="institution">Wake Forest University</orgName>
+								<address>
+									<postCode>27109</postCode>
+									<settlement>Winston-Salem</settlement>
+									<region>North Carolina</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Fine-Tuning Exciton Polaron Characteristics via Lattice Engineering in 2D Hybrid Perovskites</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2025-02-13">February 13, 2025</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">7EC0D72FECBAC56FEB0C2BAFE205B0B3</idno>
+					<idno type="arXiv">arXiv:2502.08521v1[cond-mat.mtrl-sci]</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.2" ident="GROBID" when="2025-02-13T09:14+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The layered structure of two-dimensional metal halide perovskites (MHPs) consisting of an ionic metal halide octahedral layer electronically separated by an elongated organic cation, exhibits strong coupling between high-binding-energy excitons and low-energy lattice phonons. Photoexcitations in these systems are believed to be exciton-polarons-Coulombically bound electronhole pairs dressed by lattice vibrations. Recent students reveal lattice-driven excitonic processes, highlighting the structural dependency of exciton-phonon coupling. Understanding and controlling the structural and chemical factors that govern this interaction is crucial for optimizing exciton recombination, transport, and many-body interactions. Our study examines the role of the organic cation in a prototypical 2D-MHP system, phenylethylammonium lead iodide, (PEA) 2 PbI 4 , and it's halogenated derivatives, (F/Cl -PEA) 2 PbI 4 . These substitutions allow us to probe polaronic effects while maintaining the average lattice and electronic structure. Using resonant impulsive stimulated Raman scattering (RISRS), we analyze the metal-halide sub-lattice motion coupled to excitons. We apply formalism based on a perturbative expansion of the nonlinear response function on the experimental data to estimate the Huang-Rhys parameter, S = 1 2 ∆ 2 , to quantify the lattice displacement (∆) due to exciton-phonon coupling. A direct correlation emerges between lattice displacement and octahedral distortion, with F-PEA experiencing the largest shift and Cl-PEA exhibiting the least, significantly influencing the fine structure features in absorption. Additionally, 2D electronic spectroscopy reveals that F-PEA, with the strongest polaronic coupling, exhibits the least thermal dephasing, supporting the polaronic protection hypothesis. Our findings suggest that systematic organic cation substitution serves as a tunable control for the fine structure in 2D-MHPs, and offers a pathway to mitigate many-body scattering effects by tailoring the polaronic coupling.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I. INTRODUCTION</head><p>Engineering the coupling between electronic excitations and lattice vibrations is crucial for optimizing the electronic, optical, and thermal properties of materials. This coupling significantly influences key optoelectronic parameters, including carrier mobility [1-4], thermal</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>conductivity <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref>, optical absorption coefficients <ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref>, luminescence quantum yields <ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref>, and exciton binding energies <ref type="bibr" target="#b8">[9,</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref>. Consequently, understanding and controlling the structural and chemical factors that govern electron-phonon coupling is essential for advancing the efficiency of optoelectronic devices. Furthermore, the interplay between charge carriers and lattice fluctuations can give rise to emergent phenomena relevant to quantum technologies, while simultaneously disrupting quantum coherence by opening multiple scattering pathways <ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref>. Therefore, tailoring electron-phonon coupling is imperative to achieve the desired material functionality for specific applications.</p><p>In semiconducting materials, polaronic effects are among the most relevant and striking manifestations of electron-lattice coupling <ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref>. These effects are particularly pronounced in polar semiconductors, where the interaction with lattice vibrations fundamentally shapes their electronic and optical properties <ref type="bibr" target="#b29">[30,</ref><ref type="bibr" target="#b30">31]</ref>. When a charge carrier moves through an ionic or polar crystal, its electric field interacts with the lattice atoms or ions, displacing them from equilibrium positions. This creates a localized distortion, or polarization, around the carrier, effectively coupling the charge carrier to the lattice vibrations <ref type="bibr" target="#b31">[32,</ref><ref type="bibr" target="#b32">33]</ref>. This combined entity of the charge carrier and its associated lattice distortion is known as a polaron. Polaronic coupling is typically quantified through a dimensionless coupling parameter, α, estimated using the known values of the phonon energy and the dielectric response function <ref type="bibr" target="#b33">[34]</ref>. A more direct estimation can be made by measuring the carrier's effective mass, where the mass enhancement factor directly reflects the strength of electron-phonon coupling <ref type="bibr" target="#b34">[35]</ref><ref type="bibr" target="#b35">[36]</ref><ref type="bibr" target="#b36">[37]</ref>. Alternatively, optical signatures such as vibronic replicas in absorption spectra <ref type="bibr" target="#b37">[38]</ref><ref type="bibr" target="#b38">[39]</ref><ref type="bibr" target="#b39">[40]</ref> or characteristic lineshapes in vibrational spectra <ref type="bibr" target="#b31">[32,</ref><ref type="bibr" target="#b40">41]</ref> can be used to quantitatively determine the degree and nature of lattice distortion induced by the electronic excitation.</p><p>In nanostructured material systems, electronic dynamics are often governed by Coulomb interactions between electrons and holes, forming bound pairs known as excitons <ref type="bibr" target="#b41">[42]</ref><ref type="bibr" target="#b42">[43]</ref><ref type="bibr" target="#b43">[44]</ref>.</p><p>Consequently, exciton-phonon coupling becomes a more relevant consideration. Although excitons are charge-neutral, the inherent and distinct lattice coupling of the constituent electrons and holes can still lead to substantial exciton-phonon interactions. This is particularly significant for materials such as III-V semiconductors hosting excitons with large Bohr radii (small exciton binding energies) and the exciton couples with long-range optical phonons <ref type="bibr" target="#b44">[45]</ref><ref type="bibr" target="#b45">[46]</ref><ref type="bibr" target="#b46">[47]</ref>. In contrast, for localized excitons with small radii, such as those in organic semiconductors, the coupling of excitons with high-frequency molecular vibrations is pri-marily driven by local atomic reorganization, quantified by the Huang-Rhys factors <ref type="bibr" target="#b47">[48]</ref><ref type="bibr" target="#b48">[49]</ref><ref type="bibr" target="#b49">[50]</ref>.</p><p>An intriguingly large coupling between high-binding energy excitons and low-energy lattice phonons is observed in some emerging organic-inorganic hybrid materials <ref type="bibr" target="#b50">[51]</ref><ref type="bibr" target="#b51">[52]</ref><ref type="bibr" target="#b52">[53]</ref>.</p><p>Prominent examples include hybrid 2D metal halides <ref type="bibr" target="#b53">[54,</ref><ref type="bibr" target="#b54">55]</ref>, which are derivatives of hybrid metal halide perovskites. In these systems, electronic excitations are confined within a quasi-2D layer of metal halide octahedra separated by long organic cations <ref type="bibr" target="#b55">[56]</ref><ref type="bibr" target="#b56">[57]</ref><ref type="bibr" target="#b57">[58]</ref>. We had previously suggested, based on the analysis of temperature-dependent optical lineshapes, that such intriguing behavior possibly originates from an interplay of long-range and shortrange exciton-lattice couplings mediated by the organic-inorganic interactions unique to these material systems <ref type="bibr" target="#b58">[59]</ref>, but is yet to be fully substantiated.</p><p>The mechanism of exciton-lattice coupling and the manifestation of polaronic effects in this class of materials has been extensively studied over the past decade <ref type="bibr" target="#b58">[59]</ref><ref type="bibr" target="#b59">[60]</ref><ref type="bibr" target="#b60">[61]</ref><ref type="bibr" target="#b61">[62]</ref><ref type="bibr" target="#b62">[63]</ref>, yet a consensus remains elusive. In particular, the role of the organic cation in influencing complex polar lattice dynamics and the lattice dressing of electronic excitations is not well understood. Organic cations, which occupy the vacancy between the octehedra, are typically terminated with an amine group and interact with halogen atoms through hydrogen bonding <ref type="bibr" target="#b63">[64,</ref><ref type="bibr" target="#b64">65]</ref>, which makes it imperative to consider how their chemical and structural properties impose local strain and lattice distortions. These interactions affect lattice parameters, especially the octahedral angles <ref type="bibr" target="#b65">[66]</ref><ref type="bibr" target="#b66">[67]</ref><ref type="bibr" target="#b67">[68]</ref>, which vary with the choice of organic cation. Additionally, the localized nature of these interactions introduces measurable variations in lattice parameters, contributing to static lattice disorder. While the impact of such lattice deviations on the electronic structure <ref type="bibr" target="#b65">[66,</ref><ref type="bibr" target="#b68">[69]</ref><ref type="bibr" target="#b69">[70]</ref><ref type="bibr" target="#b70">[71]</ref>, bandgap <ref type="bibr" target="#b71">[72]</ref><ref type="bibr" target="#b72">[73]</ref><ref type="bibr" target="#b73">[74]</ref><ref type="bibr" target="#b74">[75]</ref><ref type="bibr" target="#b75">[76]</ref>, and exciton binding energies <ref type="bibr" target="#b76">[77]</ref><ref type="bibr" target="#b77">[78]</ref><ref type="bibr" target="#b78">[79]</ref><ref type="bibr" target="#b79">[80]</ref> has been explored through both computational and experimental approaches, their effects on phonon energies, exciton-phonon interactions, and polaronic couplings remain underexplored. Furthermore, the substitution of organic cations simultaneously modifies both phonon couplings and intrinsic electronic properties <ref type="bibr" target="#b80">[81]</ref><ref type="bibr" target="#b81">[82]</ref><ref type="bibr" target="#b82">[83]</ref><ref type="bibr" target="#b83">[84]</ref><ref type="bibr" target="#b84">[85]</ref>, complicating the precise determination of mechanisms governing exciton-lattice coupling. This complexity underscores the importance of preserving the integrity of excitons in such studies.</p><p>We focus our studies on a prototypical 2D-MHP system, phenylethylammonium lead iodide, (PEA) 2 PbI 4 , which has been extensively studied in the field, and its halogenated derivatives, fluorinated/chlorinated phenylethylammonium lead iodide, (F/Cl -PEA) 2 PbI 4 .</p><p>(PEA) 2 PbI 4 provides us with an ideal platform to study exciton-phonon interactions, due to its unique exciton-lattice couplings and complicated excitonic fine structure at low temperature, composed of four distinguishable peaks with equal spacing of about ∆ ≈ 35 − 40 meV <ref type="bibr" target="#b58">[59]</ref>. It has been shown through resonant impulsive stimulated Raman scattering (RISRS) that different excitons induce unique lattice reorganization, which is proof of polaronic character <ref type="bibr" target="#b60">[61]</ref>, suggesting that the spectral fine structure portrays a family of coexisting excitons, with binding energy offset by ∆, each with a distinct lattice dressing <ref type="bibr" target="#b58">[59,</ref><ref type="bibr" target="#b60">61,</ref><ref type="bibr" target="#b85">[86]</ref><ref type="bibr" target="#b86">[87]</ref><ref type="bibr" target="#b87">[88]</ref><ref type="bibr" target="#b88">[89]</ref>. Crystallography and linear spectroscopy provide sufficient evidence that the excitonic landscape is remaining largely intact across the three variations, allowing us to only comment on changes concerning the organic-inorganic framework as a whole. Utilizing RISRS, we establish that the organic cation influences the nature of coupling between the exciton and local lattice vibrations, directly impacting the polaronic character of the excitons. Our findings indicate that a systematic substitution of the organic cation could provide researchers a control knob to tune the complicated fine structure present and mitigate many-body scattering effects in these materials by altering the degree of polaronic coupling.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II. RESULTS</head><p>It is well established that the choice of organic cation influences both the lattice parameters and electronic structure <ref type="bibr" target="#b68">[69,</ref><ref type="bibr" target="#b69">70,</ref><ref type="bibr" target="#b74">75]</ref>. In this study, we selected three cations-unsubstituted phenethylammonium (4-H), fluorine-substituted phenethylammonium at the fourth position (4-F), and chlorine-substituted phenethylammonium at the fourth position (4-Cl)-to minimize disruption to the lead-halide octahedral framework (Figs. <ref type="figure" target="#fig_0">1(a)-(c)</ref>). This approach ensures that the electronic structure and excitonic characteristics remain largely unaffected. Indeed, as shown in Fig. <ref type="figure" target="#fig_0">1(d)</ref>, the linear absorption spectra of all samples exhibit qualitatively similar features, with the primary exciton peak and carrier continuum edge appearing at the same energy position. However, we observe discernible differences in the exciton fine structure among the samples, which we will explore later in this manuscript. Previous studies have suggested that such optical lineshape variations may originate from lattice interactions. While the organic cation substitution does not significantly alter the average crystal structure, it is expected to influence lattice flexibility, potentially modulating its dynamic properties.</p><p>Organic-inorganic interactions in perovskites and their derivatives are primarily governed by hydrogen bonding between the amine group of the organic cation and the halide ion in the inorganic framework <ref type="bibr" target="#b89">[90]</ref><ref type="bibr" target="#b90">[91]</ref><ref type="bibr" target="#b91">[92]</ref>. These local interactions introduce static disorder by altering octahedral parameters, leading to average distortions in the unit cell. Such distortions significantly influence the electronic structure <ref type="bibr" target="#b92">[93]</ref><ref type="bibr" target="#b93">[94]</ref><ref type="bibr" target="#b94">[95]</ref><ref type="bibr" target="#b95">[96]</ref><ref type="bibr" target="#b96">[97]</ref><ref type="bibr" target="#b97">[98]</ref>. X-ray diffraction allows us to assess the structural variations induced by the organic cation substitution.</p><p>The X-ray diffraction patterns measured from the 2D MHP thin films used in this work are shown in Fig. <ref type="figure" target="#fig_6">2(c</ref>). These materials exhibit a preferred out-of-plane orientation, as indicated by the characteristic Bragg peaks corresponding to the {002} family of planes <ref type="bibr" target="#b98">[99,</ref><ref type="bibr" target="#b99">100]</ref>. All the materials form oriented Ruddlesden-Popper phases with varying interplanar distances, as evident from the spacing between the {002} planes. Among the samples, (Cl -PEA) 2 PbI 4 exhibits the greatest interplanar distance, while (PEA) 2 PbI 4 has the smallest. The diffraction patterns obtained for the thin films correlate well with previously reported single-crystal X-ray diffraction <ref type="bibr" target="#b100">[101]</ref>, as shown by the comparison between Fig. <ref type="figure" target="#fig_6">2(c</ref>) and Figure <ref type="figure" target="#fig_0">S1</ref>. The calculated thin-film XRD closely aligns with the simulated diffractogram for the &lt;001&gt; facet orientation, obtained from the single-crystalline data available in the literature <ref type="bibr" target="#b100">[101]</ref>.</p><p>To explore the structural differences induced using different cations, we focus on two parameters that are relevant for the electronic properties: equatorial distortion and bond angle variance, illustrated schematically in Fig. <ref type="figure" target="#fig_6">2(a)</ref>. We estimate these parameters from the single-crystal data, which was shown to accurately represent the average structure of our materials. The electronic structure and bandgap are particularly sensitive to equatorial distortion <ref type="bibr" target="#b74">[75]</ref>, which, as shown in Fig. <ref type="figure" target="#fig_3">2</ref>(b), remains largely consistent across the three samples studied. This aligns with the linear absorption data in Fig. <ref type="figure" target="#fig_0">1</ref> that suggests similar exciton and bandgap energies across the samples.</p><p>To quantify the angular distortions within the octahedra, we compute the Bond Angle Variance (σ 2 ), shown in Fig. <ref type="figure" target="#fig_6">2(d)</ref>, as a measure of deviation from the ideal bond angle of 90 • . This metric has been widely used to assess octahedral distortions in low-dimensional perovskites, providing a quantitative means to correlate structural variations with differences in optical properties <ref type="bibr" target="#b101">[102,</ref><ref type="bibr" target="#b102">103]</ref>. The bond angle variance (σ 2 ) is graphically represented in Fig. <ref type="figure" target="#fig_3">2</ref>(a) and is calculated using the following formula:</p><formula xml:id="formula_0">σ 2 = 1 m − 1 m i=1 (ϕ i − ϕ 0 ) 2<label>(1)</label></formula><p>Where ϕ i is the ith bond angle and ϕ 0 is the ideal bond angle for a regular octahedra shows the least distortion. The effect of octahedral distortion in 2D perovskites is not well understood, but it is believed that the disordered crystal structure has a role in the coupling enhancement between excitations and lattice distortions <ref type="bibr" target="#b103">[104]</ref><ref type="bibr" target="#b104">[105]</ref><ref type="bibr" target="#b105">[106]</ref>. We will comment on the bond angle variance differences later in the discussion section of this manuscript.</p><p>To investigate the impact of cation substitution on the motion of the metal-halide sublattice-specifically, the vibrational modes that couple directly with the exciton-we performed  The resulting modulation of the complex refractive index manifests as a time-dependent oscillatory signal in the differential transmission spectrum (Fig. <ref type="figure" target="#fig_6">S2</ref>). By performing a Fourier transform along the time axis, we extract the RISRS modulation maps, shown in Figs. <ref type="figure" target="#fig_5">3(a)-(c</ref>). It is important to note that the transmission modulations induced by the coherent vibrational wavepacket appear exclusively at specific probe wavelengths, exhibiting a distinct lineshape. The nature and implications of these lineshapes will be discussed in detail later in this manuscript.</p><p>Focusing exclusively on (PEA) 2 PbI 4 , we can draw key insights from the beating map displayed in Fig. <ref type="figure" target="#fig_5">3</ref>(a). In this figure, the black line represents the absorption spectrum, providing a reference for the excitonic resonances. Notably, the lower-energy exciton (X A ) exhibits a more pronounced modulation due to phonon interactions compared to the higherenergy exciton (X B ). This is evident from the characteristic dip in the modulation amplitude observed at the energy of X A , signaling stronger exciton-phonon coupling at this resonance.</p><p>To further analyze the phonon contributions, we integrate the data over the energy axis, yielding the Raman spectra shown in Fig. <ref type="figure" target="#fig_5">3(d</ref>). This spectrum is analogous to a continuous wave resonant Raman spectrum albeit obtained via impulsive excitation. The RISRS spectrum reveals the presence of at least four distinct phonon modes. The data for (PEA) 2 PbI 4</p><p>obtained in this study aligns well with previously reported Raman spectra from Thouin et al. <ref type="bibr" target="#b60">[61]</ref>. In that work, we demonstrated that different excitons drive distinct lattice reorganizations, thereby providing direct experimental evidence of their polaronic nature.  We observe phonon modes within a similar energy range across all samples, as evident in the integrated RISRS spectra shown in Fig. <ref type="figure" target="#fig_5">3</ref>(e) and (f). Given the energy range of these spectral modes, we attribute the observed phonons to the motion of the PbI with the coherently excited phonon <ref type="bibr" target="#b31">[32,</ref><ref type="bibr" target="#b40">41]</ref>. This characteristic spectral feature is typically seen in localized electronic excitations of organic chromophores coupled to molecular vibrations <ref type="bibr" target="#b106">[107]</ref><ref type="bibr" target="#b107">[108]</ref><ref type="bibr" target="#b108">[109]</ref><ref type="bibr" target="#b109">[110]</ref><ref type="bibr" target="#b110">[111]</ref><ref type="bibr" target="#b111">[112]</ref><ref type="bibr" target="#b112">[113]</ref><ref type="bibr" target="#b114">[114]</ref>. Similar spectral responses have been reported in 2D metal halides like (PEA) 2 PbI 4 and its derivatives, which have been interpreted-both by us <ref type="bibr" target="#b60">[61]</ref> and others <ref type="bibr" target="#b59">[60,</ref><ref type="bibr" target="#b61">62]</ref>-as signatures of polaronic coupling between excitons and lattice phonons. In this framework, the excitonic potential energy surface (PES) is displaced along the vibrational coordinates defined by the lattice phonons. The modulation strength and lineshape symmetry are linked to the extent of this displacement in the excited-state PES and the degree of anharmonicity in the potential.</p><p>The RISRS maps in Figs. <ref type="figure" target="#fig_5">3(a)-(c</ref>) reveal that the modulation associated with M 2 occurs exclusively at the energy of the dominant peak, X A , in the linear absorption of all samples.</p><p>In contrast, the modulation due to M 1 appears not only at X A but also at the higherenergy absorption peak, labeled X B . This observation suggests the presence of two distinct excitonic states, X A and X B , each interacting uniquely with the lattice phonons M 1 and M 2, and with distinct lattice displacements (Fig. <ref type="figure" target="#fig_5">3</ref>(g)). To further quantify these differences across the samples, we analyze the modulation amplitude spectra for M 1 and M 2, by taking vertical cuts of the RISRS map at the respective energies (see Fig. <ref type="figure" target="#fig_7">4</ref>(a)-(f) &amp; Fig. <ref type="figure" target="#fig_5">S3</ref>).</p><p>Researchers have measured similar amplitude profiles due to vibrational wavepackets since the 1990s, but until recently qualitative information has been difficult to extract <ref type="bibr" target="#b115">[115,</ref><ref type="bibr" target="#b116">116]</ref>.</p><p>Turner et. al. <ref type="bibr" target="#b117">[117]</ref><ref type="bibr" target="#b118">[118]</ref><ref type="bibr" target="#b119">[119]</ref>, developed an analytical model for femtosecond coherence spectra (FCS), which they define as the Fourier-domain amplitude and phase profiles, A(ω) and ϕ(ω), respectively, as a function of detection frequency, ω, for a chosen oscillation frequency, ω 0 . The model begins with the displaced harmonic oscillator model, where both the ground and excited electronic states are harmonic potential energy surfaces of frequency ω 0 , offset horizontally by a displacement ∆, which is directly related to the Huang-Rhys factor by S = 1 2 ∆ 2 . The vertical offset is represented by the exciton resonance energy ω eg . A doorwaywindow approach is used, where the vibrational wavepacket oscillating within the excited state PES is projected onto the ground state PES, and the Frank-Condon wavefunction overlap is determined <ref type="bibr" target="#b116">[116,</ref><ref type="bibr" target="#b118">118]</ref>.</p><p>The starting point of the model is the transient absorption data, S(ω, τ 2 ), where τ 2 is the pump probe delay and ω is the probe (detection) energy axis. A Fourier transform over the time interval results in a complex valued spectrum, M (ω, ω 2 ) = F[S(ω, τ 2 )]. The amplitude and phase profiles of a specific mode, with frequency ω 0 , are functions of detection frequency (ω), and given by, A(ω) = M (ω, ω 2 )| ω 2 =ω 0 . The two relevant equations for this model are:</p><formula xml:id="formula_1">M (ω; ω 0 ) = e −2S ∞ n,m m!S 2n+m+1 A n,m (S)A n+1,m (S) 1 ω − ω n+1,m + iγ/2 − 1 ω − ω n,m − iγ/2 (2)</formula><p>where the auxiliary functions are given by:</p><formula xml:id="formula_2">A a,b (S) = min[a,b] j=0 (−1) j S −j j!(a − j)!(b − j)!<label>(3)</label></formula><p>In these expressions, m and n index the vibrational eigenstates of the ground and excited electronic states respectively, and γ is the dephasing parameter. Physically Equations 2 and 3 represent that each FCS spectra is a collection of Lorentzian peaks, where each peak is broadened by γ and weighted by an auxiliary function, see Fig. <ref type="figure" target="#fig_8">5</ref>. The peaks overlap and lead to lineshapes similar to Fig. <ref type="figure" target="#fig_5">3(h</ref>). The fit parameters for this model are {S, γ, ω eg } where the phonon frequency, ω 0 , is defined directly from the measured spectra. Value restrictions can be placed on both γ and ω eg because they can be approximated from the linear absorption linewidths and the energy of the exciton resonance, respectively, leaving the only true fitting parameter to be S. This model was able to reproduce the M 2 modulation spectra of all three compounds shown in Fig. <ref type="figure" target="#fig_7">4</ref>(d)-(f), which follow the expected dual peak lineshape. However, as can be seen in Fig. <ref type="figure" target="#fig_7">4</ref> the lowest energy phonon mode (red) deviates from the two-peak structure seen in the second mode (blue), and a third peak is emerging at higher energies. For these low energy phonon modes, we expanded the model to include two distinct excited state potential energy surfaces, each for X A and X B respectively, see Equation <ref type="formula" target="#formula_3">4</ref>and Fig. <ref type="figure" target="#fig_5">3(g)</ref>,</p><p>where the relative weight of contribution for the X A and X B PESs were determined using the absorption spectrum (A = intensity of X A resonance and B = intensity of X B resonance).</p><formula xml:id="formula_3">M total (ω; ω 0 ) = A • M X A + B • M X B (<label>4</label></formula><formula xml:id="formula_4">)</formula><p>This analytical model enabled the extraction of the Huang-Rhys parameter, which is related to the equilibrium offset between the ground and excited state potential energy surfaces, and hence the extent of polaronic coupling. We highlight that the FCS model is the most accurate estimation of the Huang-Rhys parameter because it provides direct access to time-resolved exciton-phonon dynamics, unlike Raman or sideband methods which infer the Huang-Rhys parameter through steady-sate or frequency domain data. Additionally, the FCS method addresses the fact that phonon replicas in the Raman or photoluminescence spectra are difficult to deconvolute, as it resolves the exciton-phonon interactions temporally, enabling one to distinguish phonon modes with femtosecond precision, which is necessary for these systems as the phonon energies of interest are below 10 meV. In Figures <ref type="figure" target="#fig_7">4(g</ref>) and (h), we show the Huang-Rhys parameter associated with the two dominant vibrational modes (M 1 and M 2) for two distinct excitonic resonances (labeled X A and X B ) in the optical spectrum.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>III. DISCUSSION</head><p>For all systems considered, the PES of X A is displaced along coordinates associated with M 1 and M 2, while X B shifts exclusively along M 1. We first look at the displacement ∆ of X A along the M 2 mode, which has been identified as the dominant mode in the photoexcitation dynamics of the X A exciton <ref type="bibr" target="#b58">[59,</ref><ref type="bibr" target="#b60">61]</ref>. Among the compounds studies, (F -PEA) 2 PbI 4 exhibits the greatest dipplacment along M 2, while (Cl -PEA) 2 PbI 4 shows the least, with the non-halogenated compound displaying an intermediate value. Interestingly, the displacement of X A along M 1 coordinate, and qualitatively follows the opposite trend, albeit to a where n denotes the vibrational transition, that make up the X B resonance, and the sum of those peaks (black line).</p><p>lesser magnitude. Meanwhile, for X B , which is displaced solely along M 1, a similar trend emerges, with (F -PEA) 2 PbI 4 demonstrating the most significant phonon dressing.</p><p>A clear and striking correlation emerges between the trends in exciton-phonon coupling parameters shown in Fig. <ref type="figure" target="#fig_7">4</ref>(g) and the crystallographic parameters, particularly the bond angle variance (BAV) in Fig. <ref type="figure" target="#fig_6">2(d)</ref>. When bond angles are close to their ideal values, the structure is more rigid and less susceptible to external stress or deformation. Conversely, a higher BAV indicates increased structural flexibility <ref type="bibr" target="#b74">[75,</ref><ref type="bibr" target="#b120">120,</ref><ref type="bibr" target="#b121">121]</ref>, allowing the material to accommodate distortions induced by external forces. The lattice dressing effect in the presence of photocarriers, previously discussed as the polaronic effect, operates through Coulomb-mediated lattice deformations, which are directly linked to lattice flexibility. Our experimental results suggest that substituting PEA with F -PEA enhances the flexibility of the PbI 4 2− sub-lattice, influencing the lattice dressing of excitons. In contrast, substitution with the chlorinated compound leads to a more rigid sub-lattice. Notably, while the overall electronic structure remains largely unchanged across the samples, subtle local interactions are fine-tuned by organic cation substitution. These structural modifications have significant and observable effects on key spectral characteristics, which we will explore in the following sections.</p><p>The complex spectral fine structure, characterized by multiple transitions at the exciton energy, has been widely reported in numerous 2D metal-halide perovskites (2D-MHPs) incorporating various organic cations and halogens <ref type="bibr" target="#b28">[29,</ref><ref type="bibr" target="#b57">58,</ref><ref type="bibr" target="#b122">[122]</ref><ref type="bibr" target="#b123">[123]</ref><ref type="bibr" target="#b124">[124]</ref>. However, the origin of this fine structure remains an open question, with ongoing debate as to whether the observed transitions correspond to distinct excitonic states or a single transition exhibiting vibronic progression.</p><p>In our previous work, we argued that each observed peak in absorption and photoluminescence (PL)-denoted here as X A and X B -corresponds to distinct excitonic states.</p><p>However, we also noted the possible presence of additional peaks, obscured within the broad linewidths of the linear response, which may be attributed to phonon replicas. Indeed, , where n denotes the vibrational transition that makes up the X B resonance. The black line represents the sum of these peaks. It is evident that an increase (decrease) in lattice displacement enhances (suppresses) the Franck-Condon overlap of higher-lying vibrational states, leading to a quenched (enhanced) transition. Organic cation substitution can thus offer effective ways of fine-tuning the spectral characteristics of the excitons in 2D-MHPs, which we have recently argues plays a critical role in enabling their application in polariton lasers <ref type="bibr" target="#b19">[20,</ref><ref type="bibr" target="#b125">125]</ref>.</p><formula xml:id="formula_5">analysis</formula><p>Our findings further reinforce the hypothesis that photoexcitations in these materials must be understood within the exciton-polaron framework <ref type="bibr" target="#b58">[59]</ref>, which becomes particu-larly relevant when considering many-body scattering effects. Within this framework, the exciton resides within a self-induced deformation cloud, where both phonon-phonon and exciton-phonon interactions contribute to the thermal dephasing of excitons. This dephasing manifests as a temperature-dependent increase in the homogeneous linewidth, γ.</p><p>Previously, we noted that linear optical response does not provide direct access to γ <ref type="bibr" target="#b123">[123]</ref>,</p><p>necessitating the use of two-dimensional electronic spectroscopy (2DES) <ref type="bibr" target="#b85">[86,</ref><ref type="bibr" target="#b126">126]</ref> instead.</p><p>In Ref. <ref type="bibr" target="#b85">86</ref>, we employed 2DES to study thermal dephasing in (PEA) 2 PbI 4 , allowing us to estimate the corresponding exciton-phonon interaction parameter. Importantly, we distinguish between the exciton-phonon coupling parameters associated with lattice dressing and exciton scattering, as they stem from inherently different physical processes.</p><p>In this work, we extend our study to (F -PEA) 2 PbI 4 , applying 2DES to determine the temperature dependence of γ. By assuming that line broadening results from exciton scattering with a single thermally populated phonon mode, we fit γ to Eq. 3 to extract the effective energy (E LO ) of the scattered phonon and the effective interaction parameter (α LO ). The fitting result reveal an effective interaction parameter of α LO = 1.58 meV for (F -PEA) 2 PbI 4 , see Fig. <ref type="figure" target="#fig_7">S4</ref>, which is significantly lower than the previously reported value of α LO = 33 meV for (PEA) 2 PbI 4 <ref type="bibr" target="#b85">[86]</ref>.</p><p>Notably, when comparing both the exciton-phonon interaction and Huang-Rhys parameters of the two materials, we observe an inverse correlation: a higher Huang-Rhys parameter-indicative of stronger polaronic character-corresponds to a lower exciton scattering interaction parameter. This finding highlights the interplay between polaron formation and exciton-phonon scattering in 2D-MHPs. These observations suggest that within the excitonpolaron framework, the dominant mechanism governing thermal dephasing is exciton-phonon scattering, rather than longitudinal optical (LO) phonons scattering with other LO phonons.</p><p>Notably, in (F -PEA) 2 PbI 4 , the enhancement of polaronic character, coupled with a reduction in the interaction parameter, supports the previous hypothesis that lattice phonon dressing provides a protective effect for excitations <ref type="bibr" target="#b58">[59]</ref>. A comparative analysis of the interaction and Huang-Rhys parameters for (PEA) 2 PbI 4 and (F -PEA) 2 PbI 4 suggests that stronger lattice dressing effectively shields the exciton, mitigating scattering effects. This polaronic protection mechanism presents an intriguing avenue for material scientists seeking to suppress many-body scattering effects, potentially leading to significant enhancements in the performance of electronic and optoelectronic devices.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV. CONCLUSIONS</head><p>In summary, we have presented a comprehensive analysis detailing how exciton-phonon interactions are influenced by the organic cation, in 2D-MHP systems, specifically (PEA) 2 PbI 4 , (F -PEA) 2 PbI 4 , and (Cl -PEA) 2 PbI 4 . Linear spectroscopy and crystallography were utilized to confirm that the organic cation substitutions preserve the exciton landscape, while RISRS, crystallography, and the estimation of the Huang-Rhys parameter established that the organic cation and hence the degree of octahedral distortion influences the nature of coupling between the exciton and local lattice vibrations, directly impacting the polaronic nature of the excitons. It is evident from the analysis that careful engineering of the organic cation and the organic-inorganic interactions may offer a design route to control the degree of polaronic character of excitons, and possibly provide an avenue to control the fine structure and weaken the many-body scattering effects of 2D-MHPs, which is crucial for advancements in material science. Transient absorption spectroscopy measurements were performed using a pulsed femtosecond laser (Pharos Model PH1-20-0200-02-12, Light Conversion) emitting 1030nm pulses at 1kHz with a pulse duration of ∼200fs. The 2.88 eV pump beam was generated by feeding half of the laser output to a commercial optical parametric amplifier (Orpheus, Light Conversion) while 5 mW was focused onto a sapphire crystal to obtain a single filament white-light continuum covering the spectral range 450nm -800nm for the probe beam. The probe beam transmitted through the sample was detected by a high speed camera (FLC 3030, EB Stressing) in combination with a high resolution spectrometer (SpectraPro SP-2150, Princeton Instruments). All measurements were carried out in a vibration-free closed-cycle cryostation (Montana Instruments).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>D. Resonant Impulsive Stimulated Raman Scattering</head><p>The electronic dynamics are subtracted from the differential transmission spectra using a high-order polynomial fit (see Fig. <ref type="figure" target="#fig_6">SS2</ref>). The resulting modulated response is then fast Fourier transformed at each probe-energy to obtain a beating map. The Raman spectra shown in the text are obtained by integrating over the relevant probe energies (see Fig. <ref type="figure" target="#fig_5">3</ref>). </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIG. 1 .</head><label>1</label><figDesc>FIG. 1. (a)-(c) Structure schematic of (PEA) 2 PbI 4 , (F -PEA) 2 PbI 4 , and (Cl -PEA) 2 PbI 4 respectively. (d) Linear absorption spectra at 15 K for all three materials.</figDesc><graphic coords="6,170.82,72.00,268.62,226.77" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>( 90 •</head><label>90</label><figDesc>), which are estimated from the crystallographic data. Fig.2(d)shows the bond angle variance estimated for the three samples. The F-substituted cation (F -PEA) 2 PbI 4 exhibits the greatest octahedral distortion, followed by (PEA) 2 PbI 4 and then (Cl -PEA) 2 PbI 4 , which</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>resonant impulsive stimulated Raman scattering (RISRS) measurements on (PEA) 2 PbI 4 and its halogenated derivatives, (F -PEA) 2 PbI 4 and (Cl -PEA) 2 PbI 4 . In this technique, an ultrashort optical pulse impulsively excites the lattice, generating a coherent vibrational wavepacket-a collective superposition of all Raman-active vibrational modes. This wavepacket then oscillates along the potential energy surfaces of both the ground and excited electronic states, following the vibrational coordinates defined by the coupled phonon modes.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>FIG. 2 .</head><label>2</label><figDesc>FIG. 2. (a) Pictorial depiction of the equatorial distortion angle and the bond angle variance (σ 2 ) as a measure of deviation from the ideal bond angle of 90 • . Graphical representations of (b) the equatorial distortion angle, (c) the XRD patterns, and (d) the bond angle variance (σ 2 ) are shown for all three cations.</figDesc><graphic coords="8,78.35,72.00,453.54,283.46" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>That study, supported by density functional theory (DFT) calculations, established that all identified phonon modes in (PEA) 2 PbI 4 and below 10 meV originate from vibrations within the lead-iodide octahedral network.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>FIG. 3 .</head><label>3</label><figDesc>FIG. 3. (a)-(c) Linear absorption (black line) and beating spectra as a function of detection energies for (a) (PEA) 2 PbI 4 , (b) (F -PEA) 2 PbI 4 , and (c) (Cl -PEA) 2 PbI 4 . (d)-(f) Probe-energyintegrated vibrational spectra for (PEA) 2 PbI 4 , (F -PEA) 2 PbI 4 , (Cl -PEA) 2 PbI 4 respectively. All measurements were taken at 15 K. (g) Schematic of potential energy surfaces, where the potential energy surfaces of X A and X B are composed of distinct vibrational manifolds. (h) Schematic of the amplitude spectrum of phonon coherences induced by resonant impulsive stimulated Raman scattering (RISRS) at the excitonic resonance.</figDesc><graphic coords="9,78.22,306.16,453.82,226.78" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>4 2 −</head><label>2</label><figDesc>framework.Interestingly, although the inorganic sub-lattice remains largely intact across the different derivatives, distinct variations in the RISRS response are apparent. A particularly notable trend across both (PEA) 2 PbI 4 derivatives is the blue shift of the lowest-energy phonon, accompanied by an increase in its intensity as we move from the (F -PEA) 2 PbI 4 compound to (Cl -PEA) 2 PbI 4 . At present, crystallographic analysis does not reveal the structural variable responsible for this shift, leaving its origin an open question. For the sake of further discussion in this manuscript, we label the dominant modes as M 1 and M 2, which have different energies in each material, tabulated in Tab. I.Beyond changes in the eigenmode energies, we now examine how the RISRS response evolves across different probe energies. Vertical cuts along the beating energy axis of the probe-energy-resolved beating maps in Fig.3(a)-(c) exhibit a characteristic lineshape, schematically illustrated in Fig.3(h). Notably, at the exciton absorption peak energy, a distinct dip appears in the modulation spectrum. The observed dual-peak lineshape is a hallmark of vibrational wavepacket dynamics, where the exciton energy is modulated by the motion of a vibrational wavepacket along a real-space vibrational coordinate associated</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>FIG. 4 .</head><label>4</label><figDesc>FIG. 4. Spectral cuts of RISRS beating map and fitting results using Equations 2 and 3. This figure shows the modulation depth for phonon mode 1 (M 1) and phonon mode 2 (M 2), where spectral cuts were taken at (a) 2.3-2.9 meV and (d) 4.1-4.8 meV for (PEA) 2 PbI 4 ; (b) 3.6-4.1 meV and (e) 4.5-5.3 meV for (F -PEA) 2 PbI 4 ; (c) 3.6-4.4 meV and (f) 4.6-5.2 meV (Cl -PEA) 2 PbI 4 . The data is represented with open circles and the fit is the solid line. The offset between the ground and excited state potential energy surfaces calculated from the Huang-Rhys fitting parameter for (g) exciton A (X A ) and (h) exciton B (X B ).</figDesc><graphic coords="12,92.75,338.00,424.75,198.43" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>FIG. 5 .</head><label>5</label><figDesc>FIG. 5. The offset between the ground and excited state potential energy surfaces calculated from the Huang-Rhys fitting parameter for (a) exciton A and (b) exciton B. Linear absorption spectrum of (c) (PEA)PbI 4 , (d) (F -PEA)PbI 4 , and (e) (Cl -PEA)PbI 4 . (f)-(h) Represent the collection of Lorentzian peaks, weighted by F n0 = e −S S n n!</figDesc><graphic coords="14,149.22,72.00,311.81,218.27" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head></head><label></label><figDesc>based on the displaced oscillator model, used to interpret the Resonant Inelastic Scattering of Raman Signals (RISRS) response, predicts the presence of phonon replicas in the optical spectra. These replicas are separated by the characteristic phonon energies M 1 and M 2 and are weighted according to the estimated Huang-Rhys factors. Notably, variations in the relative intensities and linewidths of the exciton fine structure can be observed across different samples (see Fig. 1 and Figs. 5(a)-(c)). Specifically, in (F -PEA) 2 PbI 4 , the relative strength of X B appears quenched, whereas in (Cl -PEA) 2 PbI 4 , it is enhanced. To further investigate how lattice displacement influences the oscillator strength of the X B resonance, we examine its underlying vibronic structure. Figures 5(d)-(f) depict a collection of Lorentzian peaks weighted by the experimentally determined Franck-Condon factors, given by F n0 = e −S S n n!</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>V</head><label></label><figDesc>. AUTHOR CONTRIBUTIONS KAK performed the RISRS measurements, analyzed the data, and wrote the manuscript under the supervision of ARSK. MGD fabricated the samples and performed the crystallography analysis under the supervision of JPCB. ERG and KAK performed 2D spectroscopy under the supervision of ARSK. KBU participated in the collection of the RISRS data, and AE contributed to the FCS analysis. The project was conceived and coordinated by ARSK. VI. ACKNOWLEDGEMENTS JPCB and MGD were primarily supported by the National Science Foundation, Science and Technology Center Program (IMOD), under grant no. DMR-2019444. ARSK acknowledges funding from the National Science Foundation CAREER grant (CHE-2338663), startup funds from Wake Forest University, funding from the Center for Functional Materials at Wake Forest University. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors(s) and do not necessarily reflect the views of the National Science Foundation. The authors are grateful to Professor Carlos Silva for providing access to the 2D spectroscopy system, and to Professor Stephen Winter and Ramesh C. Ultrafast Transient Absorption Spectroscopy</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head></head><label></label><figDesc>FIG. S2. Linear absorption, transient absorption, and coherent phonon osciillations for (PEA) 2 PbI 4 (a)-(c), (F -PEA) 2 PbI 4 (d)-(f), and (Cl -PEA) 2 PbI 4 (g)-(i) respectively. All measurements were taken at 15 K.</figDesc><graphic coords="29,170.48,464.98,269.29,179.53" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="32,163.39,72.00,283.47,283.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>TABLE I .</head><label>I</label><figDesc>Dominant phonon mode (M 1 &amp; M 2) energies for (PEA) 2 PbI 4 , (F -PEA) 2 PbI 4 , and (Cl -PEA) 2 PbI 4 .</figDesc><table><row><cell>Mode PEA F -PEA Cl -PEA</cell></row><row><cell>M 1 2.6meV 3.8 meV 4 meV</cell></row><row><cell>M 2 4.4meV 4.9 meV 4.9 meV</cell></row></table></figure>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplemental Material: Fine-Tuning Exciton Polaron</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Characteristics via Lattice Engineering in 2D Hybrid Perovskites</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Sample Preparation</head><p>Glass slides were cleaned using sequential ultrasonic baths of acetone and isopropanol (IPA) for 15 minutes each, followed by nitrogen drying and UV-ozone treatment for 15 minutes. The perovskite precursor solutions were prepared by dissolving equimolar amounts of PbI 2 (purity &gt;99.99%) and the corresponding organic cation (phenethylammonium iodide (purity &gt;99.99%), 4F-phenethylammonium iodide (purity &gt;99.99%), 4Cl-phenethylammonium iodide (purity &gt;99.99%)) in N,N-dimethylformamide (purity &gt;99.98%) at a concentration of 0.13 M. After stirring overnight, the perovskite films were deposited by dispensing 80 µL of the precursor solution onto the 2.54 cm 2 clean DBR, then spin-coated at 6000 RPM for 30s with an acceleration of 6000 RPM/s. Immediately after deposition, the films were thermally annealed at 100 • C for 10 minutes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. X-Ray Diffraction (XRD)</head><p>The calculated thin-film XRD presented in Fig. <ref type="figure">2(c</ref>) closely aligns with the simulated diffractogram for the &lt;001&gt; facet orientation (Fig. <ref type="figure">S1</ref>), obtained from the single-crystalline data available in the literature <ref type="bibr" target="#b100">[101]</ref>. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>E. Two-Dimensional Electronic Spectroscopy</head><p>We employed 2D spectroscopy on (F -PEA) 2 PbI 4 using the previously implemented scheme <ref type="bibr" target="#b85">[86,</ref><ref type="bibr" target="#b86">87]</ref>, developed and described in detail by Turner and coworkers <ref type="bibr" target="#b126">[126]</ref>. The pulses used for these measurements were generated by a home-built single pass non-collinear optical parametric amplifier pumped by the third harmonic of a Yb:KGW ultrafast laser system (Pharos Model PH1-20-0200-02-10, Light Conversion) emitting 1030-nm pulses at 100kHz, with an output power of 20 W and pulse duration of 220-fs. The pulses were individually compressed using a home-built implementation of a pulse shaper using a chirp scan <ref type="bibr" target="#b127">[127]</ref>.</p><p>The resulting pulse duration was 25 fs full-width at half-maximum (FWHM), as measured by second-harmonic generation cross-frequency-resolved optical gating (SHG-XFROG). All measurements were carried out in a vibration-free closed-cycle cryostat (Montana Instruments).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>F. 1Q Rephasing Linewidth Analysis</head><p>Four wave mixing spectroscopy measures coherent emission due to a third-order polarization induced by a sequence of three phase-locked femtosecond pulses in a "boxcar" geometry.</p><p>The coherent emission is detected through spectral interferometry with a fourth attenuated pulse (local oscillator, LO) copropagating with the emitted field. We focus our analysis on the rephasing spectra where the emitted signal is acquired at ⃗ k sig = − ⃗ k a + ⃗ k b + ⃗ k c . This 2D lineshape allows for the separation of the homogeneous and inhomogenous broadening of the optical linewidths by simultaneously fitting the diagonal cut and antidiagonal cuts across the maximum of each diagonal features to the model described by the following equations <ref type="bibr" target="#b85">[86,</ref><ref type="bibr" target="#b128">128]</ref>:</p><p>and the diagonal lineshape,</p><p>We measured 2D 1Q rephasing spectra at various sample temperatures to analyze exciton dephasing, γ, as a function of temperature. The measured γ for the third diagonal feature corresponding to exciton B (X B ) is shown in Fig. <ref type="figure">S4</ref> as a function of a temperature. The measured values are fit to:</p><p>which assumes that line broadening arises from the scattering of excitons with a single thermally populated phonon mode with an effective energy E LO and an effective interaction parameter α LO .</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">High charge carrier mobilities and lifetimes in organolead trihalide perovskites</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wehrenfennig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Eperon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Herz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Materials</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page">1584</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Intrinsic charge transport across phase transitions in hybrid organo-inorganic perovskites</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">T</forename><surname>Yi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Podzorov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Materials</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="6509" to="6514" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Exciton-lattice phonon coupling in organic semiconductor crystals beyond the static disorder</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Raimondo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Silvestri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Borghesi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tavazzi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry C</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page" from="26248" to="26254" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Boosting exciton mobility approaching Mott-Ioffe-Regel limit in Ruddlesden-Popper perovskites by anchoring the organic cation</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Communications</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">1893</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Comprehensive first-principles analysis of phonon thermal conductivity and electron-phonon coupling in different metals</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Tong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Ruan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page">144306</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The effect of the electron-phonon coupling on the effective thermal conductivity of metal-nonmetal multilayers</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ordonez-Miranda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Alvarado-Gil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physics</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Ultralow lattice thermal conductivity in SnTe by manipulating the electronphonon coupling</title>
+		<author>
+			<persName><forename type="first">S.-X</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry C</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page" from="15996" to="16002" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Intrinsically ultralow thermal conductivity in Ruddlesden-Popper 2D perovskite Cs 2 PbI 2 Cl 2 : Localized anharmonic vibrations and dynamic octahedral distortions</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Acharyya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="15595" to="15603" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Exciton-phonon coupling and band-gap renormalization in monolayer WSe 2</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mishra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dhar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bhattacharya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page">45143</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Observation of exciton-phonon coupling in MoSe 2 monolayers</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shree</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page">35302</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Electron-phonon coupling contribution on the optical absorption and the dynamic of exciton-polaron in monolayer transition metal dichalcogenides</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nguepnang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Optical and Quantum Electronics</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="1" to="21" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Optical phonon interaction effects in layered semiconductor structures</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Sarma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mason</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annals of Physics</title>
+		<imprint>
+			<biblScope unit="volume">163</biblScope>
+			<biblScope unit="page" from="78" to="119" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Origin of singlet self-trapped exciton and enhancement of photoluminescence quantum yield of organic-inorganic hybrid antimony (III) chlorides with the [SbCl 5 ] 2− units</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Research</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="12680" to="12688" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Regulating exciton-phonon coupling to achieve a near-unity photoluminescence quantum yield in one-dimensional hybrid metal halides</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Luo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Science</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">2100786</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Pressure tailoring electron-phonon coupling toward enhanced yellow photoluminescence quantum yield and piezochromism</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Reports Physical Science</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Quantum and dielectric confinement effects in lowerdimensional hybrid perovskite semiconductors</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Katan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mercier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Even</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chemical Reviews</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="3140" to="3192" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Influence of exciton-phonons coupling on the exciton binding energy in monolayer transition metal dichalcogenides</title>
+		<author>
+			<persName><forename type="first">Z.-W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W.-P</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R.-Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z.-Q</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Physics Letters</title>
+		<imprint>
+			<biblScope unit="page">110</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Impacts of exciton binding energy and dielectric confinement of layered lead halide perovskites on carrier relaxation and exciton phonon interactions</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Marjit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Francis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Pati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Patra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry Letters</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="10900" to="10909" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Decoherence in semiconductor cavity QED systems due to phonon couplings</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kaer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mørk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page">35312</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Strong exciton-polariton correlations shape the many-body polariton dynamics in two-dimensional metal halide semiconductor microcavities: Competitive pathways for polariton condensation</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Quirós-Cordero</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2404.14744</idno>
+		<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Quantum coherence effect in the interaction of light and molecules</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Song</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Laser &amp; Photonics Reviews</title>
+		<imprint>
+			<biblScope unit="page">2400093</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Carriers, quasi-particles, and collective excitations in halide perovskites</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ramesh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Melvin Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Sum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chemical Reviews</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page" from="8154" to="8231" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Quantum dephasing in carbon nanotubes due to electron-phonon coupling</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Roche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Triozon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Saito</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page">76803</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Phonon dephasing dynamics in MoS 2</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Letters</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1434" to="1439" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Quantum coherence in electron-phonon coupled states in a semiconductor crystal</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Nakamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Takagi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Progress in Ultrafast Intense Laser Science XVII</title>
+				<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2024">2024</date>
+			<biblScope unit="page" from="101" to="118" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Strong polaronic effect in a superatomic two-dimensional semiconductor</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Roy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Chemical Physics</title>
+		<imprint>
+			<biblScope unit="volume">152</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Polarons and charge localization in metal-halide semiconductors for photovoltaic and light-emitting devices</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Buizza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Herz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Materials</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<date type="published" when="2021">2007057. 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Polaron effects in asymmetric semiconductor quantum-well structures</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><surname>-J</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X.-Q</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z.-X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-H</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X.-Y</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page">4670</biblScope>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Polarons in materials</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Franchini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Reticcioli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Setvin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Diebold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Reviews Materials</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="560" to="586" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Effective electron-hole interactions in polar semiconductors</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mahanti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Varma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">2209</biblScope>
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Optical properties of excitons in polar semiconductors: energies, oscillator strengths, and phonon side bands</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Matsuura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Büttner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page">679</biblScope>
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lanzani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Cerullo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>De Silvestri</surname></persName>
+		</author>
+		<title level="m">Coherent Vibrational Dynamics</title>
+				<imprint>
+			<publisher>CRC Press</publisher>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Emin</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Polarons</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<publisher>Cambridge University Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Optical properties of large and small polarons and bipolarons</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Emin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page">13691</biblScope>
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Ruthenium under ultrafast laser excitation: Model and dataset for equation of state, conductivity, and electron-ion coupling</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Petrov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Data in Brief</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page">104980</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Electron-acoustic phonon interaction in semiconductor nanostructures: Role of deformation variation of electron effective mass</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Pipa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Vagidov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Mitin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stroscio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page">235322</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Effective mass of electron in monolayer graphene: Electron-phonon interaction</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Tiras</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physics</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Optical signatures of the coupling between excitons and charge transfer states in linear molecular aggregates</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Manrho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Jansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Knoester</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Chemical Physics</title>
+		<imprint>
+			<biblScope unit="volume">156</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Vibronic spectra of impurity-related optical centers in diamond</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zaitsev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page">12909</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Vibrational spectroscopy of compound semiconductor nanocrystals</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Dzhagan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Azhniuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Milekhin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zahn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physics D: Applied Physics</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page">503001</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Coherent phonon dynamics in semiconducting carbon nanotubes: A quantitative study of electron-phonon coupling</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lüer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page">127401</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Exciton dynamics in semiconductor nanocrystals</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Wheeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Z</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Materials</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="2878" to="2896" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Excitons in nanoscale systems</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Scholes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rumbles</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Materials</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="683" to="696" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Exciton and carrier dynamics in two-dimensional perovskites</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Burgos-Caminal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Socie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Bouduban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-E</forename><surname>Moser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry Letters</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="7692" to="7701" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Large polarons in lead halide perovskites</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Miyata</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science Advances</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">e1701217</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Evidence of polaron formation in halide perovskites via carrier effective mass measurements</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PRX Energy</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">13001</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Evidence of large polarons in photoemission band mapping of the perovskite semiconductor CsPbBr 3</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Puppin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="page">206402</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Excitons and polarons in organic materials</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ghosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">C</forename><surname>Spano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Accounts of Chemical Research</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="2201" to="2211" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">The spectral signatures of Frenkel polarons in H-and J-aggregates</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">C</forename><surname>Spano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Accounts of Chemical Research</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="429" to="439" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Alexandrov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Polarons in advanced materials</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<date type="published" when="2008">2008</date>
+			<publisher>Springer Science &amp; Business Media</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Excitons in hybrid organic-inorganic perovskites. Hybrid Organic Inorganic Perovskites</title>
+		<author>
+			<persName><forename type="first">Z.-G</forename><surname>Yu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Hybrid Organic Inorganic Perovskites: Physical Properties</title>
+				<imprint>
+			<date type="published" when="2022">2022</date>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="195" to="239" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Coherent exciton-lattice dynamics in a 2D metal organochalcogenolate semiconductor</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Powers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Matter</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1612" to="1630" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Real-time observation of exciton-phonon coupling dynamics in self-assembled hybrid perovskite quantum wells</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="10834" to="10843" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Dynamic exciton polaron in two-dimensional lead halide perovskites and implications for optoelectronic applications</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Accounts of Chemical Research</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="345" to="353" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Excitons in 2D organic-inorganic halide perovskites</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Mauck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Tisdale</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Chemistry</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="380" to="393" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Narrow linewidth excitonic emission in organic-inorganic lead iodide perovskite single crystals</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Diab</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry Letters</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="5093" to="5100" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Optical spectroscopy of two-dimensional layered (C 6 H 5 C 2 H 4 -NH 3 ) 2 -PbI 4 perovskite</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Gauthron</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Optics Express</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="5912" to="5919" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Understanding quantum confinement of charge carriers in layered 2D hybrid perovskites</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Even</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pedesseau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Katan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemPhysChem</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="3733" to="3741" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Exciton polarons in two-dimensional hybrid metal-halide perovskites</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Srimath Kandada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Silva</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry Letters</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="3173" to="3184" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Exciton polaron formation and hot-carrier relaxation in rigid Dion-Jacobsontype two-dimensional perovskites</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Biswas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Materials</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Phonon coherences reveal the polaronic character of excitons in twodimensional lead halide perovskites</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Thouin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Materials</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="349" to="356" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Electronic states modulation by coherent optical phonons in 2D halide perovskites</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Materials</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page">2006233</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">2D hybrid perovskites: From static and dynamic structures to potential applications</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Duan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Materials</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page">2403455</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Spacer organic cation engineering for quasi-2D metal halide perovskites and the optoelectronic application</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Samll Structures</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">2100232</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Role of A-site cation hydrogen bonds in hybrid organic-inorganic perovskites: A theoretical insight</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry Letters</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="802" to="810" />
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Mixed A-cation perovskites for solar cells: atomic-scale insights into structural distortion, hydrogen bonding, and electronic properties</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ghosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Islam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chemistry of Materials</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="5194" to="5204" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">The effects of organic cation rotation in hybrid organic-inorganic perovskites: A critical review</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Xie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials &amp; Design</title>
+		<imprint>
+			<biblScope unit="volume">221</biblScope>
+			<biblScope unit="page">110951</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">A study on the effects of mixed organic cations on the structure and properties in lead halide perovskites</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Chemistry Chemical Physics</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="3105" to="3111" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Cation role in structural and electronic properties of 3D organic-inorganic halide perovskites: A DFT analysis</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Giorgi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-I</forename><surname>Fujisawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Segawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yamashita</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry C</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="12176" to="12183" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Computational design of twodimensional perovskites with functional organic cations</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Maheshwari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Savenije</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Renaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">C</forename><surname>Grozema</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry C</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="17118" to="17122" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">The effect of the magnitude and direction of the dipoles of organic cations on the electronic structure of hybrid halide perovskites</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Maheshwari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Patwardhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Schatz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Renaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">C</forename><surname>Grozema</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Chemistry Chemical Physics</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="16564" to="16572" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Structure-electronic property relationships of 2D Ruddlesden-Popper tin-and lead-based iodide perovskites</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Zibouche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Islam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Applied Materials &amp; Interfaces</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="15328" to="15337" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Revealing the role of organic cations in hybrid halide perovskite CH 3 NH 3 PbI 3</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Motta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Communications</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Effects of thermal disorder on the electronic structure of halide perovskites: Insights from MD simulations</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mladenović</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Vukmirović</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Chemistry Chemical Physics</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="25693" to="25700" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Relationships between distortions of inorganic framework and band gap of layered hybrid halide perovskites</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">I</forename><surname>Marchenko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chemistry of Materials</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="7518" to="7526" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Ab initio modeling of 2D layered organohalide lead perovskites</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fraccarollo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Cantatore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Boschetto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Marchese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cossi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Chemical Physics</title>
+		<imprint>
+			<biblScope unit="volume">144</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Tunable exciton binding energy in 2D hybrid layered perovskites through donor-acceptor interactions within the organic layer</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>Passarelli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Chemistry</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="672" to="682" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Organic cation rotation and immobilization in pure and mixed methylammonium lead-halide perovskites</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Selig</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page" from="4068" to="4074" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Effects of molecular dipole orientation on the exciton binding energy of CH 3 NH 3 PbI 3</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Motta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mandal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sanvito</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page">45202</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Rotational dynamics of organic cations in the CH 3 NH 3 PbI 3 perovskite</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Chemistry Chemical Physics</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="31278" to="31286" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Electrons, excitons, and phonons in two-dimensional hybrid perovskites: connecting structural, optical, and electronic properties</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Straus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Kagan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry Letters</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1434" to="1447" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Impact of cation modification on phonon-dressed exciton dynamics in a prototype two-dimensional hybrid organic-inorganic perovskite system</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ruan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Chemical Physics</title>
+		<imprint>
+			<biblScope unit="volume">158</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">How lattice dynamics moderate the electronic properties of metal-halide perovskites</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Herz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry Letters</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="6853" to="6863" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Rotational cation dynamics in metal halide perovskites: Effect on phonons and material properties</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename><surname>Gallop</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry Letters</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="5987" to="5997" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Influence of dynamic disorder and charge-lattice interactions on optoelectronic properties of halide perovskites</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Munson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Asbury</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry C</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="page" from="5427" to="5435" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Enhanced screening and spectral diversity in many-body elastic scattering of excitons in twodimensional hybrid metal-halide perovskites</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Thouin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cortecchia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Petrozza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Srimath Kandada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Silva</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Research</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">32032</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">Stable biexcitons in two-dimensional metal-halide perovskites with strong dynamic lattice disorder</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Thouin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Materials</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">34001</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main">Exciton-polaron spectral structures in two-dimensional hybrid lead-halide perovskites</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Neutzner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Materials</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">64605</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Electron-phonon couplings inherent in polarons drive exciton dynamics in two-dimensional metal-halide perovskites</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Thouin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chemistry of Materials</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="7085" to="7091" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main">Hydrogen bonding and stability of hybrid organic-inorganic perovskites</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>El-Mellouhi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemSusChem</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="2648" to="2655" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main">Hybrid organic-inorganic perovskites on the move</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Egger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Rappe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kronik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Accounts of Chemical Research</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="573" to="581" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title level="a" type="main">Dynamic structural property of organic-inorganic metal halide perovskite</title>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Iscience</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<analytic>
+		<title level="a" type="main">Engineering the effective mass in 2D perovskites via octahedral distortion</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Peksa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry C</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page" from="17984" to="17989" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<analytic>
+		<title level="a" type="main">Tuning the band gap in hybrid tin iodide perovskite semiconductors using structural templating</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Knutson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Mitzi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Inorganic Chemistry</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="4699" to="4705" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<analytic>
+		<title level="a" type="main">Photophysics two-dimensional semiconducting organicinorganic metal-halide perovskites</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Straus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Kagan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Physical Chemistry</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="403" to="428" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<analytic>
+		<title level="a" type="main">Broad tunability of carrier effective masses in two-dimensional halide perovskites</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dyksik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Energy Letters</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="3609" to="3616" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<analytic>
+		<title level="a" type="main">Phase-transition-induced carrier mass enhancement in 2D Ruddlesden-Popper perovskites</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Baranowski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Energy Letters</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="2386" to="2392" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b97">
+	<analytic>
+		<title level="a" type="main">Evolution of the electronic and excitonic properties in 2D Ruddlesden-Popper perovskites induced by bifunctional ligands</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Energy Materials</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">2304345</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b98">
+	<analytic>
+		<title level="a" type="main">How to GIWAXS: Grazing Incidence Wide Angle X-Ray Scattering applied to metal halide perovskite thin films</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Steele</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Energy Materials</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">2300760</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b99">
+	<analytic>
+		<title level="a" type="main">Influence of annealing and composition on the crystal structure of mixedhalide, Ruddlesden-Popper perovskites</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Wright</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chemistry of Materials</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="3109" to="3122" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b100">
+	<analytic>
+		<title level="a" type="main">Longer cations increase energetic disorder in excitonic 2D hybrid perovskites</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Straus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry Letters</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1198" to="1205" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b101">
+	<analytic>
+		<title level="a" type="main">Electronic state modulation by large A-site cations in quasi-two-dimensional organic-inorganic lead halide perovskites</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chemistry of Materials</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="289" to="294" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b102">
+	<analytic>
+		<title level="a" type="main">Cation engineering in two-dimensional Ruddlesden-Popper lead iodide perovskites with mixed large A-site cations in the cages</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="4008" to="4021" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b103">
+	<analytic>
+		<title level="a" type="main">Unlocking surface octahedral tilt in two-dimensional Ruddlesden-Popper perovskites</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Communications</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">138</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b104">
+	<analytic>
+		<title level="a" type="main">Octahedral distortions generate a thermally activated phonon-assisted radiative recombination pathway in cubic CsPbBr 3 perovskite quantum dots</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">L</forename><surname>Cherrette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Babbe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Z</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry Letters</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="8717" to="8725" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b105">
+	<analytic>
+		<title level="a" type="main">Octahedral distortion induced phonon vibration and electrical conduction in A 2 NdSbO 6 (A= Ba</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Halder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Sheikh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ghosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sinha</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Chemistry and Physics</title>
+		<imprint>
+			<biblScope unit="volume">199</biblScope>
+			<biblScope unit="page" from="508" to="521" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b106">
+	<analytic>
+		<title level="a" type="main">Spectroscopic studies of cryptophyte light harvesting proteins: Vibrations and coherent oscillations</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Arpin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry B</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="10025" to="10034" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b107">
+	<analytic>
+		<title level="a" type="main">Broad-band pump-probe spectroscopy quantifies ultrafast solvation dynamics of proteins and molecules</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Jumper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry Letters</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="4722" to="4731" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b108">
+	<analytic>
+		<title level="a" type="main">The photocycle and ultrafast vibrational dynamics of bacteriorhodopsin in lipid nanodiscs</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Johnson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Chemistry Chemical Physics</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="21310" to="21320" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b109">
+	<analytic>
+		<title level="a" type="main">Conical intersection dynamics of the primary photoisomerization event in vision</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Polli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">467</biblScope>
+			<biblScope unit="page" from="440" to="443" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b110">
+	<analytic>
+		<title level="a" type="main">Following photoinduced dynamics in bacteriorhodopsin with 7-fs impulsive vibrational spectroscopy</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kahan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Nahmias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Friedman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sheves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ruhman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="page" from="537" to="546" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b111">
+	<analytic>
+		<title level="a" type="main">Visualization of coherent nuclear motion in a membrane protein by femtosecond spectroscopy</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Vos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rappaport</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-C</forename><surname>Lambry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Breton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-L</forename><surname>Martin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">363</biblScope>
+			<biblScope unit="page" from="320" to="325" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b112">
+	<monogr>
+		<title level="m" type="main">Theory of dynamic absorption spectroscopy of nonstationary states</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">T</forename><surname>Pollard</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b113">
+	<analytic>
+		<title level="a" type="main">Application to 12-fs resonant impulsive Raman spectroscopy of bacteriorhodopsin</title>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="6147" to="6158" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b114">
+	<analytic>
+		<title level="a" type="main">Coherent oscillations in the PC577 cryptophyte antenna occur in the excited electronic state</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Mcclure</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Arpin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mirkovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Scholes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry B</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="1296" to="1308" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b115">
+	<analytic>
+		<title level="a" type="main">Analysis of femtosecond dynamic absorption spectra of nonstationary states</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">T</forename><surname>Pollard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Mathies</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Physical Chemistry</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="497" to="523" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b116">
+	<monogr>
+		<title level="m" type="main">Principles of nonlinear optical spectroscopy</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mukamel</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b117">
+	<analytic>
+		<title level="a" type="main">Characterizing mode anharmonicity and Huang-Rhys factors using models of femtosecond coherence spectra</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Barclay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry Letters</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="5413" to="5423" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b118">
+	<analytic>
+		<title level="a" type="main">Basis set truncation further clarifies vibrational coherence spectra</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Arpin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chemical Physics</title>
+		<imprint>
+			<biblScope unit="volume">539</biblScope>
+			<biblScope unit="page">110948</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b119">
+	<analytic>
+		<title level="a" type="main">Signatures of vibrational and electronic quantum beats in femtosecond coherence spectra</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Arpin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Turner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry A</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="page" from="2425" to="2435" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b120">
+	<analytic>
+		<title level="a" type="main">Angular rigidity in tetrahedral network glasses with changing composition</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bauchy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B-Condensed Matter and Materials Physics</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page">54201</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b121">
+	<analytic>
+		<title level="a" type="main">The floppiness of it all: bond lengths change with atomic displacement parameters and the flexibility of various coordination tetrahedra in zeolitic frameworks. an empirical structural study of bond lengths and angles</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Baur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">X</forename><surname>Fischer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chemistry of Materials</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="2401" to="2420" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b122">
+	<analytic>
+		<title level="a" type="main">Many-exciton quantum dynamics in a Ruddlesden-Popper tin iodide</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rojas-Gatjens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry C</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="page" from="21194" to="21203" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b123">
+	<analytic>
+		<title level="a" type="main">Homogeneous optical line widths in hybrid ruddlesden-popper metal halides can only be measured using nonlinear spectroscopy</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Srimath Kandada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Bittner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Silva-Acuña</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry C</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="5378" to="5387" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b124">
+	<analytic>
+		<title level="a" type="main">Polarons in halide perovskites: a perspective</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ghosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Welch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Neukirch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zakhidov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tretiak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The journal of physical chemistry letters</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="3271" to="3286" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b125">
+	<monogr>
+		<title level="m" type="main">Multiple emission peaks hinder polariton condensation in 2d perovskite microcavities</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gomez-Dominguez</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b126">
+	<analytic>
+		<title level="a" type="main">Invited article: The coherent optical laser beam recombination technique (colbert) spectrometer: Coherent multidimensional spectroscopy made easier</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">W</forename><surname>Stone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Gundogdu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Nelson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Review of Scientific Instruments</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b127">
+	<analytic>
+		<title level="a" type="main">Self-referenced characterization of femtosecond laser pulses by chirp scan</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Loriot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gitzinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Forget</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Optics Express</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="24879" to="24893" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b128">
+	<analytic>
+		<title level="a" type="main">Resonance lineshapes in two-dimensional Fourier transform spectroscopy</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Siemens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Moody</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Bristow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Cundiff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Optics Express</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="17699" to="17708" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
