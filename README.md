@@ -14,7 +14,7 @@ Abrir un terminal y escribir el siguiente comando:
 (Para abir un servidor en docker con grobid en segundo plano)
 
 **4.**
-EN el mismo terminal abierto, nos metemos en la carpeta grobid_client_python
+En el mismo terminal abierto, nos metemos en la carpeta grobid_client_python
 y compilamos mediante **python procesar_pdfs**
 
 **5.**
