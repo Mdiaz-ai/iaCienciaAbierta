@@ -27,7 +27,7 @@ Una vez procesados nos moveremos a la carpeta salida, donde se habrán generado 
  
  **pip install numpy**
  
- **pip install pillow** ) 
+ **pip install pillow** 
 
 Así mismo se se está utilizando una version de python anterior a la 3.5 sería necesario también (**pip install xml.etree.ElementTree**).
 
