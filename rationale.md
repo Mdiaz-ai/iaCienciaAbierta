@@ -2,7 +2,7 @@
 
 ### 1. Nube de palabras
 - **Método**: 
-  - Verificación manual de 3 artículos seleccionados al azar
+  - Verificación manual de 10 artículos seleccionados al azar
   - Comparación de palabras clave con los abstracts originales
   - Eliminación de stopwords personalizadas (términos metodológicos genéricos)
 - **Herramientas**: 
