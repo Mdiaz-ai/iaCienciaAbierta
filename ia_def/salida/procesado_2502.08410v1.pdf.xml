@@ -1,0 +1,1586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Preprint vs 1 Structural and optical properties of in situ Eu-doped ZnCdO/ZnMgO superlattices grown by plasma-assisted molecular beam epitaxy</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Anastasiia</forename><surname>Lysak</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Aleksandra</forename><surname>Wierzbicka</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Sergio</forename><surname>Magalhaes</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Piotr</forename><surname>Dłużewski</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Rafał</forename><surname>Jakieła</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Michał</forename><surname>Szot</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Zeinab</forename><surname>Khosravizadeh</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Abinash</forename><surname>Adhikari</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Adrian</forename><surname>Kozanecki</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ewa</forename><surname>Przeździecka</surname></persName>
+						</author>
+						<title level="a" type="main">Preprint vs 1 Structural and optical properties of in situ Eu-doped ZnCdO/ZnMgO superlattices grown by plasma-assisted molecular beam epitaxy</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">9D01E5238209AEB5898593D0D81139E9</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.2" ident="GROBID" when="2025-02-25T09:51+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In situ Eu-doped ZnCdO/ZnMgO superlattices (SLs) with varying ZnCdO:Eu and ZnMgO sublayers thicknesses were deposited by plasma assisted molecular beam epitaxy. The influence of Eu doping into ZnCdO quantum wells on structural and optical properties of superlattices were investigated using X-ray diffraction (XRD), transmission electron microscopy (TEM), secondary ion mass spectrometry (SIMS), cathodoluminesence (CL) with a scanning electron microscope (SEM), and UV-Vis spectroscopy. Cross-sectional high resolution TEM images and SIMS depth profile measurements confirmed the high quality of as-grown ZnCdO:Eu/ZnMgO periodic structures. XRD analysis revealed the single-phase ZnO wurtzite structure of the samples. The CL spectra of both as-grown and annealed {ZnCdO/ZnMgO}22 SLs doped with Eu show the dominant near-band-edge peak as well as the broad band attributed to deep-level emission. The characteristic emission peak at ~616 nm, corresponding to the 5 D0→ 7 F2 transitions of Eu 3+ ions was observed. Furthermore, the intensity of the red luminescence increased after annealing at 700°C, while a subsequent increase in the annealing temperature leads to a reduction in intensity. The analysis of CL spectra showed that native defects are involved in energy transfer from the ZnCdO host matrix to Eu 3+ ions.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Wide-band gap (WBG) semiconductors doped with rare earth (RE) elements such as Ce, Er, Eu, Tb, etc., have become the subject of considerable attention due to their unique properties and potential for use in a wide range of applications <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref> . Among RE elements, Europium (Eu) exhibits distinctive luminescence characteristics, in particular red emission at ~615 nm, associated with the intra 4f-shell transition between the 5 D0 and 7 F2 states <ref type="bibr" target="#b4">[5]</ref> . However, the efficiency of Eu luminescence strongly depends on the host matrix <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b5">6]</ref> . One of the promising host materials for doping with Eu is zinc oxide (ZnO), due to its unique properties such as a large direct band gap of 3.37 eV and a high exciton binding energy of 60 meV <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b6">7]</ref> . The band gap energy of ZnO can be modulated from visible to deep UV region by creating ternary solid alloys (ZnCdO, ZnMgO, ZnBeO, etc.). In this way, it is possible to control the optical properties of ZnO-based materials <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b8">9]</ref> . While most researchers focus on investigation of Eu-doped ZnO <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref> , the properties of ZnO-based quantum structures doped with Eu ions are poorly studied <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b16">17]</ref> . Based on the literature, it is well known that Eu-doped AlGaN/GaN quantum structures demonstrated an increase in the red emission efficiency compared to III-V bulk materials <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref> thus studying ZnO-based quantum structures doped with Eu may be more suitable for future optoelectronic applications.</p><p>Molecular beam epitaxy (MBE) is one of the suitable methods for deposition of ZnO-based quantum structures. This method allows precise control of the composition and sublayer thicknesses <ref type="bibr" target="#b20">[21,</ref><ref type="bibr" target="#b21">22]</ref> . Additionally, it allows for the introduction of doping during the growth process into the entire structure or only into quantum wells or barriers <ref type="bibr" target="#b22">[23]</ref> . It is known that ion implantation of quantum structures can cause deformation and/or diffusion intermixing of sublayer materials, thereby increasing the number of defects in the samples <ref type="bibr" target="#b23">[24]</ref> . This can be avoided by using the in-situ doping technique.</p><p>In this work, the structural and optical properties of in-situ Eu-doped {ZnCdO/ZnMgO}22 superlattices (SLs) grown by plasma assisted MBE were investigated. The influence of annealing at different temperatures on the optical properties of SLs has been studied.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Experimental</head><p>In-situ Eu-doped ZnCdO/ZnMgO superlattices (SLs) with varying sublayer thicknesses were grown on commercially available m-plane sapphire (10.0) substrates by plasma assisted molecular beam epitaxy (PA-MBE) in a Riber Compact 21 system. Before growth, the m-plane sapphire (Al2O3) substrates were chemically cleaned in a H2SO4:H2O2 (1:1) mixture. Thermal purification of the substrates was carried out at a temperature of 150°C for 1 hour in the loading chamber and then the substrates were transferred to the growth chamber where they were annealed in vacuum at 700°C and then for 30 minutes in an oxygen (O2) plasma. During the growth process, the radio-frequency (RF) power of the oxygen plasma was fixed at 240 W with an O2 gas flow rate of 3 sccm. All in-situ Eu-doped ZnCdO/ZnMgO SLs were grown at 360°C (temperature measured with a thermocouple). High purity Zn (6 N), Mg (6 N), Cd (6 N), and Eu (4 N) elements were used as sources from the Knudsen effusion cells. The fluxes of Mg, Cd and Eu were 5.9•10 -8 , 9.0•10 -8 and 0.5•10 -8 Torr, respectively. Varying sublayer thicknesses in the SL structures were achieved by different temperatures of the Zn effusion cell. The zinc flux was 3.7•10 -7 and 2.5•10 -7 Torr for samples A and B, respectively. Eu doping was done during the growth process into ZnCdO quantum wells (QWs). The ZnCdO:Eu and ZnMgO sublayers thicknesses (𝒉) were controlled by adjusting the deposition time (2 minutes each). The number of sublayer pairs in the periodical structures was 22. The resulting structures corresponding to sample A was {ZnCdO:Eu13nm/ZnMgO12.5nm}22 and for sample B: {ZnCdO:Eu10.5nm/ZnMgO10nm}22.</p><p>Post-growth thermal treatment of Eu-doped {ZnCdO/ZnMgO}22 SLs was carried out in a rapid thermal processing (RTP) system (AccuThermo AW610 from Allwin21 Inc.) at different temperatures (700°C, 800°C and 900°C) in an oxygen atmosphere for 1 minute.</p><p>The structural properties of these periodical structures were investigated by high resolution X-ray diffraction (HR XRD) using an X'Pert Pro-MRD Panalytical diffractometer with CuKα1 radiation. The diffraction patterns were collected over 28°-118°. The 10.0 2θ-ω scans were simulated utilizing the MROX 2.0 software, a widely recognized tool for simulating these scans based on the dynamical theory of X-ray diffraction for various Bravais lattices such as cubic, hexagonal, tetragonal, orthorhombic, and monoclinic structures (lattices) <ref type="bibr" target="#b24">[25,</ref><ref type="bibr" target="#b25">26]</ref> . The software incorporates instrumental broadening effects by employing a Pseudo-Voigt function (PV) and Kalfa2 residuals as a secondary PV in the diffractograms. The fitting process was achieved through combinations of Genetic and Pattern Search Algorithms <ref type="bibr" target="#b24">[25,</ref><ref type="bibr" target="#b25">26]</ref> . The as-deposited SLs were studied by transmission electron microscopy with use of a Titan 80-300 Cube microscope operating at 300 kV and equipped with an EDX spectrometer. The focused ion beam (FIB) technique was used to prepare the samples for cross-sectional imaging. The measurements SIMS (Secondary Ion Mass Spectrometry) were carried out using the CAMECA IMS6F system. A Cs+ primary beam with an energy of 5.5 keV and a constant current of 100 nA was microscope (SEM) equipped with a Gatan MonoCL 3 cathodoluminescence (CL) system and liquid helium cooled cryo-stage was used. The CL spectra of Eu-doped {ZnCdO/ZnMgO}22 SLs before and after annealing were collected using a primary electron beam with an energy of 𝑬 𝑩 = 10 keV and a current of 𝑰 𝑩 = 12 nA. Transmittance spectra were studied at room temperature (RT) using a Jasco V-700 spectrophotometer in the range from 300 to 700 nm.  <ref type="table" target="#tab_0">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">TEM analysis</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cross</head><p>No mismatch dislocations were found at the layer interfaces, but the existence of threading or other dislocations on at the block boundaries is not excluded. The lack of mismatch dislocations at the interfaces between the layers suggests the existence of stresses inside these layers [ Fig 2]. The Geometric Phase Analysis (GPA) method was used to examine the strain in the growth direction i.e. for (10.1) interplanar distances in areas of single blocks [in Fig. <ref type="figure" target="#fig_3">2 marked A, B and C</ref>] <ref type="bibr" target="#b26">[27,</ref><ref type="bibr" target="#b27">28]</ref> . The analysis showed the existence of  Additionally, for both samples a diffracted signal marked as 10.3 was registered. It corresponds to the presence of a twin structure in samples A and B. Similar behavior was already observed in our previous works <ref type="bibr" target="#b28">[29,</ref><ref type="bibr" target="#b29">30]</ref> and it is described in the literature for m-plane ZnO sample <ref type="bibr" target="#b30">[31]</ref><ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref> . Using the expression <ref type="bibr" target="#b29">[30]</ref>   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">XRD analysis</head><p>where 𝑰 (𝒉𝒌𝒍) is the measured relative intensity, 𝑰 (𝒉𝒌𝒍) 𝒐 is the standard signal intensity of the (𝒉𝒌𝒍) plane taken from the JCPDS data, the ratios of 10.0 and 10.3 peak intensities were obtained. For the sample A, the intensity 𝑰 𝟏𝟎.𝟎 𝑰 𝟏𝟎.𝟑 ⁄ the ratio is ~314 while for sample B is ~10. The calculated ratios indicate fewer amounts of twins for sample A compared to sample B. In sample B the crystallographic structure has greater disorder therefore the intensity ratio is more than 30 times smaller than in sample A.</p><p>For a thorough analysis of the examined structures high resolution X-ray diffraction measurements were performed. 2θ/ω scans were presented on Fig. <ref type="figure" target="#fig_4">3(b, c</ref>). For sample A, characteristic satellite peaks (𝑺 𝟏 and 𝑺 −𝟏 ) surrounding the main peak (𝑺 𝟎 ) were observed, confirming the good quality of the periodic superlattice structures [Fig. <ref type="figure" target="#fig_4">3(b)</ref>]. For sample B [Fig. <ref type="figure" target="#fig_4">3(c)</ref>] the satellite peaks coming from the SL are hidden in the zeroth order peak (S0). This is related to the worse quality of this SL and the broadening of the S0 peak. Theoretical XRD data were modeled using the MROX software [red lines in Fig. <ref type="figure" target="#fig_4">3(b, c</ref>)] and they correlate perfectly with the experimental XRD curves [black lines in Fig. <ref type="figure" target="#fig_4">3(b, c</ref>)]. Simulation of the XRD data allowed us to obtain average thicknesses of individual ZnCdO:Eu and ZnMgO sublayers. These values agree well with the thicknesses observed in the TEM images (Table <ref type="table" target="#tab_0">1</ref>). The absence of satellite peaks for sample B is explained by the worse crystallographic quality of the SL, occurrence of additional planes orientation and also by the design structure (composition and sublayer thickness), as confirmed by simulations (Fig. <ref type="figure" target="#fig_4">3(c)</ref>). Also, the broadening of satellite peaks and loss of long-range order may lead to deformations in the structure, disorder at the interfaces and variations in the thickness of individual layers <ref type="bibr" target="#b33">[34]</ref> .</p><p>The accurate values of the lattice constant 𝒂 and 𝒄 for the as-deposited superlattice structures were calculated from the HRXRD maps (not shown here) using a 20.0 symmetrical reflection and a 20.-3 asymmetrical reflection. The obtained values are presented in Table <ref type="table" target="#tab_0">1</ref>. Description of the procedure of measurements of lattice parameters with uncertainties was proposed by Fewster <ref type="bibr" target="#b34">[35]</ref> .</p><p>The lattice constants differ slightly in comparison to the lattice constants given in the standard data for bulk ZnO (𝒂 𝟎 = 𝟑. 𝟐𝟒𝟗 Å and 𝒄 𝟎 = 𝟓. 𝟐𝟎𝟓 Å, JCPDS 00-005-0664). For both samples we obtain smaller value of the c-lattice parameters and higher value of the a-lattice parameters. The higher difference in the lattice parameter was observed for sample B. Kumar et al. <ref type="bibr" target="#b4">[5]</ref> reported an increase in the lattice parameter in ZnO:Eu 3+ nanophosphors, correlating with higher Eu doping concentrations. This is due to the incorporation of Eu ions into the ZnO-host matrix, which have a larger ionic radius than Zn ions <ref type="bibr" target="#b4">[5]</ref> .</p><p>These ions occupy Zn 2+ lattice sites, thus leading to the expansion of interatomic distances and consequently, to an increase in the lattice constants.. Additionally, an increase in the lattice parameters may be due to the presence of Cd 2+ ions in the ZnO wurtzite lattice <ref type="bibr" target="#b8">[9]</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">Band gap energy</head><p>The band gap (𝑬 𝒈 ) of as-grown Eu-doped {ZnCdO/ZnMgO}22 SLs was determined from the transmission spectra [Fig. <ref type="figure" target="#fig_6">4</ref>(a)] using the Tauc's relation <ref type="bibr" target="#b35">[36]</ref> 𝜶𝒉𝝂 = 𝜷(𝒉𝝂 − 𝑬 𝒈 ) 𝒏 , (2) where α is the absorption coefficient, 𝒉𝝂 is the photon energy, 𝜷 is a constant, and 𝒏 is a number characterizing the transition process. For allowed direct transitions <ref type="bibr" target="#b36">[37]</ref> , 𝒏 = 𝟏 𝟐 ⁄ , and for allowed indirect transitions, 𝒏 = 𝟐. The optical band gap was estimated by extrapolating the linear regions of the Tauc's plot ((𝜶𝒉𝝂) 𝟐 = 𝒇(𝒉𝝂)) to zero [Fig. <ref type="figure" target="#fig_6">4(b)</ref>]. The values of band gaps are listed in Table <ref type="table" target="#tab_0">1</ref>.</p><p>It is well-known from the literature that an increase in the Eu concentration in ZnO and CdMgZnO samples typically leads to a reduction in the band gap <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b37">38]</ref> . However, in superlattices, the band gap is influenced by a complex interaction of multiple factors, including sublayers composition and their thicknesses, lattice deformations and mismatches between layers and also quantum effects <ref type="bibr" target="#b28">[29,</ref><ref type="bibr" target="#b38">39]</ref> . In our case, a smaller value of the band gap is observed for the superlattice with the thinnest ZnCdO:Eu and ZnMgO sublayers (sample B).</p><p>The Urbach energy (𝑬 𝒖 ) related to the tail of states localized within the band gap, can be found using the following dependence <ref type="bibr" target="#b39">[40,</ref><ref type="bibr" target="#b40">41]</ref> ,</p><formula xml:id="formula_1">𝜶 = 𝜶 𝟎 𝒆𝒙𝒑 ( 𝒉𝝂 𝑬 𝒖 ),<label>(3)</label></formula><p>where 𝜶 𝟎 is a constant. The value of 𝑬 𝒖 was estimated from the inverse dependence of the slope 𝒍𝒏(𝜶) on (𝒉𝝂) as shown in Fig. <ref type="figure" target="#fig_6">4(c)</ref>). The values of 214 meV and 233 meV were obtained for sample A and B, respectively (Table <ref type="table" target="#tab_0">1</ref>). A higher Urbach energy value is observed for sample B, which is consistent with TEM and XRD measurements that indicate a worse periodic structure in this sample compared to sample A. profiles is a measurement artifact associated with the matrix effect that occurs when measuring a stepwise changing matrix element content <ref type="bibr" target="#b41">[42]</ref> . Previous studies have demonstrated the clear identification of individual CdO and ZnO layers in SIMS depth profiles in as-deposited {CdO/ZnO}m SLs on m-plane Al2O3 using the MBE method <ref type="bibr" target="#b42">[43]</ref> . After annealing the SL structures at various temperatures in an O2 atmosphere for 1 minute, the oscillations intensity in the SIMS depth profile for Mg, Cd and Eu elements decrease with rising RTP temperatures. Less pronounced oscillations of SIMS profiles indicate the mutual diffusion of all elements. It should be noted that diffusion is more active in the ZnCdO:Eu sublayers. At 900°C, the periodic structure of superlattices almost disappears, and the corresponding SIMS depth profiles showed the flattened lines for the Cd and Eu ion signals. Weak oscillations remain visible for the Mg depth profile.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">Elemental composition</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SIMS depth profiles of</head><p>In Zn(Cd,MgS)Se/ZnSe SL structures, the diffusion process of Mg and Cd elements was studied, and it was found that Mg ions were more stable than Cd ions <ref type="bibr" target="#b37">[38,</ref><ref type="bibr" target="#b43">44]</ref> . It was noted that the Mg diffusion coefficient is orders of magnitude smaller than the diffusion coefficient of Cd under comparable conditions <ref type="bibr" target="#b37">[38]</ref> . Cd segregation at the layer-substrate interface was observed in {CdO/ZnO}m SLs after annealing at 900°C for 5 minutes in an O2 atmosphere <ref type="bibr" target="#b42">[43]</ref> . Meanwhile, the homogeneity of Cd distribution in annealed periodical structures dependeds on the thickness of the CdO and ZnO layers.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4">Optical properties</head><p>Cathodoluminescence (CL) spectra were obtained for both as-deposited and annealed {ZnCdO:Eu/ZnMgO}22 SLs at low (LT ~5 K) and at room (RT) temperatures. The normalized CL spectra presented in Fig. <ref type="figure" target="#fig_8">6</ref> are similar to each other. All CL spectra demonstrate a dominant near-band-edge (NBE) emission peak at 377±4 nm associated with radiative recombination of free excitons <ref type="bibr" target="#b44">[45]</ref> . In addition to the NBE emission, a broad visible luminescence covering the range of 430-660 nm is observed. Typically, broadband emission in the visible region is associated with deep level structural defects such as oxygen vacancies (Vo), oxygen interstitials (Oi), oxygen antisites (OZn), zinc vacancies (VZn), zinc interstitials (Zni) or zinc antisites (ZnO) <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b45">46]</ref> . In the low-energy region of the spectra, well resolved luminescence lines, due to the 5 D1→ 7 FJ (J = 0-4) Eu 3+ intra-4f <ref type="bibr" target="#b5">6</ref> shell transitions are visible <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b13">14]</ref> .</p><p>The high-energy peak at ~344±1 nm corresponds to the emission originating from the ZnMgO barrier layer <ref type="bibr" target="#b32">[33]</ref> . This peak is more visible at low temperatures than at room temperature (Fig. <ref type="figure" target="#fig_8">6</ref>). For the {ZnCdO:Eu13nm/ZnMgO12.5nm}22 SL (sample A), the peak disappears after RTP above 700°C. In contrast, for the {ZnCdO:Eu10.5nm/ZnMgO10nm}22 SL (sample B), the peak intensity decreases, but it remains visible at low temperatures even after annealing at 900°C. For sample B, the NBE peak shifted to higher energy in comparison with the peak position for sample A. This shift, as well as the emission from the ZnMgO barrier layer after annealing at 900°C, may be associated with a higher Mg content in the structure B <ref type="bibr" target="#b7">[8]</ref> . The full width at half maximum (FWHM) of the dominant NBE peak increases with rising annealing temperature and a stronger effect is observed for sample A compared to sample B. The lower FWHM value observed for as-deposited superlattices may indicate a smaller number of structural defects and better optical qualities of these samples <ref type="bibr" target="#b46">[47]</ref> . In the CL spectra in Fig. <ref type="figure" target="#fig_8">6</ref>(a) a broad emission band from 430 to 660 nm, originating from structural defects in the superlattices is observed. The green band at ~545 nm is probably the result of electron recombination in single ionized oxygen vacancies with photo excited holes in the valence band <ref type="bibr" target="#b44">[45]</ref> . For example, Ton-That et al. <ref type="bibr" target="#b47">[48]</ref> showed that for Zn-and O-rich ZnO particles, the green emission bands in the luminescence spectra are located at ~492 nm and ~539 nm. Pan et al. <ref type="bibr" target="#b12">[13]</ref> attributed the green luminescence at ~515 nm in ZnO:Eu nanowires to Eu impurities. The intensity of the deep level emission (DLE) of {ZnCdO:Eu/ZnMgO}22 samples changed with the annealing temperature. For example, Lee et al. observed for ZnO films grown on silicon wafers using an RF magnetron sputtering after RTP conducted in an O2 atmosphere at a pressure of 1 Torr at temperatures from 500 to 1000°C for 3 minutes, an increase in the intensity of peaks related to Oi and OZn defects above 900°C, while the peak associated with Vo practically did not change its intensity over the entire annealing temperature range <ref type="bibr" target="#b48">[49]</ref>  Fig. <ref type="figure" target="#fig_8">6</ref> also shows the typical peak positions of the Eu 3+ emission due to the 5 D0 → 7 F0,1,2,3,4 intra-4f-shell transitions (580, 590, 616, 653, and 703 nm) <ref type="bibr" target="#b13">[14]</ref> . The red emission line at ~616 nm due to the 5 D0 → 7 F2 stimulated electric dipole transition mechanism dominates in all samples <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b12">13]</ref> . The intensity of 5 D0 → 7 F2 transition increases as the symmetry of the Eu 3+ centers decreases <ref type="bibr" target="#b4">[5]</ref> . The appearance of characteristic intra-4f shell transitions of RE is associated with host-guest energy transfer (ET), probably involving the ZnO defect states. Layek et al. <ref type="bibr" target="#b45">[46]</ref> attributed the increase in the intensity of visible luminescence in RE 3+ ions doped ZnO nanorods to a large number of defects resulting from the incorporation of RE 3+ ions into the ZnO lattice. As a consequence, energy transfer occurs from the defect states of ZnO to the RE 3+ guest ions.</p><p>Fig. <ref type="figure" target="#fig_8">6</ref> shows that annealing at 700°C leads to an increase in the intensity of the 616 nm line. For sample A, an increase in the annealing temperature leads to a decrease in the red emission intensity. For sample B, the emission intensity originating from Eu 3+ decreased after annealing at 800°C. Suzuki et al. <ref type="bibr" target="#b11">[12]</ref> also observed a gradual decrease in the red emission intensity for Eu-doped ZnO nanocrystalline material as the annealing temperature increased from 533 to 633K. They suggested that the charge-transfer (CT) band shifts to higher energies regions with increasing annealing temperature, and may merge with the conduction band. This shift was explained by the increase in the band gap of ZnO nanoparticles and covalency between Eu and O atoms. The efficiency of energy transfer from oxygen atoms in the host crystals to the 4f-orbital states of Eu ions via CT is probably increased due to the fact that the CT band partially overlaps the band gap. Comparing the CL spectra, we might suggest that the presence of defects increases the efficiency of energy transfer from the host lattice to the luminescence centers.</p><p>The black points in Fig. <ref type="figure">7</ref> shows the ratio of NBE to DLE emission intensities as a function of the annealing temperature for both samples at 300K. It should be noted, that the 𝑰 𝑵𝑩𝑬 𝑰 𝑫𝑳𝑬 ⁄ ratio reveals a similar trend in both structures. The red points in Fig. <ref type="figure">7</ref> show the change in the integrated 5 D0 → 7 F2 peak area at RT with the change in annealing temperature. The choice of 𝑰 𝑵𝑩𝑬 𝑰 𝑫𝑳𝑬 ⁄ ratio and the peak area can be justified. The highest intensity of the red line is observed for the lowest 𝑰 𝑵𝑩𝑬 𝑰 𝑫𝑳𝑬 ⁄ ratio, which may indicate active participation in energy transfer from the host material to Eu ions through defect states <ref type="bibr" target="#b14">[15,</ref><ref type="bibr" target="#b45">46,</ref><ref type="bibr" target="#b49">50]</ref> . Based on the analysis of CL spectra, the electronic energy level diagram for the {ZnCdO:Eu/ZnMgO}22 SLs is illustrated in Fig. <ref type="figure">8</ref>.</p><p>The International Commission on Illumination (CIE) color coordinates (𝒙, 𝒚) for both superlattice structures at RT are listed in Table <ref type="table" target="#tab_1">2</ref> and plotted on the CIE chromaticity diagram, as shown in Fig. <ref type="figure">9</ref>. The CIE parameters for 2 samples after annealing at 700°C are located in the orange-red region of the diagram and confirm the conclusions made after analyzing the CL spectra (see Fig. <ref type="figure" target="#fig_8">6</ref>). Analysis of the CL spectra (Fig. <ref type="figure" target="#fig_8">6</ref> and Fig. <ref type="figure">9</ref>) for both structures suggests that red emission is more effective for superlattices with thinner sublayers, (sample B). This effect could be attributed to quantum effects in the {ZnCdO:Eu10.5nm/ZnMgO10nm}22 SL or to the higher Mg concentration in the ZnMgO barriers, which improves the Eu 3+ emission. Additionally, sample B has comparatively poorer crystallographic quality as shown by TEM and XRD measurements as well as a higher Urbach parameter compared to sample A. Consequently, a greater number of structural defects may be involved in energy transport between the host-matrix and Eu 3+ ions in the {ZnCdO:Eu10.5nm/ZnMgO10nm}22 SL. The detailed mechanisms of europium emission in superlattices, in particular ZnCdO/ZnMgO structures, require further investigation.  </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>-sectional high-angle annular dark-field scanning transmission electron microscopy (HAADF/STEM) images of as-grown Eu-doped {ZnCdO/ZnMgO}22 SLs samples A and B are shown in Fig 1. The images demonstrate a well-defined periodic layered structures consisting of arrays of bright and dark stripes corresponding to ZnCdO:Eu QWs and ZnMgO barriers, respectively. The first few layers are almost perfect, but as the thickness increases, disturbances appear in the form of vertical blocks. The sample A shows a well-defined layered structure consisting of vertical blocks approximately 150 nm wide in contrast to sample B, which reveals a worse morphology and a larger number of vertical blacks about 50 nm wide. It is worth noting the difference in the surface roughness visible in Fig 1: ~14.34 nm for sample A and ~32.88 nm for sample B. The Eu and Zn concentration profiles in the graphs have common maxima, while the Mg concentration is slightly higher for sample B. The layer thicknesses are presented in Table</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. The STEM/HAADF images of (a) samples A {ZnCdO:Eu13nm/ZnMgO12.5nm}22 SL and (b) samples B {ZnCdO:Eu10.5nm/ZnMgO10nm}22 SL together with line profiles of elements' concentration along the growth direction.</figDesc><graphic coords="2,67.65,364.70,474.95,142.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 (</head><label>3</label><figDesc>a) presents XRD patterns of as-deposited Eu-doped {ZnCdO/ZnMgO}22 SLs grown on m-plane Al2O3 substrate. The XRD patterns reveal that samples A and B have the hexagonal structure of ZnO (JCPDS Card 00-005-0664). For both samples the XRD signal coming from the m-plane sapphire substrate (JCPDS Card 00-050-0792) [marked as (*) in Fig. 3(a)] was recorded. Moreover, for sample A only the wurtzite 10.0, 20.0 and 30.0 diffracted intensities were observed. For sample B diffraction peaks from additional wurtzite orientations are indicated, namely 00.2, 11.0. Diffraction peaks associated with impurities or secondary phases (rocksalt CdO, MgO and/or Eu2O3) were not observed.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. STEM/HAADF images of (a) sample A and (b) sample B together with strain profiles in the growth direction. The stress profiles in the growth direction were analysed in the areas marked A (red), B (green), and C (blue) and their values are plotted on the right side of the figures.</figDesc><graphic coords="3,193.38,131.60,158.87,177.87" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 3 (</head><label>3</label><figDesc>Fig. 3(a) Low resolution XRD patterns of as-grown {ZnCdO:Eu/ZnMgO}22 SLs with varying Zn content. The black vertical dotted lines correspond to the peak positions of wurtzite ZnO and asterisks (*) indicates the peak originated from the Al2O3 substrate; (b) High resolution XRD 2θ-ϖ scans of the 10.0 peaks for as-grown {ZnCdO:Eu13.0nm/ZnMgO12.5nm}22 SL and (c) for as-grown {ZnCdO:Eu10.5nm/ZnMgO10nm}22 SL. The XRD experimental data are shown as black lines and the simulation results as red lines.</figDesc><graphic coords="3,171.36,468.65,240.59,205.14" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>5 .</head><label>5</label><figDesc>Eu-doped {ZnCdO/ZnMgO}22 SLs before and after annealing at different temperatures are shown in Fig. The depth profiles clearly reveal the presence of alternating layers of ZnCdO:Eu and ZnMgO in the superlattice structures. As expected, each Cd and Eu peak is accompanied by a minimum of the Mg peak at the same depth position. The oscillations of the Eu, Cd and Mg signals, are repeated 22 times in agreement with the designed structures. The periodicity of elemental signals is more pronounced in the SIMS depth profiles of as-grown {ZnCdO:Eu13nm/ZnMgO12.5nm}22 SL (sample A). This observation is in good agreement with the TEM measurements of the as-deposited sample A [see Fig. 1(a)]. The lack of periodicity in the SIMS signal in the {ZnCdO:Eu10.5nm/ZnMgO10nm}22 SL (sample B) is due to the lower depth resolution of SIMS measurement caused by the increased surface roughness seen in TEM measurement [Fig. 1(b)]. Undulation of the Zn and O</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 4 (</head><label>4</label><figDesc>Fig. 4 (a) The normalized transmission spectra; (b) Tauc's plots of as-grown samples; (c) semi-logarithmic dependence of the absorption coefficient on photon energy for {ZnCdO:Eu/ZnMgO}22 and {ZnCdO:Eu/ZnMgO}22 SLs.</figDesc><graphic coords="5,181.10,70.85,228.64,179.34" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. SIMS depth profiles of as-grown and annealed at different temperatures SLs: (a) {ZnCdO:Eu13nm/ZnMgO12.5nm}22 SL and (b) {ZnCdO:Eu10.5nm/ZnMgO10nm}22.</figDesc><graphic coords="6,98.15,70.85,342.90,236.54" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. Semi-logarithmic plot of the normalized CL spectra of as-grown and annealed (a) {ZnCdO:Eu13nm/ZnMgO12.5nm}22 SL at RT; (b) {ZnCdO:Eu10.5nm/ZnMgO10nm}22 SL at RT; (c) {ZnCdO:Eu13nm/ZnMgO12.5nm}22 SL at LT; and (d) {ZnCdO:Eu10.5nm/ZnMgO10nm}22 SL.</figDesc><graphic coords="7,70.85,93.35,410.75,266.29" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 7 .Fig. 8 .</head><label>78</label><figDesc>Fig. 7. INBE⁄IDLE ratio and integrated 5 D0 → 7 F2 peak area as a function of annealing temperature.</figDesc><graphic coords="8,153.35,180.30,239.95,159.09" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Thickness of sublayers, lattices parameters, Urbach and band gap energy of as-grown {ZnCdO:Eu/ZnMgO}22 SLs</figDesc><table><row><cell></cell><cell>TEM</cell><cell></cell><cell></cell><cell></cell><cell>XRD</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Sample</cell><cell>ℎ ZnCdO:Eu ±1 (nm)</cell><cell>ℎ ZnMgO ±1 (nm)</cell><cell>ℎ ZnCdO:Eu ±1 (nm)</cell><cell>ℎ ZnMgO ±1 (nm)</cell><cell>𝒂±0.003 (Å)</cell><cell>𝒄 ±0.003 (Å)</cell><cell>𝑬 𝒈 ±0.005 (eV)</cell><cell>𝑬 𝑼 ±5 (meV)</cell></row><row><cell>A</cell><cell>13</cell><cell>12.5</cell><cell>10.5</cell><cell>10.5</cell><cell>3.252</cell><cell>5.203</cell><cell>3.318</cell><cell>214</cell></row><row><cell>B</cell><cell>10.5</cell><cell>10</cell><cell>10</cell><cell>10</cell><cell>3.254</cell><cell>5.171</cell><cell>3.306</cell><cell>233</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>CIE coordinates of Eu-doped {ZnCdO/ZnMgO}22 SLs before and after annealing in an O2 for 1 minute at room temperature.</figDesc><table><row><cell></cell><cell cols="2">Room temperature</cell><cell></cell></row><row><cell>Sample</cell><cell></cell><cell>𝑥</cell><cell>𝑦</cell></row><row><cell>Sample A</cell><cell>As-grown</cell><cell>0.3</cell><cell>0.275</cell></row><row><cell></cell><cell>RTP 700°C</cell><cell>0.321</cell><cell>0.307</cell></row><row><cell></cell><cell>RTP 800°C</cell><cell>0.242</cell><cell>0.195</cell></row><row><cell></cell><cell>RTP 900°C</cell><cell>0.246</cell><cell>0.223</cell></row><row><cell>Sample B</cell><cell>As-grown</cell><cell>0.293</cell><cell>0.257</cell></row><row><cell></cell><cell>RTP 700°C</cell><cell>0.34</cell><cell>0.313</cell></row><row><cell></cell><cell>RTP 800°C</cell><cell>0.308</cell><cell>0.271</cell></row><row><cell></cell><cell>RTP 900°C</cell><cell>0.267</cell><cell>0.246</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgements</head><p>Acknowledgements This work was supported in part by the Polish National Science Center, Grants No. 2021/41/B/ST5/00216 and 2019/35/B/ST8/01937,. The author S. Magalhaes was suporrted by Portuguese Foundation for Science and Technology (FCT) in the framework of the Plurianual Strategic Funding UIDB/50010/2020, UIDP/50010/2020, LA/P/0061/2020. The author M. Schot was suporrted by "MagTop" project (FENG.02.01-IP.05-0028/23) carried out within the "International Research Agendas" programme of the Foundation for Polish Science co-financed by the European Union under the European Funds for Smart Economy 2021-2027 (FENG).</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>In situ Eu-doped {ZnCdO/ZnMgO}22 SLs with varying sublayer thicknesses were successfully deposited by plasmaassisted molecular beam epitaxy on m-plane Al2O3 substrates. The structural and optical properties of these samples were characterized using XRD, TEM, UV-Vis spectroscopy, and CL techniques. We observed that the structure with wider ZnCdO:Eu and ZnMgO layers has better crystallographic quality compared to the superlattice with thinner sublayers. This result was confirmed by the analysis of TEM and XRD measurements. A deformation of ~1% in the growth direction (10.1) was found for both structures. SIMS depth profiles for as grown samples demonstrate fluctuations in the Eu, Cd, Zn and Mg signals reflecting the periodic nature of the structures. In the as-grown SLs, emission in the UV region dominates, and the emission line at 616 nm corresponding to the transition 5 D0→ 7 F2 is also observed. To optimize the emission efficiency of Eu 3+ ions, the samples were annealed at several temperatures under oxygen flow. The amplitude of SIMS signals is reduced with increasing temperature due to interdiffusion of elements. In the CL spectra, we observe an increase in the Eu emission after annealing at 700°C, while annealing at higher temperatures leads to the opposite effect. Consequently, more intense red emission was observed in the superlattice with thinner sublayers than with wider ones.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of Interest</head><p>The authors declare no conflict of interest </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Notes and references</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><surname>Kalu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ahemen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Ponce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Alberto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Moller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. D. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page">345108</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Saqib</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Adnan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Shah</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Sci. Pollut. Res</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">15941</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kumawat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Misra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chattopadhyay</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Mater</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page">1595</biblScope>
+		</imprint>
+	</monogr>
+	<note type="report_type">Technol. 2022</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Emura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kimura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">K</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Teraguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Suzuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Yanase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Asahi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="page">717</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Som</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Duvenhage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">M</forename><surname>Ntwaeaborwa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Swart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Surf. Sci</title>
+		<imprint>
+			<biblScope unit="volume">308</biblScope>
+			<biblScope unit="page">419</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Mathew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Tsiumra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Sajkowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wierzbicka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jakiela</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhydachevskyy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Przezdziecka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stachowicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kozanecki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Lumin</title>
+		<imprint>
+			<biblScope unit="page">119167</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Thiyagarajan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mohan Kant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Anita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thirupathiah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Rama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Tiwari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kottaisamy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Rao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. D. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="page">6312</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>El-Shaer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bakin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Al-Suleiman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ivanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Che Mofor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Waag</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Superlattices Microstruct</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page">129</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><surname>Kalu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Duarte Moller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Reyes</forename><surname>Rojas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Lett. Sect. A Gen. At. Solid State Phys</title>
+		<imprint>
+			<biblScope unit="page">1037</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F</forename><surname>Koao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">F</forename><surname>Dejene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Swart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Motloung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Motaung</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Mater. (Amst)</title>
+		<imprint>
+			<biblScope unit="page">294</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ghrib</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Al-Otaibi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Massoudi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Alsagry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arab J. Basic Appl. Sci</title>
+		<editor>A. S. Aljaber, E. A. Alhussain, W. S. Alrubian, S. Brini, M. A. Gondal, K. A. Elsayed, T. S. Kayed</editor>
+		<imprint>
+			<biblScope unit="volume">2022</biblScope>
+			<biblScope unit="page">138</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Suzuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Murayama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tanaka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="page">31902</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Chi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Pearton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Surf. Sci</title>
+		<imprint>
+			<biblScope unit="volume">256</biblScope>
+			<biblScope unit="page">187</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hasabeldaim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">M</forename><surname>Ntwaeaborwa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Kroon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Swart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Struct</title>
+		<imprint>
+			<biblScope unit="page">105</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhuang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint>
+			<biblScope unit="page">65</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kozanecki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Sajkowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Mathew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhydachevskyy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Alves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stachowicz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="page">112101</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Frieiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Guillaume</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>López-Vidrier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Blázquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>González-Torres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Labbé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hernández</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Portier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Garrido</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nanotechnology</title>
+		<imprint>
+			<biblScope unit="page">465207</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Lozykowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Jadwisienczak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">G</forename><surname>Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="page">767</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Magalhães</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Peres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Fellmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Daudin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Neves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Alves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Monteiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lorenz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="page">84306</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ben Sedrine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rodrigues</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Faye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Neves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Alves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bockowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Weyers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lorenz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Correia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Monteiro</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Appl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Mater</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">3845</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brahlek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lapano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">T</forename><surname>Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Haislmaier</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Engel-Herbert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Funct. Mater</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page">1702772</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<author>
+			<persName><forename type="first">K</forename><surname>He</surname></persName>
+		</author>
+		<title level="m">Chinese Phys. B 2022</title>
+				<imprint>
+			<biblScope unit="page">126804</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Asghar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Placido</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Naseem</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. Phys. JournalApplied Phys</title>
+		<imprint>
+			<biblScope unit="page">177</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Ebdah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Kordesch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Anders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Jadwisienczak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Res. Soc. Symp. Proc</title>
+		<imprint>
+			<biblScope unit="page">269</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Magalhães</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Cabaço</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Araújo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Alves</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">CrystEngComm</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">3308</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Magalhães</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cachim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Correia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cerqueira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Sajkowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stachowicz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">CrystEngComm</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page">4133</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Takeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Suzuki</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996">1996</date>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">1495</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Du</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Przeździecka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wierzbicka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lysak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dłużewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Adhikari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sybilski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Morawiec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kozanecki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cryst. Growth Des</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page">1110</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lysak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Przeździecka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wierzbicka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dłużewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sajkowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Morawiec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kozanecki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cryst. Growth Des</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">134</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J.-H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-K</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-H</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Vac. Sci. Technol. B Microelectron. Nanom. Struct</title>
+		<imprint>
+			<biblScope unit="page">1625</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tanoue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Takenouchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yamashita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yatabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nagaoka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Naka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nakamura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Status Solidi Appl. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">214</biblScope>
+			<biblScope unit="page">1600603</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Kuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">F</forename><surname>Hsieh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Hsu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="page">11901</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">V</forename><surname>Stanchu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Kuchuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Lytvyn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">I</forename><surname>Mazur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Maidaniuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Benamara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kryvyi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">P</forename><surname>Kladko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Belyaev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Salamo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">157</biblScope>
+			<biblScope unit="page">141</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Fewster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Sci. Mater. Electron</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">175</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title level="m" type="main">Phys. status solidi</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Tauc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Radu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Grigorovici</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1966">1966</date>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">627</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bedia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">Z</forename><surname>Bedia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Aillerie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Maloufi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Benyoucef</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Procedia</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page">529</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Straßburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kuttler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Stier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">W</forename><surname>Pohl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bimberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Behringer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hommel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cryst. Growth</title>
+		<imprint>
+			<biblScope unit="page">465</biblScope>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kasap</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Capper</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Regular</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Boubaker</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001">2011, 126, 1</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bindu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thomasa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Phys. Pol. A</title>
+		<imprint>
+			<biblScope unit="page">1474</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Khosravizadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dziawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jakiela</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Thin Solid Films</title>
+		<imprint>
+			<biblScope unit="volume">781</biblScope>
+			<biblScope unit="page">139974</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lysak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Przeździecka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jakiela</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Reszka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Witkowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Khosravizadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Adhikari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Sajkowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kozanecki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Semicond. Process</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kuttler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Strassburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Türck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Heitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">W</forename><surname>Pohl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bimberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kurtz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Landwehr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hommel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="page">2647</biblScope>
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Raji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Gopchandran</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Sci. Adv. Mater. Devices</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">51</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Layek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Banerjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Manna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chowdhury</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Adv</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">35892</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Boukadhaba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fouzri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sallet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Hassani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Amiri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lusson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Oumezzine</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Superlattices Microstruct</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page">820</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ton-That</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Weston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Phillips</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B -Condens. Matter Mater. Phys</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Eom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">T</forename><surname>Oh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Choi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Korean Phys. Soc</title>
+		<imprint>
+			<biblScope unit="page">1378</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Ahmed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Szymanski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>El-Nadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>El-Sayed</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Appl. Mater. Interfaces</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">1765</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

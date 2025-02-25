@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Chasing Charge Carriers: Diffusion Dynamics in Mixed-𝒏 Quasi-Two-Dimensional Colloidal MAPbBr3 Perovskites</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Ronja</forename><forename type="middle">Maria</forename><surname>Piehler</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Physics</orgName>
+								<orgName type="institution">University of Rostock</orgName>
+								<address>
+									<addrLine>Albert-Einstein-Straße 23</addrLine>
+									<postCode>18059</postCode>
+									<settlement>Rostock</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Eugen</forename><surname>Klein</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Physics</orgName>
+								<orgName type="institution">University of Rostock</orgName>
+								<address>
+									<addrLine>Albert-Einstein-Straße 23</addrLine>
+									<postCode>18059</postCode>
+									<settlement>Rostock</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Francisco</forename><forename type="middle">M</forename><surname>Gómez-Campos</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Departamento de Electrónica y Tecnología de Computadores</orgName>
+								<orgName type="department" key="dep2">Facultad de Ciencias</orgName>
+								<orgName type="institution">Universidad de Granada</orgName>
+								<address>
+									<postCode>18071</postCode>
+									<settlement>Granada</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Oliver</forename><surname>Kühn</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Physics</orgName>
+								<orgName type="institution">University of Rostock</orgName>
+								<address>
+									<addrLine>Albert-Einstein-Straße 23</addrLine>
+									<postCode>18059</postCode>
+									<settlement>Rostock</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Rostyslav</forename><surname>Lesyuk</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Christian</forename><surname>Klinke</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Pidstryhach Institute for Applied Problems of Mechanics and Mathematics of NAS of Ukraine</orgName>
+								<address>
+									<addrLine>Naukowa Str. 3b</addrLine>
+									<postCode>79060</postCode>
+									<settlement>Lviv</settlement>
+									<country key="UA">Ukraine</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Department Life, Light &amp; Matter</orgName>
+								<orgName type="institution">University of Rostock</orgName>
+								<address>
+									<addrLine>Albert-Einstein-Strasse 25</addrLine>
+									<postCode>18059</postCode>
+									<settlement>Rostock</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">Swansea University</orgName>
+								<address>
+									<addrLine>Singleton Park</addrLine>
+									<postCode>SA2 8PP</postCode>
+									<settlement>Swansea</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Chasing Charge Carriers: Diffusion Dynamics in Mixed-𝒏 Quasi-Two-Dimensional Colloidal MAPbBr3 Perovskites</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C64C432E8581D48EC39B2B6FD2C099C2</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.2" ident="GROBID" when="2025-02-25T09:51+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>charge carrier diffusion</term>
+					<term>exciton diffusion</term>
+					<term>MAPbBr3</term>
+					<term>layered perovskite</term>
+					<term>Elliott formalism</term>
+					<term>funnelling</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In optoelectronic applications, metal halide perovskites (MHPs) are compelling materials because of their highly tuneable and intensely competitive optical properties. Colloidal synthesis enables the controlled formation of various morphologies of MHP nanocrystals, all with different carrier properties and, hence, different optical and carrier transport behaviours. We characterized three different methylammonium lead tribromide perovskite (MAPbBr3) morphologies: nanoplatelets (NPLs), nanosheets (NSs), and nanostripes (NSTs) synthesized by hot-injection synthesis protocols with slightly different parameters. A fluorescence imaging microscope (FLIM) for time-and spaceresolved measurements of the carrier migration was employed to quantify the charge carriers' migration process upon photoexcitation. The results are rationalized in the two-dimensional diffusion model framework,</p><p>considering funnelling and trapping processes in mixed-𝑛 colloidal MHPs. Subdiffusion mode was found to prevail in the nanocrystals, whereby the highest carrier diffusivity was found for bulk-like NSTs, followed by layered NSs and a film of NPLs. These findings provide a better understanding of optoelectronic processes in perovskites relevant to photovoltaic and light-emitting devices.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Metal halide perovskites (MHP) are promising materials for the next generation of optoelectronic applications, such as light-harvesting devices, light-emitting diodes, and photodetectors. <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref> The high potential of MHPs in optoelectronics is firmly grounded in their diverse and excellent properties, such as high defect tolerance and carrier mobility, combined with the possibility of tuneable optical properties. These properties instil confidence in the reliability and performance of these materials and pave the way for exciting advancements in optoelectronic perovskite applications. <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref> The general chemical formula of MHPs is L2[ABX3]n-1BX4. In the unit cell, six octahedrally arranged halogen metal atoms (e.g., bromide, iodide) represented by the X surround the divalent cation B (e.g., lead). Organic spacer cations A (e.g., methylammonium, formamidium, etc.) stabilize these metal-halide octahedra and ensure charge neutrality (Figure <ref type="figure" target="#fig_0">1a</ref>). Surface ligands (L) isolate the MHP from the environment, building a protective shell to improve the MHP's lifetime and stability. <ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b9">10</ref> The ligands can also cause the MHP to have a layered structure, separating single ABX3 layers from each other with thickness 𝑛 described by the number of BX3 layers. This quasi-two-dimensionality positively affects stability and causes changes in physical properties, such as increased exciton binding energies and enhanced photoluminescence quantum yield (PLQY). <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b10">11</ref> The effective band gap of the MHP shifts with increasing 𝑛 to lower energies. <ref type="bibr" target="#b11">12</ref> Therefore, a mixed-𝑛 layered MHP structure enables a funneling process, where excitons migrate to higher layer numbers with a low band gap. <ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref> The exciton binding energy increases by lowering 𝑛, while free charge carriers dominate bulk MHPs. <ref type="bibr" target="#b14">15</ref> Colloidal synthesis based on the hot-injection technique efficiently controls the MHP design. <ref type="bibr" target="#b15">16</ref> In this report, we use colloidally prepared (C12H27N)2(MA)n-1(Pb)n(Br)3n+1 (hereinafter referred to as MAPbBr) nanoplatelets (NPLs), nanosheets (NSs), and nanostripes (NSTs) with dodecyl amine (DDA) as ligands to investigate the influence of the MHP's inner structure and shape on the diffusion behavior affected by the type of charge carriers and their recombination mechanics.</p><p>The applicability of optoelectronic perovskite devices critically depends on carrier properties, as well as their diffusion dynamics. Recent studies investigated exciton diffusion in two-dimensional MHPs, finding a subdiffusion behaviour mainly restricted by inner traps or exciton-phonon interactions. <ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref> The diffusivity was measured using a transient photoluminescence microscope. <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b19">20</ref> It was found that dissociated free carriers cause long diffusion lengths in MHP single crystals. <ref type="bibr" target="#b20">21</ref> The diffusivity of carriers within MHPs can be expressed by the diffusion coefficient 𝐷. We used a double-path confocal fluorescence-lifetime imaging microscope (FLIM) with a separation of the excitation and the detection path for time-and space-resolved mapping of the carrier migration, which provided input for the calculations on the diffusion coefficient 𝐷.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Carrier Diffusion Measurements in Different MAPbBr Structures</head><p>MAPbBr perovskites have long carrier diffusion lengths because of a high defect tolerance and carrier mobility. <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b6">7</ref> The MHPs considered in this study are colloidally synthesized MAPbBr NPLs, NSTs, and NSs obtained in a hot-injection synthesis procedure with slightly changed parameters to obtain the different inner structures and shapes (Supplementary Information 1). <ref type="bibr" target="#b21">22,</ref><ref type="bibr" target="#b22">23</ref> Figure <ref type="figure" target="#fig_0">1b</ref>-d shows all three morphologies as transmission electron microscope (TEM) images. The NPLs have a mean lateral size of 50 nm. The edge length of the NSs varies between 2 to 5 μm. The NSTs have an average width of 35 nm with a length of up to 10 μm. The sizes along 𝑥and 𝑦-directions in the NPLs, NSs, and NSTs are larger than the exciton Bohr radius ≃ 3.8 nm for bulk MAPbBr. <ref type="bibr" target="#b23">24</ref> Hence, confinement effects can only arise from the inner layered structure. Compared to the NSs, the carrier diffusion in the NPLs is restricted in the 𝑥and 𝑦-directions by the edges of the structures. The diffusion is restricted to the 𝑥-direction for the NSTs. The lifetime characteristics and space-and time-resolved charge carrier diffusion are measured with a double-path confocal FLIM (Supplementary Figure <ref type="figure" target="#fig_0">1</ref>). Figure <ref type="figure" target="#fig_2">2a-c</ref>  The lifetimes are visualized by the colour scale and weighted by the number of counts. The NPLs (Figure <ref type="figure" target="#fig_2">2a</ref>) show a uniform intensity, only reduced in areas where there are no NPLs, and a lifetime of 𝜏 av = 26 ns at an excitation fluence of ≈ 1.06 μJ/cm 2 over the whole field of view.</p><p>The intensity distribution over the single NS (Figure <ref type="figure" target="#fig_2">2b</ref>) is not uniform, indicating differences within the structure, which will be discussed later. The lifetime is 𝜏 av = 11 ns at an excitation intensity of ≈ 2.12 μJ/cm 2 .</p><p>The NST (Figure <ref type="figure" target="#fig_2">2c</ref>) has a uniform lifetime of 𝜏 av = 5.83 ns at a laser fluence of ≈ 10.61 μJ/cm 2 . This higher excitation fluence was necessary because of the low quantum yield from a single NST.</p><p>The corresponding diffusion maps are shown in the lower row of Figure <ref type="figure" target="#fig_2">2</ref> with the same Fehler! Verweisquelle konnte nicht gefunden werden.field of view as for the lifetime measurements. The excitation spot is fixed and in the centre of the blue spot. From this point, the movement of the charge carrier distributions can be tracked. Here, the time colour scale contains the carrier lifetime and diffusion time and is optimized to reveal a better view. The intensity weakens far from the excitation centre because long lifetime carriers diffuse further but is pronounced here for better visibility. While the diffusion of the charge carriers in the NPLs and NSs is quasi uniform in the lateral direction, appearing circular on the map, the NST reveals the bidirectional charge carrier migration manifested in elliptical intensity distribution. FLIM measurements enable dividing pictures into consecutive time steps. Because of a low intensity, single time frames are binned to images of 2 ns. A Gaussian distribution fits the forward diffusion broadening. <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b24">25</ref> Isotropic diffusion is assumed for the NS and NPL, meaning equal broadening in the 𝑥 and 𝑦-direction.</p><p>Therefore, the variance 𝜎 𝑥 2 (𝑡) = 𝜎 𝑦 2 (𝑡) represents the broadening over time 𝑡. The NST also show a bidirectional diffusion but is strongly limited in one direction by the edge of the NST (Supplementary equations</p><p>(1), ( <ref type="formula">2</ref>)).</p><p>Figure <ref type="figure" target="#fig_3">3</ref> shows the fitted distribution of radiatively recombined carriers for NPLs, NS, and NST after different times 𝑡 (raw data can be found in Supplementary Information 4). The broadening of the Gaussians is clearly visible. The intensity decreases over time due to the migration concentric from the excitation spot and recombination of the charge carriers. For further clarity, the insets show the current broadening and diffusion distance determined by the difference between subsequent slices (Supplementary Information 5). An intensity &lt; 0 (blue) represents recombined carriers, whereas leaving carriers by further diffusion appear in the regions where the intensity is &gt; 0 (red). Time lap videos visualize this diffusion and can be found in the Supplementary Information. and represents the change of leaving (&lt; 0) and arriving (&gt; 0) carriers. In the area in between, recombining and diffusing carriers are in balance (0, grey). The outer grey area is also 0 since there are no charge carriers.</p><p>In Figure <ref type="figure" target="#fig_3">3</ref>, differences in diffusion become apparent when comparing NPLs, NSs, and NSTs. Accordingly, NSTs show the longest diffusion length, followed by NSs and NPLs. In this study, the charge carrier dynamics in MHPs will be analyzed quantitatively using the general diffusion equation. <ref type="bibr" target="#b16">17</ref> With this, the measured intensity of the two-dimensional exciton density distribution 𝑛(𝑥, 𝑦, 𝑡) for monomolecular and bimolecular recombination can be described.</p><p>𝑛̇(𝑥, 𝑦, 𝑡) = 𝐺(𝑥, 𝑦, 𝑡) + 𝐷𝛻 2 𝑛(𝑥, 𝑦, 𝑡) − 𝑘 1 𝑛(𝑥, 𝑦, 𝑡) − 𝑘 2 𝑛(𝑥, 𝑦, 𝑡) <ref type="bibr" target="#b1">2</ref> (1)</p><p>with 𝐺(𝑥, 𝑦, 𝑡) as the particle (charge carrier or excitons) generation term. For 𝑡 = 0, the initial laser excitation is a Gaussian with a width of 245 nm according to the resolution limit and the given geometries by the setup. For 𝑡 &gt; 0 𝐺(𝑥, 𝑦, 𝑡) = 0 applies. The monomolecular or bimolecular recombination rates are 𝑘 1 , representing recombination due to excitons or trapped charge carriers, and 𝑘 2 , recombination of free carriers, respectively. The diffusion is determined by the diffusion coefficient 𝐷.</p><p>To apply this equation to the measured NPLs, NS, and NSTs carrier diffusion and to determine the differences in the diffusion behaviour, further knowledge about the MHPs is needed. Therefore, additional measurements were done to disclose the inner structure, type of carriers, and recombination mechanisms.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Characterization of the MAPbBr Structures</head><p>X-ray diffraction (XRD) was performed to characterize the inner structure. Figure <ref type="figure" target="#fig_4">4a-c</ref> shows strong reflections from the MAPbBr single-crystal (100) and ( <ref type="formula">200</ref>) directions for all three investigated MHP morphologies. <ref type="bibr" target="#b25">26</ref> Some peaks are not visible due to the texture effect because of the planar orientation of the nanocrystals on the substrate. In the NPLs and NSs, additional peaks below (100) and ( <ref type="formula">200</ref>) are visible and assigned to the mixed-𝑛 layered structure of the MHPs with layers of 𝑛 = 2,3, … ∞, where 𝑛 = ∞ describes a bulk structure. <ref type="bibr" target="#b21">22,</ref><ref type="bibr" target="#b25">26</ref> The contribution from higher 𝑛 layers is more pronounced in the NSs. In the NPLs, artifacts from the layered structure are also visible. The fact that these peaks are broader than those of the NS is due to the fact that the NPLs are thin and hence not all layered but single layers meaning low 𝑛. <ref type="bibr" target="#b26">27</ref> The NSTs are composed entirely of bulk crystal structures.</p><p>The type of carriers was examined by steady-state ensemble absorption and photoluminescence (PL) measurements in solution. The absorption and the PL spectra are normalized to their maximum and shown in Figures <ref type="figure" target="#fig_4">4d and e</ref>, respectively. The central emission peak is at 𝜆 em = 515 nm for all three structures.</p><p>Therefore, this peak must be assigned to a bulk structure with high 𝑛 since it is the lowest energy gap for the carriers to recombine, and the NSTs are bulk only. These results suggest carrier funnelling from regions with low 𝑛 (higher energy states) to regions with higher 𝑛 (lower energy states) in the layered NSs and NPLs. <ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b21">22</ref> Since the DDA ligands used in the synthesis are short (12 carbon chain length compared to 14 (tetradecylamine) or 16 (hexadecylamine)), they support the funnelling process. <ref type="bibr" target="#b21">22</ref> The NSs also show smaller shoulders at shorter wavelengths. Here, the radiative recombination of the charge carriers happens before relaxation to the lowest energy, which is a sign of separated layer domains with low 𝑛. These shoulders are not dominant in the NPL and NST emissions, indicating the possibility of complete relaxation to the bulk and recombination at low energy.</p><p>As mentioned in the lifetime picture, the intensity distribution over the single NS (Figure <ref type="figure" target="#fig_2">2b</ref>) is not uniform.</p><p>The number and combination of mixed layers between the distinguishable bright and dark regions can differ.</p><p>Since the excitation wavelength is at 𝜆 = 440 nm, electron-hole pairs can be generated only in layers where the optical gap is below ≈ 2.81 eV, which could lead to a disadvantage in excitation for regions with low 𝑛 which have a larger bandgap (2.91 eV for 𝑛 = 3 for NSs) as discussed below and therefore showing low PL intensity there. The lattice structure of MAPbBr is considered as mechanically soft leading to strong electronphonon interactions which are even more pronounced in layered perovskites. <ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref> This energy transfer to phonons can explain the reduced PL intensity at spots where 𝑛 is low.</p><p>In the absorption spectrum (Figure <ref type="figure" target="#fig_4">4d</ref>), strongly pronounced exciton peaks above the bulk band gap energy 𝐸 g are visible for the NPLs and NSs. Since every layer 𝑛 has its own band gap energy and continuum states these absorption peaks support the layered structure from the XRD measurements. Since there is more than one peak in the absorbance spectra, different MHPs can have different thicknesses or a mixed-𝑛 layered structure. The positions of the absorption peaks fit with previous studies and can be assigned to layers of 𝑛 = 2 to 𝑛 = 8, while higher layers are supposed to be bulk structures (Supplementary Information 6). <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b26">27,</ref><ref type="bibr" target="#b30">31</ref> Since those peaks are not pronounced in the absorption spectrum of the NSTs, they are again confirmed to have predominantly a bulk-like structure. A multiple Elliott model fitting helps to extract the exciton binding energies 𝐸 b and band gap energies 𝐸 g of the different layer components and is explained in the Supplementary Information 7. <ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref> The NSs exhibit four exciton peaks for energies above the bulk band gap. However, the maximum exciton binding energy for the NSs is 𝐸 b = 98.5 meV for the highest measured exciton peak with a band gap energy of 𝐸 g = 2.97 eV. <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b30">31</ref> Because of this high 𝐸 b , the dominant carriers in the NSs are assumed to be excitons.</p><p>The maximum binding energy for the NPLs is 𝐸 b = 156.4 meV for the peak with a band gap of 𝐸 g = 2.81 eV <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b30">31</ref> Since there is practically only bulk for the NSTs, only the contribution at the lowest energy band gap was fitted, leading to 𝐸 g = 2.38 eV and 𝐸 b = 19.9 meV, which is still below the room temperature E = k 𝑏 T ≈ 25 meV. Hence, excitons will dissociate to free charge carriers and are expected to be the dominant species in the NSTs for all excitation energies at room temperature, in contrast to NPLs and NSs where excitons are formed in the dominate exciton peaks of low 𝑛. <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b30">31</ref> Measuring the fluorescence lifetime with a FLIM enables a more detailed examination of the charge carrier  The intensity PL 0 at the maximum of the decay curves is plotted over the excitation fluence (Figure <ref type="figure" target="#fig_6">5b</ref>). the exciton binding energy decreases with increasing layer number 𝑛 and is faster or comparable to trapping in defects. <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b34">35,</ref><ref type="bibr" target="#b35">36</ref> Free charge carriers would show a bimolecular recombination behaviour, where 𝑏 ≈ 2. Hence, the funnel paths occur as quasi-traps at the 𝑛-𝑛'-interfaces. This explains the slope as being slightly higher than one. The NSTs show 𝑏 = 1.662 ± 0.013 and are closer to a bimolecular recombination process indicating free charge carriers. <ref type="bibr" target="#b36">37,</ref><ref type="bibr" target="#b37">38</ref> The slope 𝑏 &lt; 2 can be considered as a fingerprint of defect-trapped charge carriers recombining in a monomolecular mode.</p><p>The division of PL 0 by the laser fluence can be determined as the relative PLQY rel , which also characterizes the present charge carrier dynamics (Figure <ref type="figure" target="#fig_6">5c</ref>). Again, the power law can be used for fitting PLQY rel = 𝐴 • 𝑃 laser 𝑐 and leads to a slope of 𝑐 = 0.178 ± 0.026 and 𝑐 = 0.145 ± 0.028 for the NPLs and NSs, respectively which can be well explained within the monomolecular regime. <ref type="bibr" target="#b38">39</ref> In the NSTs with three times larger 𝑐 = 0.655 ± 0.023 bimolecular recombination dominates. 39</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Carrier Diffusion Dynamics in Various MAPbBr Morphologies</head><p>Knowledge about the inner structure, type of carriers, and recombination mechanisms in the considered NPLs, NS, and NSTs allows to differentiate the diffusion behaviour (Figure <ref type="figure" target="#fig_0">1</ref>), which can now be characterized. For this, we numerically solved equation ( <ref type="formula">1</ref>) in one dimension with the finite difference method and used a cross-section of the data as a compare function in a Python minimization method (Supplementary Information 10). Additionally, a two-dimensional fitting for the NPLs and NSs was done to verify the numerically fitting (Supplementary Information 11).</p><p>From the fitting we obtained the diffusion constant 𝐷 and the two recombination rates 𝑘 1 and 𝑘 2 . The monomolecular recombination 𝑘 1 was in the same order of magnitude for all morphologies, while the bimolecular recombination rate 𝑘 2 was higher for the NSTs <ref type="bibr">(10 -4</ref> ) than for the NPLs and NSs <ref type="bibr">(10 -6</ref> ). Therefore, the monomolecular recombination mechanism predominates in the NPLs and NSs, as discussed above in the lifetime considerations, and confirms the quasi-trapping character of the funnelling. In contrast, in the NSTs where the 𝑘 2 is larger, bimolecular and monomolecular decay mechanisms happen side by side, which also goes hand in hand with the previous observations.</p><p>Figure <ref type="figure" target="#fig_8">6</ref> shows the fitting results for the diffusion constant 𝐷 at different laser intensities. The diffusion constant 𝐷 is highest for NSTs, followed by NSs and NPLs. Although the NPLs and NSs show similar structure and carrier dynamic characteristics, the diffusion constant of the latter is slightly higher. The reduced 𝐷 of the NPLs could be due to hopping between particles in the film hampering diffusion. <ref type="bibr" target="#b26">27</ref> Even though the NSTs cannot be assigned as a pure one-dimensional sample and carriers can diffuse in both lateral directions 𝑥 and 𝑦, the diffusion is strongly limited in one direction. For this purpose, the diffusion constant was halved to be comparable with the definitive two-dimensional diffusions of NPLs and NSs.</p><p>(Supplementary Information 10). However, the NSTs show the highest diffusion constant 𝐷. The free charge carriers are mainly responsible for a higher diffusion constant than NPLs and NSs. Another reason for the difference between the bulk and layered structures is the funneling paths in the latter. As discussed, the funnels could act as quasi-traps at the 𝑛-𝑛′-interfaces, hindering carrier diffusion. The free carriers in the NSTs are almost only restricted by inner and surface defects, which are also present in the NPLs and NSs.</p><p>As was shown in previous studies, 𝐷 increases with increasing laser fluence for all measured MHP structures. <ref type="bibr" target="#b40">41</ref> Increasing the generation rate relative to the recombination rates, hence, higher charge carrier concentration can explain this improved diffusion. The enhanced number of charge carriers can cause the traps to fill <ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b41">42</ref> , facilitating diffusion. <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b40">41</ref> The trapping in the NPLs and NS can be seen in the subdiffusion behavior (Supplementary Information 9). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental Section</head><p>Transmission Electron Microscope (TEM) -The samples were prepared by drop-casting the diluted suspension on a TEM copper grid coated with a carbon film and measured on a Talos-L120C and EM-912</p><p>Omega at 120 kV and 100 kV. The detection path is guided pixel-wise by a galvo-scanner over the field of view with a minimal possible step size of about 10 nm. With the decoupling of the excitation and detection path, a time-correlated single photon counting (TCSPC) method measured with a single photon detector (PMA Hybrid) allows the tracking of the carriers over space and time (Supplementary Figure <ref type="figure" target="#fig_0">1</ref>).</p><p>X-ray diffraction (XRD) -XRD patterns were measured with a Panalytical Aeris System with a Bragg-Brentano geometry and a copper anode with an X-ray wavelength of 0.154 nm from the Cu-kα1 line.</p><p>Spectroscopy -The absorption spectra were obtained with a Lambda 1050+ spectrophotometer (Perkin Elmer) equipped with an integration sphere. The PL spectra were measured with a Spectrofluorometer FS5 (Edinburgh Instruments).</p><p>Statistical Analysis -The Gaussian functions of the carrier diffusion were fitted in Python with the optimization function "scipy.optimize". The spectra intensities for absorption and emission are normalized by division by the maximum in Origin. PL Lifetime analysis were fitted in Origin. For fitting the diffusion equation a finite difference method was used and fitted in Python with "scipy.minimize". (Supplementary Information)</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: Structure and Morphology -(a) Schematic view of an internal perovskite structure containing different layer thicknesses 𝑛 = 1,2,3 … and 𝑛-𝑛' interfaces. TEM pictures of the NPLs (b), NSs (c), and NSTs (d) synthesized in a colloidal hot-injection synthesis.</figDesc><graphic coords="3,56.70,242.77,481.35,279.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>shows the fluorescence lifetime picture of a film of dropcasted NPLs and individual NSs and NSTs. Excitation (𝜆 = 440 nm) and detection address the same spot. The repetition rate of the excitation pulses of 4 MHz ensures a complete decay of charge carriers.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: FLIM lifetime and diffusion measurements -The upper row shows spatially resolved images of the carrier lifetime weight by intensity. The dropcasted NPL film (a) shows an isotropic intensity distribution and the same lifetime in the whole field of view. For the NS (b), bright spots, meaning higher intensity, can be seen with a consistent lifetime. The lifetime is the same over the whole NST (c) as the intensity. (d-f) The fixed excitation (blue) and separated detection path enable spatial and time-resolved measurements of the charge carrier diffusion. The timescale indicates the carrier diffusion time to its recombination spot. A nearly isotropic diffusion can be seen for the NPL film (d) and the NS (e). The NST shows the diffusion along its shape (f).</figDesc><graphic coords="4,56.70,222.69,481.65,275.30" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: Carrier diffusion -The measured distribution of charge carriers within a film of NPLs (a-c), an NS(d-f), and an NST (g-i) are fitted with a Gaussian and broaden in 𝑥 and 𝑦-direction from 𝑡 = 2 ns to 𝑡 = 18 ns. The logarithm of the intensity of the distribution is represented for visibility. The according time lap videos visualize the broadening over time and can be found in the Supplementary Information. The raw data can be found in the Supplementary Information 4. The insets show two subtracted consecutive time steps. The intensity is normalized to the range of −1 (blue) to 1 (red) and represents the change of leaving (&lt; 0) and arriving (&gt; 0) carriers. In the area in between, recombining and diffusing carriers are in balance (0, grey). The outer grey area is also 0 since there are no charge carriers.</figDesc><graphic coords="5,56.70,166.51,481.65,447.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 4 :</head><label>4</label><figDesc>Figure 4: Different MHP structures -(a-c) XRD patterns show peaks for the (100) and (200) directions of the MAPbBr crystal structure for all three samples measured in solution. NPLs and NSs have additional equidistant peaks, which can be assigned to different layers 𝑛. Steady-state ensemble absorption (d) measurements show exciton peaks for lower wavelengths for the NPLs and NSs, indicating a mixed-𝑛 layered structure, while the NSTs only have bulk contributions. (e) The central PL peak at 515 nm is the same for all samples. Small shoulders for the NSs show emission in low 𝑛 layers, while the emission in NPLs and NSTs is dominated by bulk.</figDesc><graphic coords="7,56.70,341.04,481.85,165.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head></head><label></label><figDesc>dynamics and recombination mechanisms of individual MHP structures. The post synthesis solution containing the MHPs was diluted and drop-casted onto glass slides to identify individual structures or, in the case of the NPLs, to have a film. The results of three representative individual structures for each the NSs and NSTs, or in the case of the NPLs three different positions on the film are averaged for a more general statement. Figure 5a-c shows the lifetime measured for different laser fluence 𝑃 laser for NPLs, NSs, and NSTs. The lifetime curves are fitted with a triexponential tail fit (Supplementary Information 8). All nanostructures have a similar average lifetime 𝜏 av . It decreases with increasing laser fluence (Figure5a) due to the higher number of excitons or charge carriers and associated faster recombination.<ref type="bibr" target="#b15">16</ref> </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 5 :</head><label>5</label><figDesc>Figure 5: Lifetime measurements -(a) The average lifetime 𝜏 𝑎𝑣 is plotted over the excitation power 𝑃 laser . (b) The intensity of the decay curves PL 0 at 𝑡 = 0 is fitted with a power law to analyze the present recombination mechanisms and, hence, the charge carriers. Monomolecular recombination dominates for NPLs and NS, while the NSTs are closer to bimolecular recombination; these assumptions are supported by the rel. PLQY in (c). The measurements were done for 3 samples for each morphology.</figDesc><graphic coords="8,56.70,280.72,481.65,141.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fitting</head><label></label><figDesc>with the power law PL 0 = 𝑎 • 𝑃 laser 𝑏 and analyzing the slope 𝑏 allows to analyze the present recombination mechanisms. The NPLs and NSs have a slope of 𝑏 = 1.22 ± 0.05 and 𝑏 = 1.120 ± 0.025, respectively. A slope of 𝑏 ≈ 1 indicates a monomolecular recombination process as found for excitons or trapped charge carriers. Funnelling in the mixed-n layered MHPs leads to the dissociation of the excitons since</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 6 :</head><label>6</label><figDesc>Figure 6: Resulting diffusion behaviors of NPLs, NSs, and NSTs -The diffusion constant 𝐷 increases with increasing laser fluence for all NPLs (red), NSs (yellow), and NSTs (blue). The NSTs show the highest diffusivity, followed by the NSs and NPLs. For comparison with the NPLs and NSs the one-dimensional kind diffusion of the NSTs is halved (Supplementary Information 10). The error bars marked by the filled area show the deviation of the single measured structures from the mean value of 𝐷 for the three measured samples for each morphology.</figDesc><graphic coords="10,174.65,70.90,245.90,193.30" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fluorescence</head><label></label><figDesc>Lifetime Imaging Microscope (FLIM) -The confocal microscope platform Micro Time 200 (PicoQuant) was used. The fibre-coupled picosecond laser has an excitation wavelength of 𝜆 = 440 nm. A flippable mirror allows an easy switch between the two operation modesfluorescence lifetime and diffusion measurements. For the diffusion measurements, the sample is excited always in the centre of the field of view.</figDesc></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgements</head><p>Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) is acknowledged for funding of SFB 1477 "Light-Matter Interactions at Interfaces", project number 441234705, W03 and W05. We also acknowledge the European Regional Development Fund of the European Union for funding the PL spectrometer (GHS-20-0035/P000376218) and X-ray diffractometer (GHS-20-0036/P000379642) and the Deutsche Forschungsgemeinschaft (DFG) for funding an electron microscope Jeol NeoARM TEM (INST 264/161-1 FUGG) and an electron microscope ThermoFisher Talos L120C (449942675, INST 264/188-1 FUGG).</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The rapid evolution of highly efficient perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Correa-Baena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ Sci</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="710" to="727" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W.-C</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">A Perspective on Perovskite Solar Cells: Emergence, Progress, and Commercialization. Front Chem</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Perovskites for Next-Generation Optical Sources</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">N</forename><surname>Quan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem Rev</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="7444" to="7477" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Recent developments in flexible photodetectors based on metal halide perovskite. InfoMat</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="139" to="169" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Metal Halide Perovskite Nanocrystals: Synthesis, Post-Synthesis Modifications, and Their Optical Properties</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shamsi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Urban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Imran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>De Trizio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Manna</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem Rev</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="3296" to="3348" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Physics of defects in metal halide perovskites</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Reports on Progress in Physics</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page">96501</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Defect Tolerance and Intolerance in Metal-Halide Perovskites</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Petrozza</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Recent advances of lead-free metal halide perovskite single crystals and nanocrystals: synthesis, crystal structure, optical properties, and their diverse applications</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bhaumik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Batabyal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Today Chem</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">100363</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The impact of ligands on the synthesis and application of metal halide perovskite nanocrystals</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Haydous</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">B</forename><surname>Cappel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mater Chem A Mater</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="23419" to="23443" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Improving the Operational Lifetime of Metal-Halide Perovskite Light-Emitting Diodes with Dimension Control and Ligand Engineering</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="8557" to="8570" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Spacer Organic Cation Engineering for Quasi-2D Metal Halide Perovskites and the Optoelectronic Application</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Small Struct</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Perovskite energy funnels for efficient light-emitting diodes</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yuan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Nanotechnol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="872" to="877" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Energy Funneling in a Noninteger Two-Dimensional Perovskite</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Oddo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Lett</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="11469" to="11476" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Understanding the</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Niebur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lesyuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Klinke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lauth</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2408.04571</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Optoelectronic Processes in Colloidal 2D Multi-Layered MAPbBr3 Perovskite Nanosheets: Funneling, Recombination and Self-Trapped Excitons</title>
+				<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Excitons versus free charges in organo-lead tri-halide perovskites</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>D'innocenzo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">3586</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Shape-and excitation-dependent chargecarrier dynamics in colloidal MAPbI perovskites as nanostripes, nanosheets and nanoplatelets</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rehhagen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lesyuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Klinke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mater Chem C Mater</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="9495" to="9503" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Exciton diffusion in two-dimensional metal-halide perovskites</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Seitz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">2035</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Mapping the Trap-State Landscape in 2D Metal-Halide Perovskites Using Transient Photoluminescence Microscopy</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Seitz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Opt Mater</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Fast and Anomalous Exciton Diffusion in Two-Dimensional Hybrid Perovskites</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Ziegler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Lett</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="6674" to="6681" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Visualization of exciton transport in ordered and disordered molecular solids</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Akselrod</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">3646</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Long carrier diffusion length in two-dimensional lead halide perovskite single crystals</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shrestha</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1107" to="1120" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Micron-Size Two-Dimensional Methylammonium Lead Halide Perovskites</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Klein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="6955" to="6962" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Colloidal Quasi-2D Methylammonium Lead Bromide Perovskite Nanostructures with Tunable Shape and High Chemical Stability</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lesyuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Klinke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Small</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Giant Fine Structure Splitting of the Bright Exciton in a Bulk MAPbBr 3 Single Crystal</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Baranowski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Lett</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="7054" to="7061" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Subdiffusive Exciton Transport in Quantum Dot Solids</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Akselrod</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Lett</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="3556" to="3562" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Structural and Photophysical Properties of Methylammonium Lead Tribromide (MAPbBr3) Single Crystals</title>
+		<author>
+			<persName><forename type="first">K.-H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L.-C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shellaiah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wen Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">13643</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Towards high-performance photodetectors based on quasi-2D Ruddlesden-Popper mixed-n perovskite nanomaterials</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Seelan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lesyuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Klinke</surname></persName>
+		</author>
+		<ptr target="http://arxiv.org/abs/2411.02877" />
+		<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Electron-phonon interactions in halide perovskites</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yamada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kanemitsu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NPG Asia Mater</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">48</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Large polarons in lead halide perovskites</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Miyata</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Adv</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Vibrational relaxation dynamics in layered perovskite quantum wells</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">N</forename><surname>Quan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Quantum confinement effect and exciton binding energy of layered perovskite nanoplatelets</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">AIP Adv</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">25108</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Correlated electron-hole plasma in organometal perovskites</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Saba</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">5049</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Intensity of Optical Absorption by Excitons</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Elliott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="1384" to="1389" />
+			<date type="published" when="1957">1957</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Low surface recombination velocity in solution-grown CH3NH3PbBr3 perovskite single crystal</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">7961</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Spectrally Resolved Ultrafast Exciton Transfer in Mixed Perovskite Quantum Wells</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Proppe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Phys Chem Lett</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="419" to="426" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Tailoring the Energy Landscape in Quasi-2D Halide Perovskites Enables Efficient Green-Light Emission</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">N</forename><surname>Quan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Lett</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="3701" to="3709" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Photocarrier Recombination Dynamics in Perovskite CH 3 NH 3 PbI 3 for Solar Cell Applications</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yamada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Endo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wakamiya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kanemitsu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Chem Soc</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="page" from="11610" to="11613" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Exciton-Exciton Annihilation in Two-Dimensional Halide Perovskites at Room Temperature</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Delport</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Phys Chem Lett</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="5153" to="5159" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Radiative Monomolecular Recombination Boosts Amplified Spontaneous Emission in HC(NH 2 ) 2 SnI 3 Perovskite Films</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Milot</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Phys Chem Lett</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="4178" to="4184" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Origin of the Enhanced Photoluminescence Quantum Yield in MAPbBr 3 Perovskite with Reduced Crystal Size</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Droseros</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Energy Lett</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1458" to="1466" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Two Regimes of Carrier Diffusion in Vapor-Deposited Lead-Halide Perovskites</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ščajev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry C</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="page" from="21600" to="21609" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Charge-Carrier Trapping and Radiative Recombination in Metal Halide Perovskite Semiconductors</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Trimpl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Funct Mater</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<date type="published" when="2020">2004312. 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -9,6 +9,14 @@ namespaces = {
     'tei': 'http://www.tei-c.org/ns/1.0',
     'xml': 'http://www.w3.org/XML/1998/namespace'
 }
+# Función para buscar carpetas
+def buscar_carpeta(nombre_carpeta):
+    for root, dirs, files in os.walk(os.path.expanduser('~')):
+        if nombre_carpeta in dirs:
+            return os.path.join(root, nombre_carpeta)
+    return None
+
+
 
 def extract_abstract_text(xml_path):
     try:
@@ -35,7 +43,7 @@ def extract_abstract_text(xml_path):
         return ""
 
 # Carpeta de salida donde están los XML procesados
-output_folder = '/home/upm/Escritorio/salida/'
+output_folder = buscar_carpeta('salida')
 
 # Buscar todos los archivos XML en la carpeta de salida
 xml_files = glob.glob(os.path.join(output_folder, '*.xml'))
@@ -68,4 +76,3 @@ else:
             plt.show()
         else:
             print(f"[!] No se generó nube de palabras para {xml_path} (sin texto válido).")
-

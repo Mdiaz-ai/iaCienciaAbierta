@@ -2,8 +2,16 @@ import os
 import xml.etree.ElementTree as ET
 import matplotlib.pyplot as plt
 
+
+# Función para buscar carpetas
+def buscar_carpeta(nombre_carpeta):
+    for root, dirs, files in os.walk(os.path.expanduser('~')):
+        if nombre_carpeta in dirs:
+            return os.path.join(root, nombre_carpeta)
+    return None
+
 # Define la carpeta de salida donde están los XML procesados
-output_folder = "/home/upm/Escritorio/salida"
+output_folder = buscar_carpeta('salida')
 
 # Inicializa una lista para almacenar el número de figuras por documento
 figure_counts = []

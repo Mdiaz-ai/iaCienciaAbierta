@@ -4,9 +4,16 @@ import os
 # URL del servidor Grobid
 grobid_url = 'http://localhost:8070/api/processFulltextDocument'
 
-# Ruta de las carpetas
-pdf_folder = '/home/upm/Escritorio/pdfs'  # Ruta correcta a tus archivos PDF
-output_folder = '/home/upm/Escritorio/salida'  # Ruta donde guardar los resultados procesados
+# Función para buscar carpetas
+def buscar_carpeta(nombre_carpeta):
+    for root, dirs, files in os.walk(os.path.expanduser('~')):
+        if nombre_carpeta in dirs:
+            return os.path.join(root, nombre_carpeta)
+    return None
+
+# Buscar carpetas "pdfs" y "salida"
+pdf_folder = buscar_carpeta('pdfs')
+output_folder = buscar_carpeta('salida')
 
 # Asegurarse de que la carpeta de salida exista, si no, crearla
 os.makedirs(output_folder, exist_ok=True)
