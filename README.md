@@ -20,6 +20,7 @@ y compilamos mediante **python procesar_pdfs**
 **5.**
 Una vez procesados nos moveremos a la carpeta salida, donde se habrán generado todos los archivos 
 .xml y ahí ejecutamos el comando **python generate_wordcloud.py && python graficar.py && python links.py**(Quizás sea necesario hacer ejecutar los siguientes comandos por si no se tuvieran instaladas las siguientes librerias : 
+
 **pip install wordcloud**
 
  **pip install matplotlib**
