@@ -23,6 +23,9 @@ Una vez procesados nos moveremos a la carpeta salida, donde se habrán generado 
 **pip install wordcloud
 pip install matplotlib
 pip install numpy
-pip install pillow )**
+pip install pillow )** 
+
+Así mismo se se está utilizando una version de python anterior a la 3.5 sería necesario también (**pip install xml.etree.ElementTree**).
+
 Una vez ejecutado el comando se habrá generado el archivo **links.txt** con todos los links, se generarán ventanas emergentes con los **wordclouds** de cada pdf y por último aparecerá un **diagrama de barras** en el cual se incluirán la cantidad de imagen por cada pdf.
 
