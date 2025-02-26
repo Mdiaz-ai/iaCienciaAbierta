@@ -60,7 +60,7 @@ Uso 🚀
 
 Preparar archivos PDF:
 
-Descomprimir la carpeta de pdfs.(En el casos de que se quieran añadir más o cambiar los documentos, simplemente, una vez descomprimida la carpeta, cambia el contido y listo).
+Descomprimir la carpeta de pdfs.(En el caso de que se quieran añadir más o cambiar los documentos, simplemente, una vez descomprimida la carpeta, cambie el contenido y listo).
 
 Procesar los documentos:
 
@@ -101,12 +101,18 @@ Estructura del Proyecto 🌳
 
 
 ├── pdfs/                   # PDFs originales
+
 ├── salida/                 # XML procesados y resultados
+
 ├── procesar_pdfs.py        # Procesamiento con Grobid
+
 ├── generate_wordcloud.py   # Generador de nubes de palabras
+
 ├── graficar.py             # Visualización de figuras
+
 ├── links.py                # Extracción de enlaces
-└── requirements.txt        # Dependencias de Python
+
+  └── requirements.txt        # Dependencias de Python
 
 Contribuciones 👥
 
