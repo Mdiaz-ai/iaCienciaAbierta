@@ -10,7 +10,7 @@
 [![DOI](https://zenodo.org/badge/927880683.svg)](https://doi.org/10.5281/zenodo.14894307)
 
 
-## Configuración del Entorno 🐍
+### Configuración del Entorno 🐍
 
 ### Opción 1: Con Conda (recomendado)
 
