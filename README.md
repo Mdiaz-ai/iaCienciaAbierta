@@ -93,15 +93,19 @@ Herramienta automatizada para extraer y visualizar datos de artículos académic
 
 **requests==2.31.0**
 
+
+
 **Configuración Inicial**🐳
 
 Iniciar el servidor Grobid en Docker:
 
 **docker run -d --rm -p 8070:8070 --name grobid lfoppiano/grobid:0.7.2**
 
+
 Verificar que el servidor esté activo:
 
 **curl http://localhost:8070/api/isalive**  # Debe responder "true"
+
 
 Uso 🚀
 
