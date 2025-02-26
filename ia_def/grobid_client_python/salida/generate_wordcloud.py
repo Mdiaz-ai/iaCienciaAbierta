@@ -60,19 +60,26 @@ else:
         if text:
             print(f"Texto extraído ({len(text)} caracteres). Generando nube de palabras...")
 
-            # Generar wordcloud
-            wordcloud = WordCloud(width=1200, 
-                                 height=600, 
-                                 background_color='white',
-                                 collocations=False,
-                                 stopwords=set(['et', 'al'])
-                                 ).generate(text)
+            # Generar wordcloud con parámetros de centrado
+            wordcloud = WordCloud(
+                width=1200,
+                height=600,
+                background_color='white',
+                collocations=False,
+                prefer_horizontal=0.5,
+                relative_scaling=0.3,
+                stopwords=set(['et', 'al']),
+                normalize_plurals=False,
+                margin=10
+            ).generate(text)
 
-            # Mostrar la nube de palabras
-            plt.figure(figsize=(15, 8))
-            plt.imshow(wordcloud)
+            # Configurar figura
+            plt.figure(figsize=(15, 8), facecolor='white', dpi=100)
+            plt.imshow(wordcloud, interpolation='bilinear')
             plt.axis("off")
-            plt.title(f"Nube de palabras para {os.path.basename(xml_path)}")
+            plt.tight_layout(pad=0)
+            plt.title(f"Nube de palabras para {os.path.basename(xml_path)}", pad=20)
             plt.show()
+
         else:
             print(f"[!] No se generó nube de palabras para {xml_path} (sin texto válido).")
