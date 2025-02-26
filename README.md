@@ -167,7 +167,8 @@ Dependencias faltantes:
 
   └── requirements.txt        # Dependencias de Python
 
-Contribuciones 👥
+
+# Contribuciones 👥
 
 ¡Bienvenidas las contribuciones! Sigue estos pasos:
 
