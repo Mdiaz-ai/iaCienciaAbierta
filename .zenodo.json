@@ -1,0 +1,13 @@
+{
+  "title": "iaCienciaAbierta",
+  "description": "Herramienta integral para el análisis automatizado de literatura científica mediante procesamiento de documentos PDF. Incluye:\n- Extracción estructurada de contenido con Grobid\n- Generación de nubes de palabras desde abstracts\n- Visualización de metadatos académicos\n- Detección de enlaces y recursos externos\n\nDesarrollado en Python, facilita la exploración de artículos científicos para investigadores, bibliotecas digitales y repositorios abiertos. Ideal para análisis bibliométricos y minería de textos académicos.",
+  "creators": [
+    {
+      "name": "Miguel Díaz Martín",
+      "affiliation": "Universidad Politécnica de Madrid - Escuela Técnica Superior de Ingenieros Informáticos (UPM ETSIINF)"
+    }
+  ],
+  "license": "Apache-2.0",
+  "keywords": ["PDF", "procesamiento", "Grobid", "wordcloud", "ciencia abierta", "minería de textos"],
+  "version": "1.0.0"
+}
