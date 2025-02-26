@@ -130,7 +130,9 @@ Generar resultados:
 **python graficar.py**
 
 # Extraer enlaces a 'links.txt'
+```bash
 **python links.py**
+```
 
 Resultados Esperados 📂
 Carpeta/Archivo	Descripción	Ejemplo
