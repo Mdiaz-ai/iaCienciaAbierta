@@ -67,6 +67,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+
 # Requisitos Previos ⚙️
 -**Docker** ([Guía de instalación](https://docs.docker.com/get-docker/))
 
