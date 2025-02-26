@@ -118,20 +118,22 @@ Preparar archivos PDF:
 Descomprimir la carpeta de pdfs.(En el caso de que se quieran añadir más o cambiar los documentos, simplemente, una vez descomprimida la carpeta, cambie el contenido y listo).
 
 Procesar los documentos:
-
-**python procesar_pdfs.py**  # Genera XML en la carpeta 'salida'
-
+```bash
+python procesar_pdfs.py    # Genera XML en la carpeta 'salida'
+```
 Generar resultados:
 
 # Nubes de palabras (ventanas emergentes)
-**python generate_wordcloud.py**
-
+```bash
+python generate_wordcloud.py
+```
 # Gráfico de figuras por artículo
-**python graficar.py**
-
+```bash
+python graficar.py
+```
 # Extraer enlaces a 'links.txt'
 ```bash
-**python links.py**
+python links.py
 ```
 
 Resultados Esperados 📂
