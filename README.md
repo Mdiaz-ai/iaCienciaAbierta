@@ -26,38 +26,46 @@
 
 
 ## Crear entorno
+```bash
 conda create -n cienciaabierta python=3.9
-
+```
 
 ## Activar entorno
+```bash
 conda activate cienciaabierta
-
+```
 
 ## Instalar dependencias
+```bash
 conda install -c conda-forge wordcloud matplotlib numpy pillow requests
-
+```
 
 ## Verificar instalación
+```bash
 conda list
-
+```
 
 ### Opción 2: Con venv (Python nativo)
 
 ## Crear entorno
+```bash
 python -m venv .venv
-
+```
 
 ## Activar entorno (Linux/Mac)
+```bash
 source .venv/bin/activate
-
+```
 
 ## Activar entorno (Windows)
+```bash
 .venv\Scripts\activate
-
+```
 
 ## Instalar dependencias
+```bash
 pip install -r requirements.txt
-
+```
 
 # Requisitos Previos ⚙️
 -**Docker** ([Guía de instalación](https://docs.docker.com/get-docker/))
@@ -71,15 +79,18 @@ pip install -r requirements.txt
 # Instalación 🛠️
 
  ## Clonar el repositorio:
+```bash
+git clone https://github.com/Mdiaz-ai/iaCienciaAbierta.git iaCienciaAbierta
+```
 
-**git clone https://github.com/Mdiaz-ai/iaCienciaAbierta.git**
+```bash
+cd iaCienciaAbierta
 
-**cd iaCienciaAbierta**
 
 ## Instalar dependencias:
-
-**pip install -r requirements.txt**
-
+```bash
+pip install -r requirements.txt
+```
 **Contenido de requirements.txt:**
 
 **wordcloud==1.8.2**
@@ -102,14 +113,14 @@ pip install -r requirements.txt
 # Configuración Inicial🐳
 
 Iniciar el servidor Grobid en Docker:
-
-**docker run -d --rm -p 8070:8070 --name grobid lfoppiano/grobid:0.7.2**
-
+```bash
+docker run -d --rm -p 8070:8070 --name grobid lfoppiano/grobid:0.7.2
+```
 
 Verificar que el servidor esté activo:
-
-**curl http://localhost:8070/api/isalive**  # Debe responder "true"
-
+```bash
+curl http://localhost:8070/api/isalive  # Debe responder "true"
+```
 
 # Uso 🚀
 
