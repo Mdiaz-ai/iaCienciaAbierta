@@ -71,7 +71,7 @@ Herramienta automatizada para extraer y visualizar datos de artículos académic
 
 ## Instalación 🛠️
 
- # Clonar el repositorio:**
+ # Clonar el repositorio:
 
 **git clone https://github.com/Mdiaz-ai/iaCienciaAbierta.git**
 
@@ -146,6 +146,7 @@ Reinicia el contenedor: **docker restart grobid**
 Dependencias faltantes:
 
 # Instalar manualmente:
+
 **pip install wordcloud matplotlib numpy pillow**
 
 Estructura del Proyecto 🌳
