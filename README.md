@@ -5,7 +5,7 @@
 
 ![Docker](https://img.shields.io/badge/Docker-Requiere-2496ED)
 
-![Licencia](https://img.shields.io/badge/Licencia-MIT-green)
+![Licencia](https://img.shields.io/badge/Licencia-Apache%202.0-blue)
 
 Herramienta automatizada para extraer y visualizar datos de artículos académicos en PDF. Genera:
 
