@@ -92,6 +92,11 @@ pip install -r requirements.txt
 
 **requests==2.31.0**
 
+**unittest-mock==1.3.0**
+
+**pytest==7.3.1**
+
+**coverage==7.2.7**
 
 
 # Configuración Inicial🐳
