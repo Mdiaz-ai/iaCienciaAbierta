@@ -1,11 +1,11 @@
 # Proyecto de Análisis de Artículos Científicos con Grobid 🧠📊
 
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Python](https://img.shields.io/badge/Python-3.8%2B-red)
 
 ![Docker](https://img.shields.io/badge/Docker-Requiere-2496ED)
 
-![Licencia](https://img.shields.io/badge/Licencia-Apache%202.0-blue)
+![Licencia](https://img.shields.io/badge/Licencia-Apache%202.0-green)
 
 Herramienta automatizada para extraer y visualizar datos de artículos académicos en PDF. Genera:
 
