@@ -71,7 +71,7 @@ Herramienta automatizada para extraer y visualizar datos de artículos académic
 
 ## Instalación 🛠️
 
-1. **Clonar el repositorio:**
+ **Clonar el repositorio:**
 
 **git clone https://github.com/Mdiaz-ai/iaCienciaAbierta.git**
 
@@ -93,9 +93,7 @@ Herramienta automatizada para extraer y visualizar datos de artículos académic
 
 **requests==2.31.0**
 
-
-
-Configuración Inicial 🐳
+**Configuración Inicial**🐳
 
 Iniciar el servidor Grobid en Docker:
 
