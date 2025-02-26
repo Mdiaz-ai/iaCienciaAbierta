@@ -1,1 +1,10 @@
 requests
+wordcloud==1.8.2.2
+
+matplotlib==3.7.1
+
+numpy==1.24.3
+
+pillow==10.0.0
+
+requests==2.31.0
