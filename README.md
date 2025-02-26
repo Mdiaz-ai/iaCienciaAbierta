@@ -26,7 +26,7 @@ conda install -c conda-forge wordcloud matplotlib numpy pillow requests
 # Verificar instalación
 conda list
 
-**Opción 2: Con venv (Python nativo)**
+### Opción 2: Con venv (Python nativo)
 
 # Crear entorno
 python -m venv .venv
