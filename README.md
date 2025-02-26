@@ -134,6 +134,88 @@ WordCloud_*.png	Nubes de palabras interactivas	WordCloud
 figure_chart.png	Gráfico de barras de figuras por artículo	Figuras
 links.txt	Enlaces externos detectados	Enlaces
 
+# Tests Unitarios 🧪
+
+El proyecto incluye una suite completa de tests unitarios para verificar el correcto funcionamiento de cada componente sin necesidad de contar con archivos reales o una instalación de Grobid.
+
+## Requisitos para Testing
+
+Para ejecutar los tests, asegúrate de tener instaladas las dependencias adicionales:
+
+```bash
+pip install unittest-mock pytest coverage
+```
+
+O simplemente actualiza tu entorno usando el requirements.txt que ya incluye estas dependencias:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Ejecución de Tests
+
+### Usando unittest (método estándar)
+
+```bash
+# Ejecutar todos los tests
+python -m unittest discover
+
+# Ejecutar tests para un componente específico
+python test_procesar_pdfs.py
+python test_links.py
+python test_graficar.py
+python test_wordcloud.py
+```
+
+### Usando pytest (alternativa recomendada)
+
+```bash
+# Ejecutar todos los tests
+pytest
+
+# Ejecutar tests con información detallada
+pytest -v
+
+# Ejecutar un archivo de tests específico
+pytest test_procesar_pdfs.py
+```
+
+### Análisis de Cobertura
+
+Para evaluar qué porcentaje del código está cubierto por los tests:
+
+```bash
+# Ejecutar tests con análisis de cobertura
+coverage run -m pytest
+
+# Ver informe de cobertura
+coverage report
+
+# Generar informe HTML detallado
+coverage html
+# El informe estará disponible en htmlcov/index.html
+```
+
+## Contenido de los Tests
+
+- **test_procesar_pdfs.py**: Verifica el procesamiento de PDFs y la comunicación con Grobid
+- **test_links.py**: Prueba la extracción y filtrado de enlaces de los documentos XML
+- **test_graficar.py**: Valida la generación de gráficos sobre figuras encontradas
+- **test_wordcloud.py**: Comprueba la extracción de abstracts y generación de nubes de palabras
+
+Los tests utilizan técnicas de mock para simular interacciones con el sistema de archivos, APIs externas y bibliotecas gráficas, permitiendo verificar la lógica del código sin dependencias externas.
+
+## Añadir Nuevos Tests
+
+Si contribuyes al proyecto, asegúrate de añadir tests para las nuevas funcionalidades:
+
+1. Crea un nuevo archivo `test_nombre_modulo.py`
+2. Implementa clases de test heredando de `unittest.TestCase`
+3. Usa mocks cuando sea necesario para aislar el código de dependencias externas
+4. Verifica que los tests pasen antes de enviar un Pull Request
+
+
+
 
 # Solución de Problemas 🔧
 
