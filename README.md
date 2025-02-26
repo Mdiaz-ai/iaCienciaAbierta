@@ -86,13 +86,14 @@ git clone https://github.com/Mdiaz-ai/iaCienciaAbierta.git iaCienciaAbierta
 
 ```bash
 cd iaCienciaAbierta
-
+```
 
 ## Instalar dependencias:
 ```bash
 pip install -r requirements.txt
 ```
-**Contenido de requirements.txt:**
+
+##Contenido de requirements.txt:
 
 **wordcloud==1.8.2**
 
