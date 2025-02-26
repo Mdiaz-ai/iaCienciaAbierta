@@ -10,42 +10,42 @@
 [![DOI](https://zenodo.org/badge/927880683.svg)](https://doi.org/10.5281/zenodo.14894307)
 
 
-### Configuración del Entorno 🐍
+# Configuración del Entorno 🐍
 
 ### Opción 1: Con Conda (recomendado)
 
 
-# Crear entorno
+## Crear entorno
 conda create -n cienciaabierta python=3.9
 
 
-# Activar entorno
+## Activar entorno
 conda activate cienciaabierta
 
 
-# Instalar dependencias
+## Instalar dependencias
 conda install -c conda-forge wordcloud matplotlib numpy pillow requests
 
 
-# Verificar instalación
+## Verificar instalación
 conda list
 
 
 ### Opción 2: Con venv (Python nativo)
 
-# Crear entorno
+## Crear entorno
 python -m venv .venv
 
 
-# Activar entorno (Linux/Mac)
+## Activar entorno (Linux/Mac)
 source .venv/bin/activate
 
 
-# Activar entorno (Windows)
+## Activar entorno (Windows)
 .venv\Scripts\activate
 
 
-# Instalar dependencias
+## Instalar dependencias
 pip install -r requirements.txt
 
 
