@@ -9,6 +9,38 @@
 
 [![DOI](https://zenodo.org/badge/927880683.svg)](https://doi.org/10.5281/zenodo.14894307)
 
+
+## Configuración del Entorno 🐍
+
+### Opción 1: Con Conda (recomendado)
+
+# Crear entorno
+conda create -n cienciaabierta python=3.9
+
+# Activar entorno
+conda activate cienciaabierta
+
+# Instalar dependencias
+conda install -c conda-forge wordcloud matplotlib numpy pillow requests
+
+# Verificar instalación
+conda list
+
+**Opción 2: Con venv (Python nativo)**
+
+# Crear entorno
+python -m venv .venv
+
+# Activar entorno (Linux/Mac)
+source .venv/bin/activate
+
+# Activar entorno (Windows)
+.venv\Scripts\activate
+
+# Instalar dependencias
+pip install -r requirements.txt
+
+
 Herramienta automatizada para extraer y visualizar datos de artículos académicos en PDF. Genera:
 
 - 🌥️ **Nubes de palabras** de resúmenes
@@ -16,6 +48,7 @@ Herramienta automatizada para extraer y visualizar datos de artículos académic
 - 📈 **Gráficos de figuras** por artículo
 
 - 🔗 **Listados de enlaces** externos
+
 
 ## Requisitos Previos ⚙️
 -**Docker** ([Guía de instalación](https://docs.docker.com/get-docker/))
@@ -28,9 +61,9 @@ Herramienta automatizada para extraer y visualizar datos de artículos académic
 
 1. **Clonar el repositorio:**
 
-git clone https://github.com/Mdiaz-ai/iaCienciaAbierta.git **carpeta_donde_lo_guardes**
+**git clone https://github.com/Mdiaz-ai/iaCienciaAbierta.git**
 
-cd **carpeta_donde_lo_guardes**
+**cd iaCienciaAbierta**
 
 **Instalar dependencias:**
 
