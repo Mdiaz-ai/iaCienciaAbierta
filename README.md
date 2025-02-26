@@ -59,7 +59,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 
-## Requisitos Previos ⚙️
+# Requisitos Previos ⚙️
 -**Docker** ([Guía de instalación](https://docs.docker.com/get-docker/))
 
 - **Python 3.8+** y `pip`
@@ -68,15 +68,15 @@ pip install -r requirements.txt
 
 
 
-## Instalación 🛠️
+# Instalación 🛠️
 
- # Clonar el repositorio:
+ ## Clonar el repositorio:
 
 **git clone https://github.com/Mdiaz-ai/iaCienciaAbierta.git**
 
 **cd iaCienciaAbierta**
 
-**Instalar dependencias:**
+## Instalar dependencias:
 
 **pip install -r requirements.txt**
 
@@ -106,7 +106,7 @@ Verificar que el servidor esté activo:
 **curl http://localhost:8070/api/isalive**  # Debe responder "true"
 
 
-Uso 🚀
+# Uso 🚀
 
 Preparar archivos PDF:
 
