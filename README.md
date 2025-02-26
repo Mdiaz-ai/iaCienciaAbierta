@@ -44,7 +44,7 @@ cd **carpeta_donde_lo_guardes**
 
 **numpy==1.24.3**
 
-**pillow==10.0.0**
+**pillow==8.3.2**
 
 **requests==2.31.0**
 
