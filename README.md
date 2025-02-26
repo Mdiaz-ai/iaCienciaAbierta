@@ -134,7 +134,8 @@ WordCloud_*.png	Nubes de palabras interactivas	WordCloud
 figure_chart.png	Gráfico de barras de figuras por artículo	Figuras
 links.txt	Enlaces externos detectados	Enlaces
 
-Solución de Problemas 🔧
+
+# Solución de Problemas 🔧
 
 Error: **"Conexión rechazada al servidor Grobid"**
 
@@ -148,7 +149,8 @@ Dependencias faltantes:
 
 **pip install wordcloud matplotlib numpy pillow**
 
-Estructura del Proyecto 🌳
+
+# Estructura del Proyecto 🌳
 
 
 ├── pdfs/                   # PDFs originales
