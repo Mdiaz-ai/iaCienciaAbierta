@@ -26,9 +26,9 @@ Herramienta automatizada para extraer y visualizar datos de artículos académic
 
 1. **Clonar el repositorio:**
 
-git clone https://github.com/Mdiaz-ai/iaCienciaAbierta.git carpeta_donde_lo_guardes
+git clone https://github.com/Mdiaz-ai/iaCienciaAbierta.git **carpeta_donde_lo_guardes**
 
-cd carpeta_donde_lo_guardes
+cd **carpeta_donde_lo_guardes**
 
 **Instalar dependencias:**
 
