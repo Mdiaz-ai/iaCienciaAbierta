@@ -10,6 +10,16 @@
 [![DOI](https://zenodo.org/badge/927880683.svg)](https://doi.org/10.5281/zenodo.14894307)
 
 
+# Herramienta automatizada para extraer y visualizar datos de artículos académicos en PDF. Genera:
+
+- 🌥️ **Nubes de palabras** de resúmenes
+
+- 📈 **Gráficos de figuras** por artículo
+
+- 🔗 **Listados de enlaces** externos
+
+
+
 # Configuración del Entorno 🐍
 
 ### Opción 1: Con Conda (recomendado)
@@ -47,17 +57,6 @@ source .venv/bin/activate
 
 ## Instalar dependencias
 pip install -r requirements.txt
-
-
-
-Herramienta automatizada para extraer y visualizar datos de artículos académicos en PDF. Genera:
-
-- 🌥️ **Nubes de palabras** de resúmenes
-
-- 📈 **Gráficos de figuras** por artículo
-
-- 🔗 **Listados de enlaces** externos
-
 
 
 ## Requisitos Previos ⚙️
