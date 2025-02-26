@@ -93,7 +93,7 @@ cd iaCienciaAbierta
 pip install -r requirements.txt
 ```
 
-##Contenido de requirements.txt:
+## Contenido de requirements.txt:
 
 **wordcloud==1.8.2**
 
