@@ -177,14 +177,14 @@ pip install -r requirements.txt
 ### Usando unittest (método estándar)
 
 ```bash
-# Ejecutar todos los tests
-python -m unittest discover
+# Ejecutar todos los tests desde el directorio raíz ia_def
+python -m unittest discover -s tests
 
-# Ejecutar tests para un componente específico
-python test_procesar_pdfs.py
-python test_links.py
-python test_graficar.py
-python test_wordcloud.py
+# Desde la carpeta principal del proyecto para ejecutar algún test en concreto
+python -m unittest tests/test_procesar_pdfs.py
+python -m unittest tests/test_links.py
+python -m unittest tests/test_graficar.py
+python -m unittest tests/test_wordcloud.py
 ```
 
 ### Usando pytest (alternativa recomendada)
