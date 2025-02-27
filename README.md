@@ -181,10 +181,10 @@ pip install -r requirements.txt
 python -m unittest discover -s tests
 
 # Desde la carpeta principal del proyecto para ejecutar algún test en concreto
-python -m unittest tests/test_procesar_pdfs.py
-python -m unittest tests/test_links.py
-python -m unittest tests/test_graficar.py
-python -m unittest tests/test_wordcloud.py
+python -m unittest discover -s tests -p "test_procesar_pdfs.py"
+python -m unittest discover -s tests -p "test_links.py"
+python -m unittest discover -s tests -p "test_graficar.py"
+python -m unittest discover -s tests -p "test_wordcloud.py"
 ```
 
 ### Usando pytest (alternativa recomendada)
