@@ -105,8 +105,6 @@ pip install -r requirements.txt
 
 **requests==2.31.0**
 
-**unittest-mock**
-
 **pytest**
 
 **coverage**
