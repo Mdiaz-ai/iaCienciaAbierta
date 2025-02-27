@@ -163,7 +163,7 @@ El proyecto incluye una suite completa de tests unitarios para verificar el corr
 Para ejecutar los tests, asegúrate de tener instaladas las dependencias adicionales:
 
 ```bash
-pip install unittest-mock pytest coverage
+pip install pytest coverage
 ```
 
 O simplemente actualiza tu entorno usando el requirements.txt que ya incluye estas dependencias:
