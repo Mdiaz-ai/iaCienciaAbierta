@@ -1,10 +1,17 @@
 import os
 import xml.etree.ElementTree as ET
 
+# Función para buscar carpetas
+def buscar_carpeta(nombre_carpeta):
+    for root, dirs, files in os.walk(os.path.expanduser('~')):
+        if nombre_carpeta in dirs:
+            return os.path.join(root, nombre_carpeta)
+    return None
+
 # Definir directamente los directorios o buscar en lugares específicos
 current_dir = os.path.dirname(os.path.abspath(__file__))
-output_folder = os.path.join(current_dir, 'salida')
-links_file = os.path.join(current_dir, 'links.txt')
+output_folder = buscar_carpeta('salida')
+links_file = os.path.join(output_folder, 'links.txt')
 
 # Verificar si existe la carpeta de salida
 if not os.path.exists(output_folder):
