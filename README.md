@@ -7,7 +7,7 @@
 
 ![Licencia](https://img.shields.io/badge/Licencia-Apache%202.0-green)
 
-[![DOI](https://zenodo.org/badge/927880683.svg)](https://doi.org/10.5281/zenodo.14894307)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14936567.svg)](https://doi.org/10.5281/zenodo.14936567)
 
 
 # Herramienta automatizada para extraer y visualizar datos de artículos académicos en PDF. Genera:
