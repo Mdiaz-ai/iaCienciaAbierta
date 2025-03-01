@@ -255,7 +255,7 @@ Dependencias faltantes:
 
 # Estructura del Proyecto 🌳
 
-
+´´´
 ├── pdfs/                   # PDFs originales
 
 ├── salida/                 # XML procesados y resultados
@@ -268,8 +268,8 @@ Dependencias faltantes:
 
 ├── links.py                # Extracción de enlaces
 
-  └── requirements.txt        # Dependencias de Python
-
+|── requirements.txt        # Dependencias de Python
+´´´
 
 # Contribuciones 👥
 
