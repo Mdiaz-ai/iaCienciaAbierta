@@ -260,6 +260,10 @@ Dependencias faltantes:
 
 ├── salida/                 # XML procesados y resultados
 
+├── tests/                  # test unitarios
+
+├── scripts/                # scripts del programa en python
+
 ├── procesar_pdfs.py        # Procesamiento con Grobid
 
 ├── generate_wordcloud.py   # Generador de nubes de palabras
