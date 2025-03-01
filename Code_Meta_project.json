@@ -8,8 +8,8 @@
       "@type": "Person",
       "givenName": "Mauricio",
       "familyName": "Díaz",
-      "email": "tu@email.com",
-      "affiliation": "Ciencia Abierta Community"
+      "email": "mdiazmartin2000@hotmail.com.com",
+      "affiliation": "Ai and Open Source at UPM"
     }
   ],
   "contributor": [
@@ -22,7 +22,7 @@
   "dateCreated": "2024-01-01",
   "datePublished": "2024-05-01",
   "license": "https://spdx.org/licenses/Apache-2.0",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "keywords": [
     "grobid",
     "science",
