@@ -6,7 +6,7 @@
   "author": [
     {
       "@type": "Person",
-      "givenName": "Mauricio",
+      "givenName": "Miguel",
       "familyName": "Díaz",
       "email": "mdiazmartin2000@hotmail.com.com",
       "affiliation": "Ai and Open Source at UPM"
@@ -19,8 +19,8 @@
       "url": "https://github.com/kermitt2/grobid"
     }
   ],
-  "dateCreated": "2024-01-01",
-  "datePublished": "2024-05-01",
+  "dateCreated": "2025-02-01",
+  "datePublished": "2025-02-05",
   "license": "https://spdx.org/licenses/Apache-2.0",
   "version": "1.0.1",
   "keywords": [
