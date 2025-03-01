@@ -256,21 +256,13 @@ Dependencias faltantes:
 # Estructura del Proyecto 🌳
 ```
 ├── pdfs.zip                   # PDFs originales
-
 ├── salida/                 # XML procesados y resultados
-
 ├── tests/                  # test unitarios
-
 ├── scripts/                # scripts del programa en python
-
 │   ├── procesar_pdfs.py        # Procesamiento con Grobid
-
 │   ├── generate_wordcloud.py   # Generador de nubes de palabras
-
 │   ├──graficar.py             # Visualización de figuras
-
 │   ├──links.py                # Extracción de enlaces
-
 ├── requirements.txt        # Dependencias de Python
 ```
 
