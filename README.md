@@ -1,14 +1,14 @@
 # Proyecto de Análisis de Artículos Científicos con Grobid 🧠📊
 
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-red)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-red)](https://www.python.org/)
 
-![Docker](https://img.shields.io/badge/Docker-Requiere-2496ED)
+[![Docker](https://img.shields.io/badge/Docker-Requiere-2496ED)](https://www.docker.com/)
 
-![Licencia](https://img.shields.io/badge/Licencia-Apache%202.0-green)
+[![Licencia](https://img.shields.io/badge/Licencia-Apache%202.0-green)](https://www.apache.org/licenses/LICENSE-2.0)
 
 [![DOI](https://zenodo.org/badge/927880683.svg)](https://doi.org/10.5281/zenodo.14894307)
-
+[![GitHub release](https://img.shields.io/github/release/Mdiaz-ai/iaCienciaAbierta.svg)](https://github.com/Mdiaz-ai/iaCienciaAbierta/releases)
 
 # Herramienta automatizada para extraer y visualizar datos de artículos académicos en PDF. Genera:
 
