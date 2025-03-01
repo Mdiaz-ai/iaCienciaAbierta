@@ -8,6 +8,7 @@
 [![Licencia](https://img.shields.io/badge/Licencia-Apache%202.0-green)](https://www.apache.org/licenses/LICENSE-2.0)
 
 [![DOI](https://zenodo.org/badge/927880683.svg)](https://doi.org/10.5281/zenodo.14894307)
+
 [![GitHub release](https://img.shields.io/github/release/Mdiaz-ai/iaCienciaAbierta.svg)](https://github.com/Mdiaz-ai/iaCienciaAbierta/releases)
 
 # Herramienta automatizada para extraer y visualizar datos de artículos académicos en PDF. Genera:
