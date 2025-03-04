@@ -40,6 +40,7 @@ conda activate cienciaabierta
 ```bash
 conda install -c conda-forge wordcloud matplotlib numpy pillow requests
 ```
+### También se como se menciona más abajo se puede hacer pip install -r requirements.txt
 
 ## Verificar instalación
 ```bash
