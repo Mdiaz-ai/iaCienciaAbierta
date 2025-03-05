@@ -1,0 +1,16 @@
+title: "iaCienciaAbierta"
+license: Apache-2.0
+authors:
+  - family-names: Díaz Martín
+    given-names: Miguel
+cff-version: 1.0.2
+date-released: 2025-03-05
+message: "En caso de utilizar software de este repositorio, por favor haced ausión a mi autoría"
+preferred-citation:
+  authors:
+  - family-names: Díaz Martín
+    given-names: Miguel
+  title: "iaCienciaAbierta"
+  type: software
+  year: 2025
+  doi: 10.5281/zenodo.14955602
