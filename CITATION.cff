@@ -1,8 +1,16 @@
-cff-version: 1.1.0
-message: "If you use this software, please cite it as below."
+title: "AI-Open-Science"
+license: Apache-2.0
 authors:
-- family-names: Díaz
-  given-names: Miguel
-title:iaCienciaAbierta
-version: v.1.0.3
+  - family-names: Díaz
+    given-names: Miguel
+cff-version: 1.0.0
 date-released: 2025-03-05
+message: "If you use this software, please cite the software itself."
+preferred-citation:
+  authors:
+  - family-names: Díaz
+    given-names: Miguel
+  title: "IaCienciaAbierta"
+  type: software
+  year: 2025
+version: v.1.0.3
