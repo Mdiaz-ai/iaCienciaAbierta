@@ -7,7 +7,7 @@
 
 [![Licencia](https://img.shields.io/badge/Licencia-Apache%202.0-green)](https://www.apache.org/licenses/LICENSE-2.0)
 
-[![DOI](https://zenodo.org/badge/927880683.svg)](https://doi.org/10.5281/zenodo.14894307)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14974651.svg)](https://doi.org/10.5281/zenodo.14974651)
 
 [![Automated Release Notes by Mdíaz](https://img.shields.io/badge/%F0%9F%A4%96-release%20notes-00B2EE.svg)](https://github.com/Mdiaz-ai/iaCienciaAbierta/releases)
 
