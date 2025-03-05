@@ -9,6 +9,6 @@
   ],
   "license": "Apache-2.0",
   "keywords": ["PDF", "procesamiento", "Grobid", "wordcloud", "ciencia abierta", "minería de textos"],
-  "version": "1.0.3"
+  "version": "1.0.4"
 }
 
